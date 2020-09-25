@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="76dff57e-3e27-466c-b2eb-4e742af92c0f" name="Default Changelist" comment="" />
+    <list default="true" id="76dff57e-3e27-466c-b2eb-4e742af92c0f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/noticias/espectaculos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/noticias.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/noticias.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/contactos/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/contactos/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/main/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/main/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/navigation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/noticias/noticias.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/noticias/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +46,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
     <include_path>
@@ -24,16 +56,21 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1i0rO3qbrD3pNCEXmX7h2lL3Raq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../php/php.exe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -52,32 +89,55 @@
       <workItem from="1601055316243" duration="8874000" />
       <workItem from="1601068707180" duration="23000" />
       <workItem from="1601068935297" duration="7000" />
+      <workItem from="1601070057769" duration="2408000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="540" y="175" key="#CLI_Interpreters" timestamp="1601055597185">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="384" y="37" key="#CLI_Interpreters" timestamp="1601070163593">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="384" y="37" key="#CLI_Interpreters/0.0.1366.728@0.0.1366.728" timestamp="1601070163593" />
     <state x="540" y="175" key="#CLI_Interpreters/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601055597185" />
+    <state x="275" y="22" key="#Deployment" timestamp="1601070116029">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#Deployment/0.0.1366.728@0.0.1366.728" timestamp="1601070116029" />
     <state x="667" y="163" key="#PHP" timestamp="1601055528640">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="667" y="163" key="#PHP/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601055528640" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1601070160296">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601070160296" />
     <state x="763" y="243" key="NewPhpClassDialog" timestamp="1601063415616">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="763" y="243" key="NewPhpClassDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601063415616" />
-    <state x="1073" y="436" key="NewPhpFileDialog" timestamp="1601068446438">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="763" y="305" key="NewPhpFileDialog" timestamp="1601071528061">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="763" y="305" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1601071528061" />
     <state x="1073" y="436" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601068446438" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1601055772469">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="328" y="17" key="SettingsEditor" timestamp="1601070166437">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="328" y="17" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1601070166437" />
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601055772469" />
   </component>
 </project>

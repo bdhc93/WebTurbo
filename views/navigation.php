@@ -34,13 +34,13 @@
     <nav class="nav-menuzord navbar-sticky">
         <div class="container clearfix">
             <div id="menuzord" class="menuzord">
-                <a href="index.html" class="menuzord-brand">
+                <a href="main" class="menuzord-brand">
                     <img src="public/images/Logo.png" alt="logo-img">
                 </a>
 
                 <ul class="menuzord-menu menuzord-right pr-0">
                     <li class=" active ">
-                        <a class="" href="index.html">INICIO</a>
+                        <a class="" href="main">INICIO</a>
                     </li>
 
                     <li class="">
@@ -122,7 +122,7 @@
 
 
                     <div class="menuzord-btn">
-                        <a class="btn btn-primary" href="contactanos.html">
+                        <a class="btn btn-primary" href="contactos">
                             CONTÁCTANOS
                         </a>
                     </div>

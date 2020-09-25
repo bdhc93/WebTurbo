@@ -8,4 +8,9 @@ class Noticias extends Controller {
         $this->view->render('noticias/index');
     }
 
+    function espectaculos()
+    {
+        parent::__construct();
+        $this->view->render('noticias/espectaculos');
+    }
 }
