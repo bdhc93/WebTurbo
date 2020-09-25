@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-md-6 col-lg-3 mb-7 mb-lg-0">
                     <a class="d-inline-block" href="index.html">
-                        <img class="w-100 mb-6" src="public/images/Logo2.png" alt="img">
+                        <img class="w-100 mb-6" src="<?php echo constant('URL'); ?>public/images/Logo2.png" alt="img">
                     </a>
                     <p class="mb-0">El Grupo Turbo Mix es una cadena radial y televisiva fundada en la ciudad de Cajamarca-Perú por el Sr. Wilmer Huaripata Aguilar "Fantasmita Willy".</p>
                 </div>
@@ -63,8 +63,8 @@
                             <div class="media media-hover">
                                 <div class="content w-100">
                                     <img class="media-img" data-src="assets/img/home/gallery/thumb-gallery-1.jpg"
-                                         src="public/img/home/gallery/thumb-gallery-1.jpg" alt="gallery-img">
-                                    <a class="media-img-overlay" data-fancybox="gallery" href="public/img/home/gallery/gallery-1.jpg"></a>
+                                         src="<?php echo constant('URL'); ?>public/img/home/gallery/thumb-gallery-1.jpg" alt="gallery-img">
+                                    <a class="media-img-overlay" data-fancybox="gallery" href="<?php echo constant('URL'); ?>public/img/home/gallery/gallery-1.jpg"></a>
                                 </div>
                             </div>
                         </div>
@@ -73,8 +73,8 @@
                             <div class="media media-hover">
                                 <div class="content w-100">
                                     <img class="media-img" data-src="assets/img/home/gallery/thumb-gallery-2.jpg"
-                                         src="public/img/home/gallery/thumb-gallery-2.jpg" alt="gallery-img">
-                                    <a class="media-img-overlay" data-fancybox="gallery" href="public/img/home/gallery/gallery-2.jpg"></a>
+                                         src="<?php echo constant('URL'); ?>public/img/home/gallery/thumb-gallery-2.jpg" alt="gallery-img">
+                                    <a class="media-img-overlay" data-fancybox="gallery" href="<?php echo constant('URL'); ?>public/img/home/gallery/gallery-2.jpg"></a>
                                 </div>
                             </div>
                         </div>
@@ -83,8 +83,8 @@
                             <div class="media media-hover">
                                 <div class="content w-100">
                                     <img class="media-img" data-src="assets/img/home/gallery/thumb-gallery-3.jpg"
-                                         src="public/img/home/gallery/thumb-gallery-3.jpg" alt="gallery-img">
-                                    <a class="media-img-overlay" data-fancybox="gallery" href="public/img/home/gallery/gallery-3.jpg"></a>
+                                         src="<?php echo constant('URL'); ?>public/img/home/gallery/thumb-gallery-3.jpg" alt="gallery-img">
+                                    <a class="media-img-overlay" data-fancybox="gallery" href="<?php echo constant('URL'); ?>public/img/home/gallery/gallery-3.jpg"></a>
                                 </div>
                             </div>
                         </div>
@@ -93,8 +93,8 @@
                             <div class="media media-hover">
                                 <div class="content w-100">
                                     <img class="media-img" data-src="assets/img/home/gallery/thumb-gallery-4.jpg"
-                                         src="public/img/home/gallery/thumb-gallery-4.jpg" alt="gallery-img">
-                                    <a class="media-img-overlay" data-fancybox="gallery" href="public/img/home/gallery/gallery-4.jpg"></a>
+                                         src="<?php echo constant('URL'); ?>public/img/home/gallery/thumb-gallery-4.jpg" alt="gallery-img">
+                                    <a class="media-img-overlay" data-fancybox="gallery" href="<?php echo constant('URL'); ?>public/img/home/gallery/gallery-4.jpg"></a>
                                 </div>
                             </div>
                         </div>
@@ -103,8 +103,8 @@
                             <div class="media media-hover">
                                 <div class="content w-100">
                                     <img class="media-img" data-src="assets/img/home/gallery/thumb-gallery-5.jpg"
-                                         src="public/img/home/gallery/thumb-gallery-5.jpg" alt="gallery-img">
-                                    <a class="media-img-overlay" data-fancybox="gallery" href="public/img/home/gallery/gallery-5.jpg"></a>
+                                         src="<?php echo constant('URL'); ?>public/img/home/gallery/thumb-gallery-5.jpg" alt="gallery-img">
+                                    <a class="media-img-overlay" data-fancybox="gallery" href="<?php echo constant('URL'); ?>public/img/home/gallery/gallery-5.jpg"></a>
                                 </div>
                             </div>
                         </div>
@@ -113,8 +113,8 @@
                             <div class="media media-hover">
                                 <div class="content w-100">
                                     <img class="media-img" data-src="assets/img/home/gallery/thumb-gallery-6.jpg"
-                                         src="public/img/home/gallery/thumb-gallery-6.jpg" alt="gallery-img">
-                                    <a class="media-img-overlay" data-fancybox="gallery" href="public/img/home/gallery/gallery-6.jpg"></a>
+                                         src="<?php echo constant('URL'); ?>public/img/home/gallery/thumb-gallery-6.jpg" alt="gallery-img">
+                                    <a class="media-img-overlay" data-fancybox="gallery" href="<?php echo constant('URL'); ?>public/img/home/gallery/gallery-6.jpg"></a>
                                 </div>
                             </div>
                         </div>
@@ -176,25 +176,25 @@
 </footer>
 
 <!-- Javascript -->
-<script src="public/plugins/jquery/jquery-3.4.1.min.js"></script>
-<script src="public/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="public/plugins/owl-carousel/owl.carousel.min.js"></script>
-<script src="public/plugins/fancybox/jquery.fancybox.min.js"></script>
-<script src="public/plugins/isotope/isotope.min.js"></script>
-<script src="public/plugins/syotimer/jquery.syotimer.min.js"></script>
-<script src="public/plugins/select2/js/select2.min.js"></script>
-<script src="public/plugins/daterangepicker/js/moment.min.js"></script>
-<script src="public/plugins/daterangepicker/js/daterangepicker.min.js"></script>
-<script src="public/plugins/velocity/velocity.min.js"></script>
-<script src="public/plugins/images-loaded/js/imagesloaded.pkgd.min.js"></script>
-<script src="public/plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
-<script src="public/plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
-<script src="public/plugins/menuzord/js/menuzord.js"></script>
-<script src="public/plugins/dzsparallaxer/dzsparallaxer.js"></script>
-<script src="public/plugins/slick/slick.min.js"></script>
-<script src="public/plugins/selectric/jquery.selectric.min.js"></script>
-<script src="public/plugins/no-ui-slider/nouislider.min.js"></script>
-<script src="public/plugins/rateyo/jquery.rateyo.min.js"></script>
+<script src="<?php echo constant('URL'); ?>public/plugins/jquery/jquery-3.4.1.min.js"></script>
+<script src="<?php echo constant('URL'); ?>public/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="<?php echo constant('URL'); ?>public/plugins/owl-carousel/owl.carousel.min.js"></script>
+<script src="<?php echo constant('URL'); ?>public/plugins/fancybox/jquery.fancybox.min.js"></script>
+<script src="<?php echo constant('URL'); ?>public/plugins/isotope/isotope.min.js"></script>
+<script src="<?php echo constant('URL'); ?>public/plugins/syotimer/jquery.syotimer.min.js"></script>
+<script src="<?php echo constant('URL'); ?>public/plugins/select2/js/select2.min.js"></script>
+<script src="<?php echo constant('URL'); ?>public/plugins/daterangepicker/js/moment.min.js"></script>
+<script src="<?php echo constant('URL'); ?>public/plugins/daterangepicker/js/daterangepicker.min.js"></script>
+<script src="<?php echo constant('URL'); ?>public/plugins/velocity/velocity.min.js"></script>
+<script src="<?php echo constant('URL'); ?>public/plugins/images-loaded/js/imagesloaded.pkgd.min.js"></script>
+<script src="<?php echo constant('URL'); ?>public/plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
+<script src="<?php echo constant('URL'); ?>public/plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
+<script src="<?php echo constant('URL'); ?>public/plugins/menuzord/js/menuzord.js"></script>
+<script src="<?php echo constant('URL'); ?>public/plugins/dzsparallaxer/dzsparallaxer.js"></script>
+<script src="<?php echo constant('URL'); ?>public/plugins/slick/slick.min.js"></script>
+<script src="<?php echo constant('URL'); ?>public/plugins/selectric/jquery.selectric.min.js"></script>
+<script src="<?php echo constant('URL'); ?>public/plugins/no-ui-slider/nouislider.min.js"></script>
+<script src="<?php echo constant('URL'); ?>public/plugins/rateyo/jquery.rateyo.min.js"></script>
+<script src="<?php echo constant('URL'); ?>public/plugins/wow/wow.min.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDU79W1lu5f6PIiuMqNfT1C6M0e_lq1ECY"></script>
-<script src="public/js/star.js"></script>
-<script src="public/plugins/wow/wow.min.js"></script>
+<script src="<?php echo constant('URL'); ?>public/js/star.js"></script>

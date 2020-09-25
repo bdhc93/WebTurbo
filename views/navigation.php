@@ -35,23 +35,23 @@
         <div class="container clearfix">
             <div id="menuzord" class="menuzord">
                 <a href="main" class="menuzord-brand">
-                    <img src="public/images/Logo.png" alt="logo-img">
+                    <img src="<?php echo constant('URL'); ?>public/images/Logo.png" alt="logo-img">
                 </a>
 
                 <ul class="menuzord-menu menuzord-right pr-0">
                     <li class=" active ">
-                        <a class="" href="main">INICIO</a>
+                        <a class="" href="<?php echo constant('URL'); ?>main">INICIO</a>
                     </li>
 
                     <li class="">
                         <a href="javascript:void(0)">NOSOTROS</a>
                         <ul class="dropdown drop-up">
                             <li class="">
-                                <a href="nosotros">MISIÓN Y VISIÓN</a>
+                                <a href="<?php echo constant('URL'); ?><?php echo constant('URL'); ?>nosotros">MISIÓN Y VISIÓN</a>
                             </li>
 
                             <li class="">
-                                <a href="nosotros/responsabilidad_social.php">RESPONSABILIDAD SOCIAL</a>
+                                <a href="<?php echo constant('URL'); ?><?php echo constant('URL'); ?>nosotros/responsabilidad_social">RESPONSABILIDAD SOCIAL</a>
                             </li>
 
                         </ul>
@@ -122,7 +122,7 @@
 
 
                     <div class="menuzord-btn">
-                        <a class="btn btn-primary" href="contactos">
+                        <a class="btn btn-primary" href="<?php echo constant('URL'); ?>contactos">
                             CONTÁCTANOS
                         </a>
                     </div>
