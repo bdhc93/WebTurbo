@@ -4,8 +4,6 @@ require 'views/navigation.php';
 ?>
 <body>
 
-<div class="main-wrapper home-main"></div>
-
 <section class="page-title">
     <div class="page-title-img bg-img bg-overlay-darken" style="background-image: url(../assets/img/pages/page-title-bg15.jpg);">
         <div class="container">
@@ -13,7 +11,7 @@ require 'views/navigation.php';
                 <div class="col-lg-6">
                     <div class="page-title-content">
                         <div class="title-border">
-                            <h2 class="text-uppercase text-white font-weight-bold">ESPECTACULOS</h2>
+                            <h2 class="text-uppercase text-white font-weight-bold">POLITICA</h2>
                         </div>
                         <p class="text-white mb-0"></p>
                     </div>
@@ -39,7 +37,7 @@ require 'views/navigation.php';
 
                         <div class="col-md-6 col-lg-8 d-none d-md-block">
                             <div class="d-flex justify-content-md-end">
-                                <a href="espectaculos_lista.php" class="icon-md bg-white rounded shadow">
+                                <a href="noticias_poli_cuadro.html" class="icon-md bg-white rounded shadow">
                                     <i class="fa fa-bars text-gray-color" aria-hidden="true"></i>
                                 </a>
 
@@ -609,8 +607,6 @@ require 'views/navigation.php';
     </section>
 
 </section>
-
-
 
 <?php require 'views/footer.php' ?>
 </body>

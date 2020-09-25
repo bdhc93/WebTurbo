@@ -5,13 +5,13 @@ require 'views/navigation.php';
 <body>
 
 <section class="page-title">
-    <div class="page-title-img bg-img bg-overlay-darken" style="background-image: url(<?php echo constant('URL'); ?>img/pages/page-title-bg4.jpg);">
+    <div class="page-title-img bg-img bg-overlay-darken" style="background-image: url(../assets/img/pages/page-title-bg4.jpg);">
         <div class="container">
             <div class="row align-items-center justify-content-center" style="height: 200px;">
                 <div class="col-lg-6">
                     <div class="page-title-content">
                         <div class="title-border">
-                            <h2 class="text-uppercase text-white font-weight-bold">Turbo Ranking FM</h2>
+                            <h2 class="text-uppercase text-white font-weight-bold">Top Turbo TV</h2>
                         </div>
                         <p class="text-white mb-0"></p>
                     </div>

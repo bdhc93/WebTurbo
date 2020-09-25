@@ -8,4 +8,9 @@ class Ranking extends Controller {
         $this->view->render('ranking/index');
     }
 
+    function tv()
+    {
+        echo "Ranking TV";
+    }
+
 }

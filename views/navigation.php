@@ -47,11 +47,11 @@
                         <a href="javascript:void(0)">NOSOTROS</a>
                         <ul class="dropdown drop-up">
                             <li class="">
-                                <a href="<?php echo constant('URL'); ?><?php echo constant('URL'); ?>nosotros">MISIÓN Y VISIÓN</a>
+                                <a href="<?php echo constant('URL'); ?>nosotros">MISIÓN Y VISIÓN</a>
                             </li>
 
                             <li class="">
-                                <a href="<?php echo constant('URL'); ?><?php echo constant('URL'); ?>nosotros/responsabilidad_social">RESPONSABILIDAD SOCIAL</a>
+                                <a href="<?php echo constant('URL'); ?>nosotros/responsabilidad_social">RESPONSABILIDAD SOCIAL</a>
                             </li>
 
                         </ul>
@@ -111,11 +111,11 @@
                         <a href="javascript:void(0)">RANKING</a>
                         <ul class="dropdown drop-up">
                             <li class="">
-                                <a href="views/ranking_fm.html">TURBO MIX FM</a>
+                                <a href="<?php echo constant('URL'); ?>ranking">TURBO MIX FM</a>
                             </li>
 
                             <li class="">
-                                <a href="views/ranking_tv.html">TURBO MIX TV</a>
+                                <a href="<?php echo constant('URL'); ?>ranking/tv">TURBO MIX TV</a>
                             </li>
                         </ul>
                     </li>

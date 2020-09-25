@@ -19,19 +19,32 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76dff57e-3e27-466c-b2eb-4e742af92c0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/preloader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+    <list default="true" id="76dff57e-3e27-466c-b2eb-4e742af92c0f" name="Default Changelist" comment="contactos">
+      <change afterPath="$PROJECT_DIR$/views/galeria/fotos.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/noticias/espectaculos_lista.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/noticias/futbol_lista.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/noticias/politica.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/noticias/politica_lista.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/programacion/programacio_fm_cuadro.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/programacion/programacion_am.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/programacion/programacion_am_cuadro.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/programacion/programacion_pirata.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/programacion/programacion_pirata_cuadro.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/programacion/programacion_tv.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/programacion/programacion_tv_cuadro.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/ranking/ranking_tv.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/nosotros.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/nosotros.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/libs/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/ranking.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/ranking.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/galeria/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/galeria/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/main/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/main/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/navigation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/nosotros/responsabilidad_social.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/nosotros/responsabilidad_social.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/nosotros/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/nosotros/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/noticias/espectaculos.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/noticias/espectaculos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/noticias/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/noticias/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/programacion/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/programacion/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/ranking/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/ranking/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +85,7 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../php/php.exe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -108,6 +121,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Scrips" />
@@ -140,14 +154,15 @@
     </state>
     <state x="763" y="305" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1601071528061" />
     <state x="1073" y="436" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601075543599" />
-    <state x="328" y="17" key="SettingsEditor" timestamp="1601070166437">
+    <state x="328" y="17" key="SettingsEditor" timestamp="1601076933392">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="328" y="17" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1601070166437" />
+    <state x="328" y="17" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1601076933392" />
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601055772469" />
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601073793118">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="553" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601077542521">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="553" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1601077542521" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601073793118" />
   </component>
 </project>

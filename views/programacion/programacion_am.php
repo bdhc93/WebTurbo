@@ -11,7 +11,7 @@ require 'views/navigation.php';
                 <div class="col-lg-6">
                     <div class="page-title-content">
                         <div class="">
-                            <h2 class="text-uppercase text-white font-weight-bold">PROGRAMACIÓN FM</h2>
+                            <h2 class="text-uppercase text-white font-weight-bold">PROGRAMACIÓN AM</h2>
                         </div>
                         <p class="text-white mb-0"></p>
                     </div>
@@ -65,7 +65,7 @@ require 'views/navigation.php';
                                 <div class="form-group mb-5">
                                     <div class="row align-items-center">
                                         <label
-                                                class="control-label count-control-label col-5 col-lg-12 col-xl-4 text-uppercase mb-0 mb-lg-4 mb-xl-0 text-lg-center">Adults</label>
+                                            class="control-label count-control-label col-5 col-lg-12 col-xl-4 text-uppercase mb-0 mb-lg-4 mb-xl-0 text-lg-center">Adults</label>
 
                                         <div class="col-7 col-lg-12 col-xl-7">
                                             <div class="count-input mr-0 mx-lg-auto mr-xl-0">
@@ -80,7 +80,7 @@ require 'views/navigation.php';
                                 <div class="form-group mb-5">
                                     <div class="row align-items-center">
                                         <label
-                                                class="control-label count-control-label col-5 col-lg-12 col-xl-4 text-uppercase mb-0 mb-lg-4 mb-xl-0 text-lg-center">Childs</label>
+                                            class="control-label count-control-label col-5 col-lg-12 col-xl-4 text-uppercase mb-0 mb-lg-4 mb-xl-0 text-lg-center">Childs</label>
 
                                         <div class="col-7 col-lg-12 col-xl-7">
                                             <div class="count-input mr-0 mx-lg-auto mr-xl-0">
@@ -323,7 +323,7 @@ require 'views/navigation.php';
                                     <i class="fa fa-bars text-white" aria-hidden="true"></i>
                                 </a>
 
-                                <a href="programacio_fm_cuadro.php" class="icon-md bg-white rounded shadow ml-3">
+                                <a href="programacion_am_cuadro.php" class="icon-md bg-white rounded shadow ml-3">
                                     <i class="fa fa-th text-gray-color" aria-hidden="true"></i>
                                 </a>
                             </div>
