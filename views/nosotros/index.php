@@ -8,7 +8,7 @@ require 'views/navigation.php';
 ?>
 
 <section class="page-title">
-    <div class="page-title-img bg-img bg-overlay-darken" style="background-image: url(<?php echo constant('URL'); ?>public/images/pruebas/img_nos_ban_1.jpg);">
+    <div class="page-title-img bg-img bg-overlay-darken" style="background-image: url(<?php echo constant('URL'); ?>public/images/pruebas/nos_mis/img_nos_ban_1.jpg);">
         <div class="container">
             <div class="row align-items-center justify-content-center" style="height: 200px;">
                 <div class="col-lg-6">
@@ -31,7 +31,7 @@ require 'views/navigation.php';
                 <form class="" action="index.html" method="GET">
                     <div class="card border">
 
-                        <img src="<?php echo constant('URL'); ?>public/images/pruebas/img_nos_anun_1.jpg" alt="image">
+                        <img src="<?php echo constant('URL'); ?>public/images/pruebas/nos_mis/img_nos_anun_1.jpg" alt="image">
 
                     </div>
                 </form>
@@ -40,15 +40,15 @@ require 'views/navigation.php';
             <div class="col-md-7 col-lg-8">
                 <div id="package-slider" class="owl-carousel owl-theme package-slider">
                     <div class="item">
-                        <img src="<?php echo constant('URL'); ?>public/images/pruebas/img_nos_1.jpg" alt="image">
+                        <img src="<?php echo constant('URL'); ?>public/images/pruebas/nos_mis/img_nos_1.jpg" alt="image">
                     </div>
 
                     <div class="item">
-                        <img src="<?php echo constant('URL'); ?>public/images/pruebas/img_nos_2.jpg" alt="image">
+                        <img src="<?php echo constant('URL'); ?>public/images/pruebas/nos_mis/img_nos_2.jpg" alt="image">
                     </div>
 
                     <div class="item">
-                        <img src="<?php echo constant('URL'); ?>public/images/pruebas/img_nos_3.jpg" alt="image">
+                        <img src="<?php echo constant('URL'); ?>public/images/pruebas/nos_mis/img_nos_3.jpg" alt="image">
                     </div>
                 </div>
 

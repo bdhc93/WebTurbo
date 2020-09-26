@@ -8,7 +8,7 @@ require 'views/navigation.php';
 ?>
 
 <section class="page-title">
-    <div class="page-title-img bg-img bg-overlay-darken" style="background-image: url(<?php echo constant('URL'); ?>public/img/pages/page-title-bg8.jpg);">
+    <div class="page-title-img bg-img bg-overlay-darken" style="background-image: url(<?php echo constant('URL'); ?>public/images/pruebas/gal/gale_ban_vid.jpg);">
         <div class="container">
             <div class="row align-items-center justify-content-center" style="height: 200px;">
                 <div class="col-lg-6">
@@ -38,15 +38,15 @@ require 'views/navigation.php';
             <div class="col-md-6 col-lg-4 col-xl-3 element-item america africa">
                 <div class="media media-hoverable justify-content-center mb-6">
                     <div class="media-content">
-                        <img class="media-img" src="<?php echo constant('URL'); ?>public/img/home/packages/packages-1.jpg" alt="Generic placeholder image">
+                        <img class="media-img" src="<?php echo constant('URL'); ?>public/images/pruebas/gal/video_1.jpg" alt="Generic placeholder image">
 
-                        <a href="<?php echo constant('URL'); ?>public" data-fancybox="gallery" class="media-object">
+                        <a href="<?php echo constant('URL'); ?>public/images/pruebas/gal/video_1.jpg" data-fancybox="gallery" class="media-object">
                             <h3 class="text-uppercase mb-0">Vestibulum Tour</h3>
                         </a>
 
                         <div class="media-img-overlay">
                             <div class="overlay-content">
-                                <h3 class="">from <span class="text-primary">$399</span></h3>
+                                <h3 class=""></h3>
                                 <p class="text-white mb-0">
                                     <span class="mr-1"><i class="fa fa-calendar" aria-hidden="true"></i></span> 27 Jan, 2019
                                 </p>
@@ -59,15 +59,15 @@ require 'views/navigation.php';
             <div class="col-md-6 col-lg-4 col-xl-3 element-item africa america">
                 <div class="media media-hoverable justify-content-center mb-6">
                     <div class="media-content">
-                        <img class="media-img" src="<?php echo constant('URL'); ?>public/img/home/packages/packages-2.jpg" alt="Generic placeholder image">
+                        <img class="media-img" src="<?php echo constant('URL'); ?>public/images/pruebas/gal/video_2.jpg" alt="Generic placeholder image">
 
-                        <a href="<?php echo constant('URL'); ?>public/img/home/packages/packages-2.jpg" data-fancybox="gallery" class="media-object">
+                        <a href="<?php echo constant('URL'); ?>public/images/pruebas/gal/video_2.jpg" data-fancybox="gallery" class="media-object">
                             <h3 class="text-uppercase mb-0">Maecenas Tour</h3>
                         </a>
 
                         <div class="media-img-overlay">
                             <div class="overlay-content">
-                                <h3 class="">from <span class="text-primary">$599</span></h3>
+                                <h3 class=""></h3>
                                 <p class="text-white mb-0">
                                     <span class="mr-1"><i class="fa fa-calendar" aria-hidden="true"></i></span> 09 Feb, 2019
                                 </p>
@@ -80,15 +80,15 @@ require 'views/navigation.php';
             <div class="col-md-6 col-lg-4 col-xl-3 element-item asia america">
                 <div class="media media-hoverable justify-content-center mb-6">
                     <div class="media-content">
-                        <img class="media-img" src="<?php echo constant('URL'); ?>public/img/home/packages/packages-3.jpg" alt="Generic placeholder image">
+                        <img class="media-img" src="<?php echo constant('URL'); ?>public/images/pruebas/gal/video_3.jpg" alt="Generic placeholder image">
 
-                        <a href="<?php echo constant('URL'); ?>public/img/home/packages/packages-3.jpg" data-fancybox="gallery" class="media-object">
+                        <a href="<?php echo constant('URL'); ?>public/images/pruebas/gal/video_3.jpg" data-fancybox="gallery" class="media-object">
                             <h3 class="text-uppercase mb-0">Lobortis Tour</h3>
                         </a>
 
                         <div class="media-img-overlay">
                             <div class="overlay-content">
-                                <h3 class="">from <span class="text-primary">$299</span></h3>
+                                <h3 class=""></h3>
                                 <p class="text-white mb-0">
                                     <span class="mr-1"><i class="fa fa-calendar" aria-hidden="true"></i></span> 14 Feb, 2019
                                 </p>
@@ -101,15 +101,15 @@ require 'views/navigation.php';
             <div class="col-md-6 col-lg-4 col-xl-3 element-item asia africa europe">
                 <div class="media media-hoverable justify-content-center mb-6">
                     <div class="media-content">
-                        <img class="media-img" src="<?php echo constant('URL'); ?>public/img/home/packages/packages-4.jpg" alt="Generic placeholder image">
+                        <img class="media-img" src="<?php echo constant('URL'); ?>public/images/pruebas/gal/video_4.jpg" alt="Generic placeholder image">
 
-                        <a href="<?php echo constant('URL'); ?>public/img/home/packages/packages-4.jpg" data-fancybox="gallery" class="media-object">
+                        <a href="<?php echo constant('URL'); ?>public/images/pruebas/gal/video_4.jpg" data-fancybox="gallery" class="media-object">
                             <h3 class="text-uppercase mb-0">Lacus Tour</h3>
                         </a>
 
                         <div class="media-img-overlay">
                             <div class="overlay-content">
-                                <h3 class="">from <span class="text-primary">$399</span></h3>
+                                <h3 class=""></h3>
                                 <p class="text-white mb-0">
                                     <span class="mr-1"><i class="fa fa-calendar" aria-hidden="true"></i></span> 11 Jan, 2019
                                 </p>
@@ -122,15 +122,15 @@ require 'views/navigation.php';
             <div class="col-md-6 col-lg-4 col-xl-3 element-item america">
                 <div class="media media-hoverable justify-content-center mb-6 mb-xl-0">
                     <div class="media-content">
-                        <img class="media-img" src="<?php echo constant('URL'); ?>public/img/home/packages/packages-5.jpg" alt="Generic placeholder image">
+                        <img class="media-img" src="<?php echo constant('URL'); ?>public/images/pruebas/gal/video_5.jpg" alt="Generic placeholder image">
 
-                        <a href="<?php echo constant('URL'); ?>public/img/home/packages/packages-5.jpg" data-fancybox="gallery" class="media-object">
+                        <a href="<?php echo constant('URL'); ?>public/images/pruebas/gal/video_5.jpg" data-fancybox="gallery" class="media-object">
                             <h3 class="text-uppercase mb-0">Nullam Tour</h3>
                         </a>
 
                         <div class="media-img-overlay">
                             <div class="overlay-content">
-                                <h3 class="">from <span class="text-primary">$199</span></h3>
+                                <h3 class=""></h3>
                                 <p class="text-white mb-0">
                                     <span class="mr-1"><i class="fa fa-calendar" aria-hidden="true"></i></span> 2 Feb, 2019
                                 </p>
@@ -143,15 +143,15 @@ require 'views/navigation.php';
             <div class="col-md-6 col-lg-4 col-xl-3 element-item asia africa europe">
                 <div class="media media-hoverable justify-content-center mb-6 mb-xl-0">
                     <div class="media-content">
-                        <img class="media-img" src="<?php echo constant('URL'); ?>public/img/home/packages/packages-6.jpg" alt="Generic placeholder image">
+                        <img class="media-img" src="<?php echo constant('URL'); ?>public/images/pruebas/gal/video_6.jpg" alt="Generic placeholder image">
 
-                        <a href="<?php echo constant('URL'); ?>public/img/home/packages/packages-6.jpg" data-fancybox="gallery" class="media-object">
+                        <a href="<?php echo constant('URL'); ?>public/images/pruebas/gal/video_6.jpg" data-fancybox="gallery" class="media-object">
                             <h3 class="text-uppercase mb-0">Maldives Tour</h3>
                         </a>
 
                         <div class="media-img-overlay">
                             <div class="overlay-content">
-                                <h3 class="">from <span class="text-primary">$799</span></h3>
+                                <h3 class=""></h3>
                                 <p class="text-white mb-0">
                                     <span class="mr-1"><i class="fa fa-calendar" aria-hidden="true"></i></span> 26 Feb, 2019
                                 </p>
@@ -164,15 +164,15 @@ require 'views/navigation.php';
             <div class="col-md-6 col-lg-4 col-xl-3 element-item europe">
                 <div class="media media-hoverable justify-content-center mb-6 mb-md-0">
                     <div class="media-content">
-                        <img class="media-img" src="<?php echo constant('URL'); ?>public/img/home/packages/packages-1.jpg" alt="Generic placeholder image">
+                        <img class="media-img" src="<?php echo constant('URL'); ?>public/images/pruebas/gal/video_7.jpg" alt="Generic placeholder image">
 
-                        <a href="<?php echo constant('URL'); ?>public/img/home/packages/packages-1.jpg" data-fancybox="gallery" class="media-object">
+                        <a href="<?php echo constant('URL'); ?>public/images/pruebas/gal/video_7.jpg" data-fancybox="gallery" class="media-object">
                             <h3 class="text-uppercase mb-0">Quaerit Tour</h3>
                         </a>
 
                         <div class="media-img-overlay">
                             <div class="overlay-content">
-                                <h3 class="">from <span class="text-primary">$799</span></h3>
+                                <h3 class=""></h3>
                                 <p class="text-white mb-0">
                                     <span class="mr-1"><i class="fa fa-calendar" aria-hidden="true"></i></span> 26 Feb, 2019
                                 </p>
@@ -185,15 +185,15 @@ require 'views/navigation.php';
             <div class="col-md-6 col-lg-4 col-xl-3 element-item asia europe">
                 <div class="media media-hoverable justify-content-center">
                     <div class="media-content">
-                        <img class="media-img" src="<?php echo constant('URL'); ?>public/img/home/packages/packages-2.jpg" alt="Generic placeholder image">
+                        <img class="media-img" src="<?php echo constant('URL'); ?>public/images/pruebas/gal/video_8.jpg" alt="Generic placeholder image">
 
-                        <a href="<?php echo constant('URL'); ?>public/img/home/packages/packages-2.jpg" data-fancybox="gallery" class="media-object">
+                        <a href="<?php echo constant('URL'); ?>public/images/pruebas/gal/video_8.jpg" data-fancybox="gallery" class="media-object">
                             <h3 class="text-uppercase mb-0">Hendrit Tour</h3>
                         </a>
 
                         <div class="media-img-overlay">
                             <div class="overlay-content">
-                                <h3 class="">from <span class="text-primary">$799</span></h3>
+                                <h3 class=""></h3>
                                 <p class="text-white mb-0">
                                     <span class="mr-1"><i class="fa fa-calendar" aria-hidden="true"></i></span> 26 Feb, 2019
                                 </p>

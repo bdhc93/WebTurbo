@@ -19,23 +19,122 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76dff57e-3e27-466c-b2eb-4e742af92c0f" name="Default Changelist" comment="styles 2">
-      <change afterPath="$PROJECT_DIR$/public/images/pruebas/img_nos_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/pruebas/img_nos_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/pruebas/img_nos_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/pruebas/img_nos_anun_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/pruebas/img_nos_ban_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+    <list default="true" id="76dff57e-3e27-466c-b2eb-4e742af92c0f" name="Default Changelist" comment="styles 3">
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/gal/fotos_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/gal/fotos_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/gal/fotos_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/gal/fotos_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/gal/fotos_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/gal/fotos_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/gal/fotos_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/gal/fotos_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/gal/fotos_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/gal/gale_ban_vid.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/gal/video_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/gal/video_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/gal/video_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/gal/video_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/gal/video_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/gal/video_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/gal/video_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/gal/video_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/nos_mis/img_nos_ban_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/noti/not_depor_0001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/noti/not_depor_0002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/noti/not_depor_0003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/noti/not_depor_0004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/noti/not_depor_0005.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/noti/not_depor_0006.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/noti/not_depor_0007.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/noti/not_depor_0008.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/noti/not_depor_0009.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/noti/not_espec_0001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/noti/not_espec_0002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/noti/not_espec_0003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/noti/not_espec_0004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/noti/not_espec_0005.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/noti/not_espec_0006.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/noti/not_espec_0007.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/noti/not_espec_0008.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/noti/not_espec_0009.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/noti/not_espec_ban.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/noti/not_poli_0001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/noti/not_poli_0002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/noti/not_poli_0003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/noti/not_poli_0004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/noti/not_poli_0005.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/noti/not_poli_0006.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/noti/not_poli_0007.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/noti/not_poli_0008.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/noti/not_poli_0009.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/noti/not_poli_ban.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/gale_ban_vid.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/prog_am_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/prog_am_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/prog_am_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/prog_am_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/prog_am_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/prog_am_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/prog_am_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/prog_am_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/prog_am_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/prog_ban_am.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/prog_ban_fm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/prog_ban_pira.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/prog_ban_tv.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/prog_fm_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/prog_fm_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/prog_fm_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/prog_fm_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/prog_fm_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/prog_fm_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/prog_fm_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/prog_fm_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/prog_fm_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/prog_pira_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/prog_pira_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/prog_pira_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/prog_pira_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/prog_pira_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/prog_pira_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/prog_pira_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/prog_pira_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/prog_pira_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/prog_tv_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/prog_tv_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/prog_tv_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/prog_tv_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/prog_tv_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/prog_tv_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/prog_tv_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/prog_tv_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/prog_tv_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/video_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/video_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/video_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/video_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/video_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/video_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/video_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pruebas/prog/video_8.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/pruebas/img_nos_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/pruebas/nos_mis/img_nos_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/pruebas/img_nos_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/pruebas/nos_mis/img_nos_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/pruebas/img_nos_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/pruebas/nos_mis/img_nos_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/pruebas/img_nos_anun_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/pruebas/nos_mis/img_nos_anun_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/pruebas/img_nos_ban_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/pruebas/gal/gale_ban_fot.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/galeria/fotos.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/galeria/fotos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/galeria/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/galeria/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/nosotros/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/nosotros/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/noticias/espectaculos.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/noticias/espectaculos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/noticias/futbol_lista.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/noticias/futbol_lista.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/noticias/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/noticias/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/noticias/politica.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/noticias/politica.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/programacion/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/programacion/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/programacion/programacion_am.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/programacion/programacion_am.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/programacion/programacion_pirata.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/programacion/programacion_pirata.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/programacion/programacion_tv.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/programacion/programacion_tv.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/ranking/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/ranking/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/ranking/ranking_tv.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/ranking/ranking_tv.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,14 +173,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../php/php.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images/pruebas/gal" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="web.server" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\WebTurbo\public\images\pruebas\nos" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\WebTurbo\public" />
+      <recent name="C:\xampp\htdocs\WebTurbo\public\images\pruebas\gal" />
+      <recent name="C:\xampp\htdocs\WebTurbo\public\images\pruebas\prog" />
+      <recent name="C:\xampp\htdocs\WebTurbo\public\images\pruebas\noti" />
+      <recent name="C:\xampp\htdocs\WebTurbo\public\images\pruebas\nos_mis" />
+      <recent name="C:\xampp\htdocs\WebTurbo\public\images\pruebas\nost" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -96,6 +202,7 @@
       <workItem from="1601068707180" duration="23000" />
       <workItem from="1601068935297" duration="7000" />
       <workItem from="1601070057769" duration="2408000" />
+      <workItem from="1601154138783" duration="8139000" />
     </task>
     <task id="LOCAL-00001" summary="styles">
       <created>1601077677854</created>
@@ -104,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601077677854</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="styles 3">
+      <created>1601147308989</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601147308989</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,7 +239,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Scrips" />
     <MESSAGE value="styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="styles" />
+    <MESSAGE value="styles 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="styles 3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="384" y="37" key="#CLI_Interpreters" timestamp="1601070163593">
@@ -159,10 +274,10 @@
     </state>
     <state x="328" y="17" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1601076933392" />
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601055772469" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1601077679896">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1601147317630">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1601077679896" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1601147317630" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1601138216952">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
