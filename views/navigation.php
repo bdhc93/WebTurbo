@@ -77,19 +77,19 @@
                         <a href="javascript:void(0)">PROGRAMACIÓN</a>
                         <ul class="dropdown drop-up">
                             <li class="">
-                                <a href="views/programacion_fm.html">TURBO MIX FM</a>
+                                <a href="<?php echo constant('URL'); ?>programacion">TURBO MIX FM</a>
                             </li>
 
                             <li class="">
-                                <a href="views/programacion_am.html">TURBO MIX AM</a>
+                                <a href="<?php echo constant('URL'); ?>programacion/programacion_am">TURBO MIX AM</a>
                             </li>
 
                             <li class="">
-                                <a href="views/programacion_tv.html">TURBO MIX TV</a>
+                                <a href="<?php echo constant('URL'); ?>programacion/programacion_tv">TURBO MIX TV</a>
                             </li>
 
                             <li class="">
-                                <a href="views/programacion_pirata.html">PIRATA FM </a>
+                                <a href="<?php echo constant('URL'); ?>programacion/programacion_pirata">PIRATA FM </a>
                             </li>
                         </ul>
                     </li>
@@ -98,11 +98,11 @@
                         <a href="javascript:void(0)">GALERÍA</a>
                         <ul class="dropdown drop-up">
                             <li class="">
-                                <a href="views/galeria_videos.html">VIDEOS</a>
+                                <a href="<?php echo constant('URL'); ?>galeria">VIDEOS</a>
                             </li>
 
                             <li class="">
-                                <a href="views/galeria_fotos.html">FOTOS</a>
+                                <a href="<?php echo constant('URL'); ?>galeria/fotos">FOTOS</a>
                             </li>
                         </ul>
                     </li>
