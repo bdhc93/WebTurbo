@@ -8,7 +8,7 @@ require 'views/navigation.php';
 ?>
 
 <section class="page-title">
-    <div class="page-title-img bg-img bg-overlay-darken" style="background-image: url(../assets/img/pages/page-title-bg13.jpg);">
+    <div class="page-title-img bg-img bg-overlay-darken" style="background-image: url(<?php echo constant('URL'); ?>public/images/pruebas/img_nos_ban_1.jpg);">
         <div class="container">
             <div class="row align-items-center justify-content-center" style="height: 200px;">
                 <div class="col-lg-6">
@@ -30,99 +30,9 @@ require 'views/navigation.php';
             <div class="col-md-5 col-lg-4 order-2">
                 <form class="" action="index.html" method="GET">
                     <div class="card border">
-                        <h2 class="card-header text-uppercase text-center bg-smoke border-bottom">
-                            Booking
-                        </h2>
 
-                        <div class="card-body px-3 py-4">
-                            <div class="border-bottom mb-5">
-                                <div class="form-group mb-5">
-                                    <div class="row">
-                                        <label for="inputTime" class="col-xl-5 col-form-label text-center text-xl-right px-2">Select a
-                                            date:</label>
+                        <img src="<?php echo constant('URL'); ?>public/images/pruebas/img_nos_anun_1.jpg" alt="image">
 
-                                        <div class="col-xl-7">
-                                            <div class="form-group form-group-icon form-group-icon-category-2 mb-0">
-                                                <i class="fa fa-calendar" aria-hidden="true"></i>
-                                                <input type="text" class="form-control daterange-picker-category-2" name="dateRange" value=""
-                                                       placeholder="MM/DD/YYYY">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="form-group mb-5">
-                                    <div class="row">
-                                        <label for="inputTime" class="col-xl-5 col-form-label text-center text-xl-right px-2">Select a time
-                                            slot:</label>
-                                        <div class="col-xl-7">
-                                            <div class="form-group mb-0">
-                                                <div class="select-default select-category-2 timer">
-                                                    <select class="select-option">
-                                                        <option>9:00 AM</option>
-                                                        <option>10:00 AM</option>
-                                                        <option>11:00 AM</option>
-                                                        <option>12:00 AM</option>
-                                                        <option>13:00 AM</option>
-                                                        <option>14:00 AM</option>
-                                                        <option>15:00 AM</option>
-                                                        <option>16:00 AM</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="form-group mb-5">
-                                    <div class="row align-items-center">
-                                        <label class="control-label col-xl-5 text-center text-xl-right">Adults:</label>
-
-                                        <div class="col-xl-5">
-                                            <div class="count-input mx-auto">
-                                                <a class="incr-btn" data-action="decrease" href="#">–</a>
-                                                <input class="quantity" type="number" value="1">
-                                                <a class="incr-btn" data-action="increase" href="#">+</a>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-xl-2">
-                                            <p class="text-center mt-3 mt-xl-0 mb-0">$99</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="form-group mb-5">
-                                    <div class="row align-items-center">
-                                        <label class="control-label col-xl-5 text-center text-xl-right">Children:</label>
-
-                                        <div class="col-xl-5">
-                                            <div class="count-input mx-auto">
-                                                <a class="incr-btn" data-action="decrease" href="#">–</a>
-                                                <input class="quantity" type="number" value="0">
-                                                <a class="incr-btn" data-action="increase" href="#">+</a>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-xl-2">
-                                            <p class="text-center mt-3 mt-xl-0 mb-0">$59</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="d-flex justify-content-between border-bottom mb-5 pb-5">
-                                <span class="text-uppercase h4 mb-0">Total cost</span>
-                                <span class="font-weight-bold text-primary h3 mb-0">$158</span>
-                            </div>
-
-                            <div class="text-center px-4">
-                                <button type="button" onclick="location.href='booking-step-1.html';"
-                                        class="btn btn-hover btn-lg btn-block btn-outline-secondary text-uppercase">
-                                    Check Now <span class="ml-4"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
-                                </button>
-                            </div>
-                        </div>
                     </div>
                 </form>
             </div>
@@ -130,15 +40,15 @@ require 'views/navigation.php';
             <div class="col-md-7 col-lg-8">
                 <div id="package-slider" class="owl-carousel owl-theme package-slider">
                     <div class="item">
-                        <img src="../assets/img/packages/package-slider-03.jpg" alt="image">
+                        <img src="<?php echo constant('URL'); ?>public/images/pruebas/img_nos_1.jpg" alt="image">
                     </div>
 
                     <div class="item">
-                        <img src="../assets/img/packages/package-slider-04.jpg" alt="image">
+                        <img src="<?php echo constant('URL'); ?>public/images/pruebas/img_nos_2.jpg" alt="image">
                     </div>
 
                     <div class="item">
-                        <img src="../assets/img/packages/package-slider-05.jpg" alt="image">
+                        <img src="<?php echo constant('URL'); ?>public/images/pruebas/img_nos_3.jpg" alt="image">
                     </div>
                 </div>
 

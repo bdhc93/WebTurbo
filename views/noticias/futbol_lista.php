@@ -8,7 +8,7 @@ require 'views/navigation.php';
 ?>
 
 <section class="page-title">
-    <div class="page-title-img bg-img bg-overlay-darken" style="background-image: url(../assets/img/pages/page-title-bg15.jpg);">
+    <div class="page-title-img bg-img bg-overlay-darken" style="background-image: url(<?php echo constant('URL'); ?>public/img/pages/page-title-bg15.jpg);">
         <div class="container">
             <div class="row align-items-center justify-content-center" style="height: 200px;">
                 <div class="col-lg-6">
@@ -32,13 +32,7 @@ require 'views/navigation.php';
                     <div class="row align-items-center">
                         <div class="col-md-6 col-xl-4">
                             <div class="form-group mb-5 mb-md-0 bg-white">
-                                <div class="select-default select-category-2">
-                                    <select class="select-option">
-                                        <option>SORT BY RATING</option>
-                                        <option>SORT BY PRICE</option>
-                                        <option>SORT BY POPULARITY</option>
-                                    </select>
-                                </div>
+
                             </div>
                         </div>
 
@@ -47,7 +41,6 @@ require 'views/navigation.php';
                                 <a href="javascript:void(0)" class="icon-md bg-primary rounded shadow">
                                     <i class="fa fa-bars text-white" aria-hidden="true"></i>
                                 </a>
-
                                 <a href="index.php" class="icon-md bg-white rounded shadow ml-3">
                                     <i class="fa fa-th text-gray-color" aria-hidden="true"></i>
                                 </a>
@@ -58,8 +51,8 @@ require 'views/navigation.php';
 
                 <div class="media media-list-view media-list-fullwidth media-border flex-column flex-md-row align-items-stretch mb-5">
                     <div class="media-img position-relative">
-                        <img class="img-fluid position-relative" src="../assets/img/cars/car-img-01.jpg" alt="gallery-img">
-                        <a class="media-img-overlay" data-fancybox="gallery" href="assets/img/cars/car-img-01.jpg"></a>
+                        <img class="img-fluid position-relative" src="<?php echo constant('URL'); ?>public/img/cars/car-img-01.jpg" alt="gallery-img">
+                        <a class="media-img-overlay" data-fancybox="gallery" href="<?php echo constant('URL'); ?>public/img/cars/car-img-01.jpg"></a>
                     </div>
 
                     <div class="media-body">

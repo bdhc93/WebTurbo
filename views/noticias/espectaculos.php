@@ -10,7 +10,7 @@ require 'views/navigation.php';
 <div class="main-wrapper home-main"></div>
 
 <section class="page-title">
-    <div class="page-title-img bg-img bg-overlay-darken" style="background-image: url(../assets/img/pages/page-title-bg15.jpg);">
+    <div class="page-title-img bg-img bg-overlay-darken" style="background-image: url(<?php echo constant('URL'); ?>public/img/pages/page-title-bg15.jpg);">
         <div class="container">
             <div class="row align-items-center justify-content-center" style="height: 200px;">
                 <div class="col-lg-6">
@@ -34,10 +34,7 @@ require 'views/navigation.php';
                 <div class="mb-md-6">
                     <div class="row align-items-center">
                         <div class="col-md-6 col-lg-4">
-                            <div class="form-group mb-5 mb-md-0 bg-white">
-                                <div class="select-default select-category-2">
-                                </div>
-                            </div>
+
                         </div>
 
                         <div class="col-md-6 col-lg-8 d-none d-md-block">
@@ -58,32 +55,8 @@ require 'views/navigation.php';
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="card card-hover">
                             <a href="javascript:void(0)" class="position-relative">
-                                <img class="card-img-top" src="../assets/img/cars/car-img-01.jpg" alt="Card image cap">
+                                <img class="card-img-top" src="<?php echo constant('URL'); ?>public/img/cars/car-img-01.jpg" alt="Card image cap">
                                 <div class="card-img-overlay card-hover-overlay rounded-top d-flex flex-column">
-                                    <div class="badge badge-primary badge-rounded-circle">
-                    <span class="d-block">
-                      50%<br>off
-                    </span>
-                                    </div>
-
-                                    <ul class="list-unstyled d-flex mt-auto text-warning mb-0">
-                                        <li>
-                                            <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                        </li>
-                                    </ul>
-
                                     <small>
                                         <ul class="list-unstyled d-flex text-white font-weight-bold mb-0">
                                             <li class="border-right border-white pr-2">7 days</li>
@@ -101,10 +74,7 @@ require 'views/navigation.php';
                                 <p class="mb-5">Integer purus ex, dictum nec elementum eu, tristique vel lectus. Donec rutrum lectus et pharetra
                                     egestas.</p>
                                 <div class="d-flex justify-content-between align-items-center">
-                                    <div>
-                                        <p class="mb-0 text-capitalize">Start from</p>
-                                        <h3 class="text-primary">$299</h3>
-                                    </div>
+
                                     <div>
                                         <a href="javascript:void(0)" data-toggle="modal" data-target="#inquiry" class="btn btn-xs btn-outline-secondary text-uppercase">Inquiry</a>
                                     </div>
@@ -116,83 +86,13 @@ require 'views/navigation.php';
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="card card-hover">
                             <a href="javascript:void(0)" class="position-relative">
-                                <img class="card-img-top" src="../assets/img/cars/car-img-02.jpg" alt="Card image cap">
+                                <img class="card-img-top" src="<?php echo constant('URL'); ?>public/img/cars/car-img-01.jpg" alt="Card image cap">
                                 <div class="card-img-overlay card-hover-overlay rounded-top d-flex flex-column">
-                                    <ul class="list-unstyled d-flex mt-auto text-warning mb-0">
-                                        <li>
-                                            <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                        </li>
-                                    </ul>
-
                                     <small>
                                         <ul class="list-unstyled d-flex text-white font-weight-bold mb-0">
-                                            <li class="border-right border-white pr-2">12 days</li>
-                                            <li class="border-right border-white px-2">3 hrs</li>
-                                            <li class="pl-2">12 min</li>
-                                        </ul>
-                                    </small>
-                                </div>
-                            </a>
-
-                            <div class="card-body px-4">
-                                <h5 class="">
-                                    <a href="javascript:void(0)" class="card-title text-uppercase">Audi A7</a>
-                                </h5>
-                                <p class="mb-5">Proin convallis magna vel libero accumsan sollicitudin. Quisque dapibus vitae turpis eu magna
-                                    sagittis.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div>
-                                        <p class="mb-0 text-capitalize">Start from</p>
-                                        <h3 class="text-primary">$499</h3>
-                                    </div>
-                                    <div>
-                                        <a href="booking-step-1.html" class="btn btn-xs btn-outline-secondary text-uppercase">Book now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="card card-hover">
-                            <a href="javascript:void(0)" class="position-relative">
-                                <img class="card-img-top" src="../assets/img/cars/car-img-03.jpg" alt="Card image cap">
-                                <div class="card-img-overlay card-hover-overlay rounded-top d-flex flex-column">
-                                    <ul class="list-unstyled d-flex mt-auto text-warning mb-0">
-                                        <li>
-                                            <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                        </li>
-                                    </ul>
-
-                                    <small>
-                                        <ul class="list-unstyled d-flex text-white font-weight-bold mb-0">
-                                            <li class="border-right border-white pr-2">17 days</li>
-                                            <li class="border-right border-white px-2">14 hrs</li>
-                                            <li class="pl-2">10 min</li>
+                                            <li class="border-right border-white pr-2">7 days</li>
+                                            <li class="border-right border-white px-2">15 hrs</li>
+                                            <li class="pl-2">15 min</li>
                                         </ul>
                                     </small>
                                 </div>
@@ -200,17 +100,14 @@ require 'views/navigation.php';
 
                             <div class="card-body px-4">
                                 <h5>
-                                    <a href="javascript:void(0)" class="card-title text-uppercase">Audi A4</a>
+                                    <a href="javascript:void(0)" class="card-title text-uppercase">Nissan SV 2015</a>
                                 </h5>
-                                <p class="mb-5">Vivamus eu mattis nibh. Quisque eget ipsum at odio fringilla consequat vel id erat. Suspendisse non
-                                    feugiat mi.</p>
+                                <p class="mb-5">Integer purus ex, dictum nec elementum eu, tristique vel lectus. Donec rutrum lectus et pharetra
+                                    egestas.</p>
                                 <div class="d-flex justify-content-between align-items-center">
+
                                     <div>
-                                        <p class="mb-0 text-capitalize">Start from</p>
-                                        <h3 class="text-primary">$349</h3>
-                                    </div>
-                                    <div>
-                                        <a href="javascript:void(0)" class="btn btn-xs btn-outline-secondary text-uppercase">Details</a>
+                                        <a href="javascript:void(0)" data-toggle="modal" data-target="#inquiry" class="btn btn-xs btn-outline-secondary text-uppercase">Inquiry</a>
                                     </div>
                                 </div>
                             </div>
@@ -220,151 +117,13 @@ require 'views/navigation.php';
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="card card-hover">
                             <a href="javascript:void(0)" class="position-relative">
-                                <img class="card-img-top" src="../assets/img/cars/car-img-04.jpg" alt="Card image cap">
+                                <img class="card-img-top" src="<?php echo constant('URL'); ?>public/img/cars/car-img-01.jpg" alt="Card image cap">
                                 <div class="card-img-overlay card-hover-overlay rounded-top d-flex flex-column">
-                                    <ul class="list-unstyled d-flex mt-auto text-warning mb-0">
-                                        <li>
-                                            <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                        </li>
-                                    </ul>
-
                                     <small>
                                         <ul class="list-unstyled d-flex text-white font-weight-bold mb-0">
-                                            <li class="border-right border-white pr-2">25 days</li>
-                                            <li class="border-right border-white px-2">01 hrs</li>
-                                            <li class="pl-2">03 min</li>
-                                        </ul>
-                                    </small>
-                                </div>
-                            </a>
-
-                            <div class="card-body px-4">
-                                <h5 class="">
-                                    <a href="javascript:void(0)" class="card-title text-uppercase">BMW 335 I</a>
-                                </h5>
-
-                                <p class="mb-5">Sagittis proin convallis magna vel libero accumsan sollicitudin. Quisque dapibus vitae turpis eu
-                                    magna.</p>
-
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div>
-                                        <p class="mb-0 text-capitalize">Start from</p>
-                                        <h3 class="text-primary">$199</h3>
-                                    </div>
-                                    <div>
-                                        <a href="javascript:void(0)" class="btn btn-xs btn-outline-secondary text-uppercase">Details</a>
-                                        <a href="javascript:void(0)" class="btn btn-xs btn-outline-secondary px-3">
-                                            <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="card card-hover">
-                            <a href="javascript:void(0)" class="position-relative">
-                                <img class="card-img-top" src="../assets/img/cars/car-img-05.jpg" alt="Card image cap">
-                                <div class="card-img-overlay card-hover-overlay rounded-top d-flex flex-column">
-                                    <ul class="list-unstyled d-flex mt-auto text-warning mb-0">
-                                        <li>
-                                            <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                        </li>
-                                    </ul>
-
-                                    <small>
-                                        <ul class="list-unstyled d-flex text-white font-weight-bold mb-0">
-                                            <li class="border-right border-white pr-2">27 days</li>
-                                            <li class="border-right border-white px-2">05 hrs</li>
-                                            <li class="pl-2">33 min</li>
-                                        </ul>
-                                    </small>
-                                </div>
-                            </a>
-
-                            <div class="card-body px-4">
-                                <h5 class="">
-                                    <a href="javascript:void(0)" class="card-title text-uppercase">Toyota FJ</a>
-                                </h5>
-
-                                <p class="mb-5">Suspendisse non feugiat mi. Vivamus eu mattis nibh. Quisque eget ipsum at odio fringilla consequat
-                                    vel id erat.</p>
-
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div>
-                                        <p class="mb-0 text-capitalize">Start from</p>
-                                        <h3 class="text-primary">$249</h3>
-                                    </div>
-                                    <div>
-                                        <a href="booking-step-1.html" class="btn btn-xs btn-outline-secondary text-uppercase">Book</a>
-                                        <a href="javascript:void(0)" class="btn btn-xs btn-outline-secondary px-3">
-                                            <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="card card-hover">
-                            <a href="javascript:void(0)" class="position-relative">
-                                <img class="card-img-top" src="../assets/img/cars/car-img-06.jpg" alt="Card image cap">
-                                <div class="card-img-overlay card-hover-overlay rounded-top d-flex flex-column">
-                                    <div class="badge badge-primary badge-rounded-circle">
-                    <span class="d-block">
-                      50%<br>off
-                    </span>
-                                    </div>
-
-                                    <ul class="list-unstyled d-flex mt-auto text-warning mb-0">
-                                        <li>
-                                            <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                        </li>
-                                    </ul>
-
-                                    <small>
-                                        <ul class="list-unstyled d-flex text-white font-weight-bold mb-0">
-                                            <li class="border-right border-white pr-2">35 days</li>
-                                            <li class="border-right border-white px-2">11 hrs</li>
-                                            <li class="pl-2">03 min</li>
+                                            <li class="border-right border-white pr-2">7 days</li>
+                                            <li class="border-right border-white px-2">15 hrs</li>
+                                            <li class="pl-2">15 min</li>
                                         </ul>
                                     </small>
                                 </div>
@@ -372,192 +131,200 @@ require 'views/navigation.php';
 
                             <div class="card-body px-4">
                                 <h5>
-                                    <a href="javascript:void(0)" class="card-title text-uppercase">Audi A5 3.0</a>
+                                    <a href="javascript:void(0)" class="card-title text-uppercase">Nissan SV 2015</a>
                                 </h5>
-                                <p class="mb-5">Donec rutrum lectus et pharetra egestas. Integer purus ex, dictum nec elementum eu, tristique vel
-                                    lectus.</p>
-
+                                <p class="mb-5">Integer purus ex, dictum nec elementum eu, tristique vel lectus. Donec rutrum lectus et pharetra
+                                    egestas.</p>
                                 <div class="d-flex justify-content-between align-items-center">
-                                    <div>
-                                        <p class="mb-0 text-capitalize">Start from</p>
-                                        <h3 class="text-primary">$149</h3>
-                                    </div>
+
                                     <div>
                                         <a href="javascript:void(0)" data-toggle="modal" data-target="#inquiry" class="btn btn-xs btn-outline-secondary text-uppercase">Inquiry</a>
-                                        <a href="javascript:void(0)" class="btn btn-xs btn-outline-secondary px-3">
-                                            <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                    <div class="col-md-6 col-lg-4 mb-5">
                         <div class="card card-hover">
                             <a href="javascript:void(0)" class="position-relative">
-                                <img class="card-img-top" src="../assets/img/cars/car-img-07.jpg" alt="Card image cap">
+                                <img class="card-img-top" src="<?php echo constant('URL'); ?>public/img/cars/car-img-01.jpg" alt="Card image cap">
                                 <div class="card-img-overlay card-hover-overlay rounded-top d-flex flex-column">
-                                    <ul class="list-unstyled d-flex mt-auto text-warning mb-0">
-                                        <li>
-                                            <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                        </li>
-                                    </ul>
-
                                     <small>
                                         <ul class="list-unstyled d-flex text-white font-weight-bold mb-0">
-                                            <li class="border-right border-white pr-2">07 days</li>
+                                            <li class="border-right border-white pr-2">7 days</li>
                                             <li class="border-right border-white px-2">15 hrs</li>
-                                            <li class="pl-2">20 min</li>
+                                            <li class="pl-2">15 min</li>
                                         </ul>
                                     </small>
                                 </div>
                             </a>
 
                             <div class="card-body px-4">
-                                <h5 class="">
-                                    <a href="javascript:void(0)" class="card-title text-uppercase">Nissan SV 2020</a>
+                                <h5>
+                                    <a href="javascript:void(0)" class="card-title text-uppercase">Nissan SV 2015</a>
                                 </h5>
-
-                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
-
+                                <p class="mb-5">Integer purus ex, dictum nec elementum eu, tristique vel lectus. Donec rutrum lectus et pharetra
+                                    egestas.</p>
                                 <div class="d-flex justify-content-between align-items-center">
-                                    <div>
-                                        <p class="mb-0 text-capitalize">Start from</p>
-                                        <h3 class="text-primary">$150</h3>
-                                    </div>
-                                    <div>
-                                        <a href="booking-step-1.html" class="btn btn-xs btn-outline-secondary text-uppercase">Book now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-                        <div class="card card-hover">
-                            <a href="javascript:void(0)" class="position-relative">
-                                <img class="card-img-top" src="../assets/img/cars/car-img-02.jpg" alt="Card image cap">
-                                <div class="card-img-overlay card-hover-overlay rounded-top d-flex flex-column">
-                                    <div class="badge badge-primary badge-rounded-circle">
-                    <span class="d-block">
-                      50%<br>off
-                    </span>
-                                    </div>
-
-                                    <ul class="list-unstyled d-flex mt-auto text-warning mb-0">
-                                        <li>
-                                            <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                        </li>
-                                    </ul>
-
-                                    <small>
-                                        <ul class="list-unstyled d-flex text-white font-weight-bold mb-0">
-                                            <li class="border-right border-white pr-2">07 days</li>
-                                            <li class="border-right border-white px-2">15 hrs</li>
-                                            <li class="pl-2">20 min</li>
-                                        </ul>
-                                    </small>
-                                </div>
-                            </a>
-
-                            <div class="card-body px-4">
-                                <h5 class="">
-                                    <a href="javascript:void(0)" class="card-title text-uppercase"> Audi A7</a>
-                                </h5>
-
-                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
-
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div>
-                                        <p class="mb-0 text-capitalize">Start from</p>
-                                        <h3 class="text-primary">$150</h3>
-                                    </div>
                                     <div>
                                         <a href="javascript:void(0)" data-toggle="modal" data-target="#inquiry" class="btn btn-xs btn-outline-secondary text-uppercase">Inquiry</a>
-                                        <a href="javascript:void(0)" class="btn btn-xs btn-outline-secondary px-3">
-                                            <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-4">
+                    <div class="col-md-6 col-lg-4 mb-5">
                         <div class="card card-hover">
                             <a href="javascript:void(0)" class="position-relative">
-                                <img class="card-img-top" src="../assets/img/cars/car-img-03.jpg" alt="Card image cap">
+                                <img class="card-img-top" src="<?php echo constant('URL'); ?>public/img/cars/car-img-01.jpg" alt="Card image cap">
                                 <div class="card-img-overlay card-hover-overlay rounded-top d-flex flex-column">
-                                    <ul class="list-unstyled d-flex mt-auto text-warning mb-0">
-                                        <li>
-                                            <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-star" aria-hidden="true"></i>
-                                        </li>
-                                    </ul>
-
                                     <small>
                                         <ul class="list-unstyled d-flex text-white font-weight-bold mb-0">
-                                            <li class="border-right border-white pr-2">07 days</li>
+                                            <li class="border-right border-white pr-2">7 days</li>
                                             <li class="border-right border-white px-2">15 hrs</li>
-                                            <li class="pl-2">20 min</li>
+                                            <li class="pl-2">15 min</li>
                                         </ul>
                                     </small>
                                 </div>
                             </a>
 
                             <div class="card-body px-4">
-                                <h5 class="">
-                                    <a href="javascript:void(0)" class="card-title text-uppercase"> Audi A4</a>
+                                <h5>
+                                    <a href="javascript:void(0)" class="card-title text-uppercase">Nissan SV 2015</a>
                                 </h5>
-
-                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
-
+                                <p class="mb-5">Integer purus ex, dictum nec elementum eu, tristique vel lectus. Donec rutrum lectus et pharetra
+                                    egestas.</p>
                                 <div class="d-flex justify-content-between align-items-center">
+
                                     <div>
-                                        <p class="mb-0 text-capitalize">Start from</p>
-                                        <h3 class="text-primary">$150</h3>
+                                        <a href="javascript:void(0)" data-toggle="modal" data-target="#inquiry" class="btn btn-xs btn-outline-secondary text-uppercase">Inquiry</a>
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="card card-hover">
+                            <a href="javascript:void(0)" class="position-relative">
+                                <img class="card-img-top" src="<?php echo constant('URL'); ?>public/img/cars/car-img-01.jpg" alt="Card image cap">
+                                <div class="card-img-overlay card-hover-overlay rounded-top d-flex flex-column">
+                                    <small>
+                                        <ul class="list-unstyled d-flex text-white font-weight-bold mb-0">
+                                            <li class="border-right border-white pr-2">7 days</li>
+                                            <li class="border-right border-white px-2">15 hrs</li>
+                                            <li class="pl-2">15 min</li>
+                                        </ul>
+                                    </small>
+                                </div>
+                            </a>
+
+                            <div class="card-body px-4">
+                                <h5>
+                                    <a href="javascript:void(0)" class="card-title text-uppercase">Nissan SV 2015</a>
+                                </h5>
+                                <p class="mb-5">Integer purus ex, dictum nec elementum eu, tristique vel lectus. Donec rutrum lectus et pharetra
+                                    egestas.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+
                                     <div>
-                                        <a href="booking-step-1.html" class="btn btn-xs btn-outline-secondary text-uppercase">Book</a>
-                                        <a href="javascript:void(0)" class="btn btn-xs btn-outline-secondary px-3">
-                                            <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                        </a>
+                                        <a href="javascript:void(0)" data-toggle="modal" data-target="#inquiry" class="btn btn-xs btn-outline-secondary text-uppercase">Inquiry</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="card card-hover">
+                            <a href="javascript:void(0)" class="position-relative">
+                                <img class="card-img-top" src="<?php echo constant('URL'); ?>public/img/cars/car-img-01.jpg" alt="Card image cap">
+                                <div class="card-img-overlay card-hover-overlay rounded-top d-flex flex-column">
+                                    <small>
+                                        <ul class="list-unstyled d-flex text-white font-weight-bold mb-0">
+                                            <li class="border-right border-white pr-2">7 days</li>
+                                            <li class="border-right border-white px-2">15 hrs</li>
+                                            <li class="pl-2">15 min</li>
+                                        </ul>
+                                    </small>
+                                </div>
+                            </a>
+
+                            <div class="card-body px-4">
+                                <h5>
+                                    <a href="javascript:void(0)" class="card-title text-uppercase">Nissan SV 2015</a>
+                                </h5>
+                                <p class="mb-5">Integer purus ex, dictum nec elementum eu, tristique vel lectus. Donec rutrum lectus et pharetra
+                                    egestas.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+
+                                    <div>
+                                        <a href="javascript:void(0)" data-toggle="modal" data-target="#inquiry" class="btn btn-xs btn-outline-secondary text-uppercase">Inquiry</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="card card-hover">
+                            <a href="javascript:void(0)" class="position-relative">
+                                <img class="card-img-top" src="<?php echo constant('URL'); ?>public/img/cars/car-img-01.jpg" alt="Card image cap">
+                                <div class="card-img-overlay card-hover-overlay rounded-top d-flex flex-column">
+                                    <small>
+                                        <ul class="list-unstyled d-flex text-white font-weight-bold mb-0">
+                                            <li class="border-right border-white pr-2">7 days</li>
+                                            <li class="border-right border-white px-2">15 hrs</li>
+                                            <li class="pl-2">15 min</li>
+                                        </ul>
+                                    </small>
+                                </div>
+                            </a>
+
+                            <div class="card-body px-4">
+                                <h5>
+                                    <a href="javascript:void(0)" class="card-title text-uppercase">Nissan SV 2015</a>
+                                </h5>
+                                <p class="mb-5">Integer purus ex, dictum nec elementum eu, tristique vel lectus. Donec rutrum lectus et pharetra
+                                    egestas.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+
+                                    <div>
+                                        <a href="javascript:void(0)" data-toggle="modal" data-target="#inquiry" class="btn btn-xs btn-outline-secondary text-uppercase">Inquiry</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="card card-hover">
+                            <a href="javascript:void(0)" class="position-relative">
+                                <img class="card-img-top" src="<?php echo constant('URL'); ?>public/img/cars/car-img-01.jpg" alt="Card image cap">
+                                <div class="card-img-overlay card-hover-overlay rounded-top d-flex flex-column">
+                                    <small>
+                                        <ul class="list-unstyled d-flex text-white font-weight-bold mb-0">
+                                            <li class="border-right border-white pr-2">7 days</li>
+                                            <li class="border-right border-white px-2">15 hrs</li>
+                                            <li class="pl-2">15 min</li>
+                                        </ul>
+                                    </small>
+                                </div>
+                            </a>
+
+                            <div class="card-body px-4">
+                                <h5>
+                                    <a href="javascript:void(0)" class="card-title text-uppercase">Nissan SV 2015</a>
+                                </h5>
+                                <p class="mb-5">Integer purus ex, dictum nec elementum eu, tristique vel lectus. Donec rutrum lectus et pharetra
+                                    egestas.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+
+                                    <div>
+                                        <a href="javascript:void(0)" data-toggle="modal" data-target="#inquiry" class="btn btn-xs btn-outline-secondary text-uppercase">Inquiry</a>
                                     </div>
                                 </div>
                             </div>

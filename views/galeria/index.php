@@ -8,7 +8,7 @@ require 'views/navigation.php';
 ?>
 
 <section class="page-title">
-    <div class="page-title-img bg-img bg-overlay-darken" style="background-image: url(public/img/pages/page-title-bg8.jpg);">
+    <div class="page-title-img bg-img bg-overlay-darken" style="background-image: url(<?php echo constant('URL'); ?>public/img/pages/page-title-bg8.jpg);">
         <div class="container">
             <div class="row align-items-center justify-content-center" style="height: 200px;">
                 <div class="col-lg-6">
@@ -38,9 +38,9 @@ require 'views/navigation.php';
             <div class="col-md-6 col-lg-4 col-xl-3 element-item america africa">
                 <div class="media media-hoverable justify-content-center mb-6">
                     <div class="media-content">
-                        <img class="media-img" src="../assets/img/home/packages/packages-1.jpg" alt="Generic placeholder image">
+                        <img class="media-img" src="<?php echo constant('URL'); ?>public/img/home/packages/packages-1.jpg" alt="Generic placeholder image">
 
-                        <a href="../assets/img/home/packages/packages-1.jpg" data-fancybox="gallery" class="media-object">
+                        <a href="<?php echo constant('URL'); ?>public" data-fancybox="gallery" class="media-object">
                             <h3 class="text-uppercase mb-0">Vestibulum Tour</h3>
                         </a>
 
@@ -59,9 +59,9 @@ require 'views/navigation.php';
             <div class="col-md-6 col-lg-4 col-xl-3 element-item africa america">
                 <div class="media media-hoverable justify-content-center mb-6">
                     <div class="media-content">
-                        <img class="media-img" src="../assets/img/home/packages/packages-2.jpg" alt="Generic placeholder image">
+                        <img class="media-img" src="<?php echo constant('URL'); ?>public/img/home/packages/packages-2.jpg" alt="Generic placeholder image">
 
-                        <a href="../assets/img/home/packages/packages-2.jpg" data-fancybox="gallery" class="media-object">
+                        <a href="<?php echo constant('URL'); ?>public/img/home/packages/packages-2.jpg" data-fancybox="gallery" class="media-object">
                             <h3 class="text-uppercase mb-0">Maecenas Tour</h3>
                         </a>
 
@@ -80,9 +80,9 @@ require 'views/navigation.php';
             <div class="col-md-6 col-lg-4 col-xl-3 element-item asia america">
                 <div class="media media-hoverable justify-content-center mb-6">
                     <div class="media-content">
-                        <img class="media-img" src="../assets/img/home/packages/packages-3.jpg" alt="Generic placeholder image">
+                        <img class="media-img" src="<?php echo constant('URL'); ?>public/img/home/packages/packages-3.jpg" alt="Generic placeholder image">
 
-                        <a href="../assets/img/home/packages/packages-3.jpg" data-fancybox="gallery" class="media-object">
+                        <a href="<?php echo constant('URL'); ?>public/img/home/packages/packages-3.jpg" data-fancybox="gallery" class="media-object">
                             <h3 class="text-uppercase mb-0">Lobortis Tour</h3>
                         </a>
 
@@ -101,9 +101,9 @@ require 'views/navigation.php';
             <div class="col-md-6 col-lg-4 col-xl-3 element-item asia africa europe">
                 <div class="media media-hoverable justify-content-center mb-6">
                     <div class="media-content">
-                        <img class="media-img" src="../assets/img/home/packages/packages-4.jpg" alt="Generic placeholder image">
+                        <img class="media-img" src="<?php echo constant('URL'); ?>public/img/home/packages/packages-4.jpg" alt="Generic placeholder image">
 
-                        <a href="../assets/img/home/packages/packages-4.jpg" data-fancybox="gallery" class="media-object">
+                        <a href="<?php echo constant('URL'); ?>public/img/home/packages/packages-4.jpg" data-fancybox="gallery" class="media-object">
                             <h3 class="text-uppercase mb-0">Lacus Tour</h3>
                         </a>
 
@@ -122,9 +122,9 @@ require 'views/navigation.php';
             <div class="col-md-6 col-lg-4 col-xl-3 element-item america">
                 <div class="media media-hoverable justify-content-center mb-6 mb-xl-0">
                     <div class="media-content">
-                        <img class="media-img" src="../assets/img/home/packages/packages-5.jpg" alt="Generic placeholder image">
+                        <img class="media-img" src="<?php echo constant('URL'); ?>public/img/home/packages/packages-5.jpg" alt="Generic placeholder image">
 
-                        <a href="../assets/img/home/packages/packages-5.jpg" data-fancybox="gallery" class="media-object">
+                        <a href="<?php echo constant('URL'); ?>public/img/home/packages/packages-5.jpg" data-fancybox="gallery" class="media-object">
                             <h3 class="text-uppercase mb-0">Nullam Tour</h3>
                         </a>
 
@@ -143,9 +143,9 @@ require 'views/navigation.php';
             <div class="col-md-6 col-lg-4 col-xl-3 element-item asia africa europe">
                 <div class="media media-hoverable justify-content-center mb-6 mb-xl-0">
                     <div class="media-content">
-                        <img class="media-img" src="../assets/img/home/packages/packages-6.jpg" alt="Generic placeholder image">
+                        <img class="media-img" src="<?php echo constant('URL'); ?>public/img/home/packages/packages-6.jpg" alt="Generic placeholder image">
 
-                        <a href="../assets/img/home/packages/packages-6.jpg" data-fancybox="gallery" class="media-object">
+                        <a href="<?php echo constant('URL'); ?>public/img/home/packages/packages-6.jpg" data-fancybox="gallery" class="media-object">
                             <h3 class="text-uppercase mb-0">Maldives Tour</h3>
                         </a>
 
@@ -164,9 +164,9 @@ require 'views/navigation.php';
             <div class="col-md-6 col-lg-4 col-xl-3 element-item europe">
                 <div class="media media-hoverable justify-content-center mb-6 mb-md-0">
                     <div class="media-content">
-                        <img class="media-img" src="../assets/img/home/packages/packages-1.jpg" alt="Generic placeholder image">
+                        <img class="media-img" src="<?php echo constant('URL'); ?>public/img/home/packages/packages-1.jpg" alt="Generic placeholder image">
 
-                        <a href="../assets/img/home/packages/packages-1.jpg" data-fancybox="gallery" class="media-object">
+                        <a href="<?php echo constant('URL'); ?>public/img/home/packages/packages-1.jpg" data-fancybox="gallery" class="media-object">
                             <h3 class="text-uppercase mb-0">Quaerit Tour</h3>
                         </a>
 
@@ -185,9 +185,9 @@ require 'views/navigation.php';
             <div class="col-md-6 col-lg-4 col-xl-3 element-item asia europe">
                 <div class="media media-hoverable justify-content-center">
                     <div class="media-content">
-                        <img class="media-img" src="../assets/img/home/packages/packages-2.jpg" alt="Generic placeholder image">
+                        <img class="media-img" src="<?php echo constant('URL'); ?>public/img/home/packages/packages-2.jpg" alt="Generic placeholder image">
 
-                        <a href="../assets/img/home/packages/packages-2.jpg" data-fancybox="gallery" class="media-object">
+                        <a href="<?php echo constant('URL'); ?>public/img/home/packages/packages-2.jpg" data-fancybox="gallery" class="media-object">
                             <h3 class="text-uppercase mb-0">Hendrit Tour</h3>
                         </a>
 
