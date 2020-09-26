@@ -19,31 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76dff57e-3e27-466c-b2eb-4e742af92c0f" name="Default Changelist" comment="contactos">
-      <change afterPath="$PROJECT_DIR$/views/galeria/fotos.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/noticias/espectaculos_lista.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/noticias/futbol_lista.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/noticias/politica.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/noticias/politica_lista.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/programacion/programacio_fm_cuadro.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/programacion/programacion_am.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/programacion/programacion_am_cuadro.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/programacion/programacion_pirata.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/programacion/programacion_pirata_cuadro.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/programacion/programacion_tv.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/programacion/programacion_tv_cuadro.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/ranking/ranking_tv.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+    <list default="true" id="76dff57e-3e27-466c-b2eb-4e742af92c0f" name="Default Changelist" comment="styles">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/ranking.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/ranking.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/galeria/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/galeria/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/main/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/main/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/navigation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/nosotros/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/nosotros/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/noticias/espectaculos.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/noticias/espectaculos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/noticias/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/noticias/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/programacion/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/programacion/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/galeria/fotos.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/galeria/fotos.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/ranking/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/ranking/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,6 +84,14 @@
       <workItem from="1601068935297" duration="7000" />
       <workItem from="1601070057769" duration="2408000" />
     </task>
+    <task id="LOCAL-00001" summary="styles">
+      <created>1601077677854</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601077677854</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,7 +111,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Scrips" />
-    <option name="LAST_COMMIT_MESSAGE" value="Scrips" />
+    <MESSAGE value="styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="styles" />
   </component>
   <component name="WindowStateProjectService">
     <state x="384" y="37" key="#CLI_Interpreters" timestamp="1601070163593">
@@ -159,6 +146,10 @@
     </state>
     <state x="328" y="17" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1601076933392" />
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601055772469" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1601077679896">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1601077679896" />
     <state x="553" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601077542521">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

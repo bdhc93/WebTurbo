@@ -5,7 +5,7 @@ require 'views/navigation.php';
 <body>
 
 <section class="page-title">
-    <div class="page-title-img bg-img bg-overlay-darken" style="background-image: url(public/img/pages/page-title-bg8.jpg);">
+    <div class="page-title-img bg-img bg-overlay-darken" style="background-image: url(<?php echo constant('URL'); ?>/img/pages/page-title-bg8.jpg);">
         <div class="container">
             <div class="row align-items-center justify-content-center" style="height: 200px;">
                 <div class="col-lg-6">
@@ -37,9 +37,9 @@ require 'views/navigation.php';
                     <div class="col-12 element-item europe">
                         <div class="media media-hoverable justify-content-center mb-2 mb-md-4 mb-lg-6">
                             <div class="media-content">
-                                <img class="media-img" src="../assets/img/packages/masonry-01.jpg" alt="Generic placeholder image">
+                                <img class="media-img" src="<?php echo constant('URL'); ?>/img/packages/masonry-01.jpg" alt="Generic placeholder image">
 
-                                <a href="../assets/img/packages/masonry-01.jpg" data-fancybox="gallery" class="media-img-overlay">
+                                <a href="<?php echo constant('URL'); ?>/img/packages/masonry-01.jpg" data-fancybox="gallery" class="media-img-overlay">
                                     <div class="overlay-content">
                                         <h3 class="text-uppercase font-weight-bold mb-5">Maldives Tour</h3>
                                         <p class="text-white text-capitalize mb-5">Lorem ipsum</p>
@@ -56,9 +56,9 @@ require 'views/navigation.php';
                     <div class="col-12 element-item america">
                         <div class="media media-hoverable justify-content-center mb-2 mb-md-4 mb-lg-6">
                             <div class="media-content">
-                                <img class="media-img" src="../assets/img/packages/masonry-06.jpg" alt="Generic placeholder image">
+                                <img class="media-img" src="<?php echo constant('URL'); ?>/img/packages/masonry-06.jpg" alt="Generic placeholder image">
 
-                                <a href="../assets/img/packages/masonry-06.jpg" data-fancybox="gallery" class="media-img-overlay">
+                                <a href="<?php echo constant('URL'); ?>/img/packages/masonry-06.jpg" data-fancybox="gallery" class="media-img-overlay">
                                     <div class="overlay-content">
                                         <h3 class="text-uppercase font-weight-bold mb-5">Vestibas Tour</h3>
                                         <p class="text-white text-capitalize mb-5">Lorem ipsum</p>

@@ -70,11 +70,14 @@ require 'views/navigation.php';
 
                 <div class="card rounded-0 card-transparent border-bottom mb-7 pb-7 salsa">
                     <div class="row align-items-xl-center">
-                        <div class="col-md-6">
-                            <a href="blog-single-right-sidebar.html" class="position-relative">
-                                <img class="card-img-top rounded" src="../assets/img/blog/blog-02.jpg" alt="Card image cap">
-                                <div class="card-img-overlay card-hover-overlay rounded"></div>
-                            </a>
+                        <div id="letracollapse" class="bloque_letra_collapse margin-bottom  clearfix">
+                            <iframe id="video_ranking" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="400" height="280" src="https://www.youtube.com/embed/y8mi0XEMaRI?autoplay=0&amp;loop=1&amp;controls=1&amp;showinfo=0&amp;autohide=1&amp;modestbranding=1&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fradionuevaq.pe&amp;widgetid=1"></iframe>
+                            <div class="letra">
+                                <div id="letra-scroll" class="scroll letra_scroll mCustomScrollbar _mCS_1 mCS-autoHide mCS_no_scrollbar" data-mcs-theme="dark" style="position: relative; overflow: visible;"><div id="mCSB_1" class="mCustomScrollBox mCS-dark mCSB_vertical mCSB_outside" tabindex="0" style="max-height: none;"><div id="mCSB_1_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position: relative; left: 0px; top: 0px;" dir="ltr">
+                                        </div>
+                                    </div>
+                                    <div id="mCSB_1_scrollbar_vertical" class="mCSB_scrollTools mCSB_1_scrollbar mCS-dark mCSB_scrollTools_vertical" style="display: none;"><div class="mCSB_draggerContainer"><div id="mCSB_1_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 30px; height: 0px; top: 0px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="line-height: 30px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div>
+                            </div>
                         </div>
 
                         <div class="col-md-6">
@@ -122,11 +125,14 @@ require 'views/navigation.php';
 
                 <div class="card rounded-0 card-transparent border-bottom mb-7 pb-7">
                     <div class="row align-items-xl-center">
-                        <div class="col-md-6">
-                            <a href="blog-single-right-sidebar.html" class="position-relative">
-                                <img class="card-img-top rounded" src="../assets/img/blog/blog-03.jpg" alt="Card image cap">
-                                <div class="card-img-overlay card-hover-overlay rounded"></div>
-                            </a>
+                        <div id="letracollapse" class="bloque_letra_collapse margin-bottom  clearfix">
+                            <iframe id="video_ranking" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="400" height="280" src="https://www.youtube.com/embed/_pYeqMwZnWI?autoplay=0&amp;loop=1&amp;controls=1&amp;showinfo=0&amp;autohide=1&amp;modestbranding=1&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fradionuevaq.pe&amp;widgetid=1"></iframe>
+                            <div class="letra">
+                                <div id="letra-scroll" class="scroll letra_scroll mCustomScrollbar _mCS_1 mCS-autoHide mCS_no_scrollbar" data-mcs-theme="dark" style="position: relative; overflow: visible;"><div id="mCSB_1" class="mCustomScrollBox mCS-dark mCSB_vertical mCSB_outside" tabindex="0" style="max-height: none;"><div id="mCSB_1_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position: relative; left: 0px; top: 0px;" dir="ltr">
+                                        </div>
+                                    </div>
+                                    <div id="mCSB_1_scrollbar_vertical" class="mCSB_scrollTools mCSB_1_scrollbar mCS-dark mCSB_scrollTools_vertical" style="display: none;"><div class="mCSB_draggerContainer"><div id="mCSB_1_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 30px; height: 0px; top: 0px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="line-height: 30px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div>
+                            </div>
                         </div>
 
                         <div class="col-md-6">
