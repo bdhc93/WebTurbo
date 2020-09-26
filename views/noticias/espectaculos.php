@@ -1,8 +1,11 @@
 <?php
 require 'views/header.php';
+?>
+<body id="body" class="up-scroll" data-spy="scroll" data-target=".element-right-sidebar">
+<?php
+//require 'views/preloader.php';
 require 'views/navigation.php';
 ?>
-<body>
 
 <div class="main-wrapper home-main"></div>
 

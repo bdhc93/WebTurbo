@@ -1,8 +1,11 @@
 <?php
 require 'views/header.php';
+?>
+<body id="body" class="up-scroll" data-spy="scroll" data-target=".element-right-sidebar">
+<?php
+//require 'views/preloader.php';
 require 'views/navigation.php';
 ?>
-<body>
 
 <section class="page-title">
     <div class="page-title-img bg-img bg-overlay-darken" style="background-image: url(../assets/img/pages/page-title-bg4.jpg);">
