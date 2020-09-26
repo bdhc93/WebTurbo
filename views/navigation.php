@@ -61,14 +61,14 @@
                         <a href="javascript:void(0)">NOTICIAS</a>
                         <ul class="dropdown drop-up">
                             <li class=" ">
-                                <a href="views/noticias_deportes.html">DEPORTES</a>
+                                <a href="<?php echo constant('URL'); ?>noticias">DEPORTES</a>
                             </li>
 
                             <li class="">
-                                <a href="views/noticias_espectaculos.html">ESPECTÁCULOS</a>
+                                <a href="<?php echo constant('URL'); ?>noticias/espectaculos">ESPECTÁCULOS</a>
                             </li>
                             <li class="">
-                                <a href="views/noticias_politica.html">POLÍTICA</a>
+                                <a href="<?php echo constant('URL'); ?>noticias/politica">POLÍTICA</a>
                             </li>
                         </ul>
                     </li>

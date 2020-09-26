@@ -7,7 +7,11 @@ class Errores extends Controller
     {
         parent::__construct();
         $this->view->mensaje = "No existe la página";
-        $this->view->render('errores/index');
 //        echo "<p> Error al cargar recurso </p>";
     }
+
+    function render(){
+        $this->view->render('errores/index');
+    }
+
 }

@@ -20,31 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76dff57e-3e27-466c-b2eb-4e742af92c0f" name="Default Changelist" comment="contactos">
-      <change afterPath="$PROJECT_DIR$/views/galeria/fotos.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/noticias/espectaculos_lista.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/noticias/futbol_lista.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/noticias/politica.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/noticias/politica_lista.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/programacion/programacio_fm_cuadro.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/programacion/programacion_am.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/programacion/programacion_am_cuadro.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/programacion/programacion_pirata.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/programacion/programacion_pirata_cuadro.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/programacion/programacion_tv.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/programacion/programacion_tv_cuadro.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/ranking/ranking_tv.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/ayuda.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/ayuda.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/contactos.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/contactos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/errores.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/errores.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/galeria.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/galeria.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/nosotros.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/nosotros.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/noticias.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/noticias.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/programacion.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/programacion.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/ranking.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/ranking.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/galeria/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/galeria/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/libs/app.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/main/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/main/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/navigation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/nosotros/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/nosotros/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/noticias/espectaculos.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/noticias/espectaculos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/noticias/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/noticias/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/programacion/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/programacion/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/ranking/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/ranking/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

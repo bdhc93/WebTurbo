@@ -14,7 +14,7 @@ class App{
             $archivoController = 'controllers/main.php';
             require_once $archivoController;
             $controller = new Main();
-
+            $controller->render();
             return false;
         }
 
@@ -22,10 +22,15 @@ class App{
 
         if (file_exists($archivoController)){
             require_once $archivoController;
+
+            //inicializar controlador
             $controller = new $url[0];
 
+            // si hay un método que se requiere cargar
             if (isset($url[1])){
                 $controller->{$url[1]}();
+            }else{
+                $controller->render();
             }
         }else {
             $controller = new Errores();
