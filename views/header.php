@@ -45,5 +45,3 @@
     <![endif]-->
 
 </head>
-</html>
-<?php
