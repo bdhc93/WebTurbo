@@ -50,7 +50,7 @@ $url = explode('/', $url);
                 </a>
 
                 <ul class="menuzord-menu menuzord-right pr-0">
-                    <li class=" <?php if ($url[0] == 'main') {
+                    <li class=" <?php if ($url[0] == 'main' || empty($url[0])) {
                         echo 'active';
                     } ?> ">
                         <a class="" href="<?php echo constant('URL'); ?>main">INICIO</a>
