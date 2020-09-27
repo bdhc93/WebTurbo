@@ -8,7 +8,7 @@ require 'views/navigation.php';
 ?>
 
 <section class="page-title">
-    <div class="page-title-img bg-img bg-overlay-darken" style="background-image: url(<?php echo constant('URL'); ?>public/img/pages/page-title-bg11.jpg);">
+    <div class="page-title-img bg-img bg-overlay-darken" style="background-image: url(<?php echo constant('URL'); ?>public/images/pruebas/prog/prog_ban_pira.jpg);">
         <div class="container">
             <div class="row align-items-center justify-content-center" style="height: 200px;">
                 <div class="col-lg-6">
@@ -65,8 +65,8 @@ require 'views/navigation.php';
 
                 <div class="media media-list-view media-border flex-column flex-md-row align-items-stretch mb-5">
                     <div class="media-img position-relative">
-                        <img class="img-fluid position-relative" src="<?php echo constant('URL'); ?>public/img/holets/hotel-list-01.jpg" alt="gallery-img">
-                        <a class="media-img-overlay" data-fancybox="gallery" href="<?php echo constant('URL'); ?>public/img/holets/hotel-list-01.jpg"></a>
+                        <img class="img-fluid position-relative" src="<?php echo constant('URL'); ?>public/images/pruebas/prog/prog_pira_1.jpg" alt="gallery-img">
+                        <a class="media-img-overlay" data-fancybox="gallery" href="<?php echo constant('URL'); ?>public/images/pruebas/prog/prog_pira_1.jpg"></a>
                     </div>
 
                     <div class="media-body">
@@ -91,8 +91,8 @@ require 'views/navigation.php';
 
                 <div class="media media-list-view media-border flex-column flex-md-row align-items-stretch mb-5">
                     <div class="media-img position-relative">
-                        <img class="img-fluid position-relative" src="<?php echo constant('URL'); ?>public/img/holets/hotel-list-01.jpg" alt="gallery-img">
-                        <a class="media-img-overlay" data-fancybox="gallery" href="<?php echo constant('URL'); ?>public/img/holets/hotel-list-01.jpg"></a>
+                        <img class="img-fluid position-relative" src="<?php echo constant('URL'); ?>public/images/pruebas/prog/prog_pira_2.jpg" alt="gallery-img">
+                        <a class="media-img-overlay" data-fancybox="gallery" href="<?php echo constant('URL'); ?>public/images/pruebas/prog/prog_pira_2.jpg"></a>
                     </div>
 
                     <div class="media-body">
@@ -117,8 +117,8 @@ require 'views/navigation.php';
 
                 <div class="media media-list-view media-border flex-column flex-md-row align-items-stretch mb-5">
                     <div class="media-img position-relative">
-                        <img class="img-fluid position-relative" src="<?php echo constant('URL'); ?>public/img/holets/hotel-list-01.jpg" alt="gallery-img">
-                        <a class="media-img-overlay" data-fancybox="gallery" href="<?php echo constant('URL'); ?>public/img/holets/hotel-list-01.jpg"></a>
+                        <img class="img-fluid position-relative" src="<?php echo constant('URL'); ?>public/images/pruebas/prog/prog_pira_3.jpg" alt="gallery-img">
+                        <a class="media-img-overlay" data-fancybox="gallery" href="<?php echo constant('URL'); ?>public/images/pruebas/prog/prog_pira_3.jpg"></a>
                     </div>
 
                     <div class="media-body">
@@ -143,8 +143,8 @@ require 'views/navigation.php';
 
                 <div class="media media-list-view media-border flex-column flex-md-row align-items-stretch mb-5">
                     <div class="media-img position-relative">
-                        <img class="img-fluid position-relative" src="<?php echo constant('URL'); ?>public/img/holets/hotel-list-01.jpg" alt="gallery-img">
-                        <a class="media-img-overlay" data-fancybox="gallery" href="<?php echo constant('URL'); ?>public/img/holets/hotel-list-01.jpg"></a>
+                        <img class="img-fluid position-relative" src="<?php echo constant('URL'); ?>public/images/pruebas/prog/prog_pira_4.jpg" alt="gallery-img">
+                        <a class="media-img-overlay" data-fancybox="gallery" href="<?php echo constant('URL'); ?>public/images/pruebas/prog/prog_pira_4.jpg"></a>
                     </div>
 
                     <div class="media-body">
@@ -169,8 +169,8 @@ require 'views/navigation.php';
 
                 <div class="media media-list-view media-border flex-column flex-md-row align-items-stretch mb-5">
                     <div class="media-img position-relative">
-                        <img class="img-fluid position-relative" src="<?php echo constant('URL'); ?>public/img/holets/hotel-list-01.jpg" alt="gallery-img">
-                        <a class="media-img-overlay" data-fancybox="gallery" href="<?php echo constant('URL'); ?>public/img/holets/hotel-list-01.jpg"></a>
+                        <img class="img-fluid position-relative" src="<?php echo constant('URL'); ?>public/images/pruebas/prog/prog_pira_5.jpg" alt="gallery-img">
+                        <a class="media-img-overlay" data-fancybox="gallery" href="<?php echo constant('URL'); ?>public/images/pruebas/prog/prog_pira_5.jpg"></a>
                     </div>
 
                     <div class="media-body">
@@ -195,8 +195,8 @@ require 'views/navigation.php';
 
                 <div class="media media-list-view media-border flex-column flex-md-row align-items-stretch mb-5">
                     <div class="media-img position-relative">
-                        <img class="img-fluid position-relative" src="<?php echo constant('URL'); ?>public/img/holets/hotel-list-01.jpg" alt="gallery-img">
-                        <a class="media-img-overlay" data-fancybox="gallery" href="<?php echo constant('URL'); ?>public/img/holets/hotel-list-01.jpg"></a>
+                        <img class="img-fluid position-relative" src="<?php echo constant('URL'); ?>public/images/pruebas/prog/prog_pira_6.jpg" alt="gallery-img">
+                        <a class="media-img-overlay" data-fancybox="gallery" href="<?php echo constant('URL'); ?>public/images/pruebas/prog/prog_pira_6.jpg"></a>
                     </div>
 
                     <div class="media-body">
@@ -221,8 +221,8 @@ require 'views/navigation.php';
 
                 <div class="media media-list-view media-border flex-column flex-md-row align-items-stretch mb-5">
                     <div class="media-img position-relative">
-                        <img class="img-fluid position-relative" src="<?php echo constant('URL'); ?>public/img/holets/hotel-list-01.jpg" alt="gallery-img">
-                        <a class="media-img-overlay" data-fancybox="gallery" href="<?php echo constant('URL'); ?>public/img/holets/hotel-list-01.jpg"></a>
+                        <img class="img-fluid position-relative" src="<?php echo constant('URL'); ?>public/images/pruebas/prog/prog_pira_7.jpg" alt="gallery-img">
+                        <a class="media-img-overlay" data-fancybox="gallery" href="<?php echo constant('URL'); ?>public/images/pruebas/prog/prog_pira_7.jpg"></a>
                     </div>
 
                     <div class="media-body">
@@ -247,8 +247,8 @@ require 'views/navigation.php';
 
                 <div class="media media-list-view media-border flex-column flex-md-row align-items-stretch mb-5">
                     <div class="media-img position-relative">
-                        <img class="img-fluid position-relative" src="<?php echo constant('URL'); ?>public/img/holets/hotel-list-01.jpg" alt="gallery-img">
-                        <a class="media-img-overlay" data-fancybox="gallery" href="<?php echo constant('URL'); ?>public/img/holets/hotel-list-01.jpg"></a>
+                        <img class="img-fluid position-relative" src="<?php echo constant('URL'); ?>public/images/pruebas/prog/prog_pira_8.jpg" alt="gallery-img">
+                        <a class="media-img-overlay" data-fancybox="gallery" href="<?php echo constant('URL'); ?>public/images/pruebas/prog/prog_pira_8.jpg"></a>
                     </div>
 
                     <div class="media-body">
@@ -273,8 +273,8 @@ require 'views/navigation.php';
 
                 <div class="media media-list-view media-border flex-column flex-md-row align-items-stretch mb-5">
                     <div class="media-img position-relative">
-                        <img class="img-fluid position-relative" src="<?php echo constant('URL'); ?>public/img/holets/hotel-list-01.jpg" alt="gallery-img">
-                        <a class="media-img-overlay" data-fancybox="gallery" href="<?php echo constant('URL'); ?>public/img/holets/hotel-list-01.jpg"></a>
+                        <img class="img-fluid position-relative" src="<?php echo constant('URL'); ?>public/images/pruebas/prog/prog_pira_9.jpg" alt="gallery-img">
+                        <a class="media-img-overlay" data-fancybox="gallery" href="<?php echo constant('URL'); ?>public/images/pruebas/prog/prog_pira_9.jpg"></a>
                     </div>
 
                     <div class="media-body">

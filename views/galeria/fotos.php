@@ -8,7 +8,7 @@ require 'views/navigation.php';
 ?>
 
 <section class="page-title">
-    <div class="page-title-img bg-img bg-overlay-darken" style="background-image: url(<?php echo constant('URL'); ?>/img/pages/page-title-bg8.jpg);">
+    <div class="page-title-img bg-img bg-overlay-darken" style="background-image: url(<?php echo constant('URL'); ?>public/images/pruebas/gal/gale_ban_fot.jpg);">
         <div class="container">
             <div class="row align-items-center justify-content-center" style="height: 200px;">
                 <div class="col-lg-6">
@@ -40,16 +40,12 @@ require 'views/navigation.php';
                     <div class="col-12 element-item europe">
                         <div class="media media-hoverable justify-content-center mb-2 mb-md-4 mb-lg-6">
                             <div class="media-content">
-                                <img class="media-img" src="<?php echo constant('URL'); ?>/img/packages/masonry-01.jpg" alt="Generic placeholder image">
+                                <img class="media-img" src="<?php echo constant('URL'); ?>public/images/pruebas/gal/fotos_1.jpg" alt="Generic placeholder image">
 
-                                <a href="<?php echo constant('URL'); ?>/img/packages/masonry-01.jpg" data-fancybox="gallery" class="media-img-overlay">
+                                <a href="<?php echo constant('URL'); ?>public/images/pruebas/gal/fotos_1.jpg" data-fancybox="gallery" class="media-img-overlay">
                                     <div class="overlay-content">
                                         <h3 class="text-uppercase font-weight-bold mb-5">Maldives Tour</h3>
                                         <p class="text-white text-capitalize mb-5">Lorem ipsum</p>
-
-                                        <button type="button" onclick="location.href='jascript:void(0)';" class="btn btn-xs btn-sale btn-primary text-uppercase">
-                                            View more
-                                        </button>
                                     </div>
                                 </a>
                             </div>
@@ -59,17 +55,12 @@ require 'views/navigation.php';
                     <div class="col-12 element-item america">
                         <div class="media media-hoverable justify-content-center mb-2 mb-md-4 mb-lg-6">
                             <div class="media-content">
-                                <img class="media-img" src="<?php echo constant('URL'); ?>/img/packages/masonry-06.jpg" alt="Generic placeholder image">
+                                <img class="media-img" src="<?php echo constant('URL'); ?>public/images/pruebas/gal/fotos_2.jpg" alt="Generic placeholder image">
 
-                                <a href="<?php echo constant('URL'); ?>/img/packages/masonry-06.jpg" data-fancybox="gallery" class="media-img-overlay">
+                                <a href="<?php echo constant('URL'); ?>public/images/pruebas/gal/fotos_2.jpg" data-fancybox="gallery" class="media-img-overlay">
                                     <div class="overlay-content">
                                         <h3 class="text-uppercase font-weight-bold mb-5">Vestibas Tour</h3>
                                         <p class="text-white text-capitalize mb-5">Lorem ipsum</p>
-
-                                        <button type="button" onclick="location.href='jascript:void(0)';"
-                                                class="btn btn-xs btn-sale btn-primary text-uppercase">
-                                            View more
-                                        </button>
                                     </div>
                                 </a>
                             </div>
@@ -79,17 +70,13 @@ require 'views/navigation.php';
                     <div class="col-12 element-item asia africa">
                         <div class="media media-hoverable justify-content-center mb-2 mb-md-0">
                             <div class="media-content">
-                                <img class="media-img" src="../assets/img/packages/masonry-09.jpg" alt="Generic placeholder image">
+                                <img class="media-img" src="<?php echo constant('URL'); ?>public/images/pruebas/gal/fotos_3.jpg" alt="Generic placeholder image">
 
-                                <a href="../assets/img/packages/masonry-09.jpg" data-fancybox="gallery" class="media-img-overlay">
+                                <a href="<?php echo constant('URL'); ?>public/images/pruebas/gal/fotos_3.jpg" data-fancybox="gallery" class="media-img-overlay">
                                     <div class="overlay-content">
                                         <h3 class="text-uppercase font-weight-bold mb-3">Blandit Tour</h3>
                                         <p class="text-white text-capitalize mb-4">Lorem ipsum</p>
 
-                                        <button type="button" onclick="location.href='jascript:void(0)';"
-                                                class="btn btn-xs btn-sale btn-primary text-uppercase">
-                                            View more
-                                        </button>
                                     </div>
                                 </a>
                             </div>
@@ -103,17 +90,14 @@ require 'views/navigation.php';
                     <div class="col-12 element-item america">
                         <div class="media media-hoverable justify-content-center mb-2 mb-md-4 mb-lg-6">
                             <div class="media-content">
-                                <img class="media-img" src="../assets/img/packages/masonry-02.jpg" alt="Generic placeholder image">
+                                <img class="media-img" src="<?php echo constant('URL'); ?>public/images/pruebas/gal/fotos_4.jpg" alt="Generic placeholder image">
 
-                                <a href="../assets/img/packages/masonry-02.jpg" data-fancybox="gallery" class="media-img-overlay">
+                                <a href="<?php echo constant('URL'); ?>public/images/pruebas/gal/fotos_4.jpg" data-fancybox="gallery" class="media-img-overlay">
                                     <div class="overlay-content">
                                         <h3 class="text-uppercase font-weight-bold mb-3">Supendis Tour</h3>
                                         <p class="text-white text-capitalize mb-4">Lorem ipsum</p>
 
-                                        <button type="button" onclick="location.href='jascript:void(0)';"
-                                                class="btn btn-xs btn-sale btn-primary text-uppercase">
-                                            View more
-                                        </button>
+
                                     </div>
                                 </a>
                             </div>
@@ -123,17 +107,14 @@ require 'views/navigation.php';
                     <div class="col-12 element-item asia africa">
                         <div class="media media-hoverable justify-content-center mb-2 mb-md-4 mb-lg-6">
                             <div class="media-content">
-                                <img class="media-img" src="../assets/img/packages/masonry-04.jpg" alt="Generic placeholder image">
+                                <img class="media-img" src="<?php echo constant('URL'); ?>public/images/pruebas/gal/fotos_5.jpg" alt="Generic placeholder image">
 
-                                <a href="../assets/img/packages/masonry-04.jpg" data-fancybox="gallery" class="media-img-overlay">
+                                <a href="<?php echo constant('URL'); ?>public/images/pruebas/gal/fotos_5.jpg" data-fancybox="gallery" class="media-img-overlay">
                                     <div class="overlay-content">
                                         <h3 class="text-uppercase font-weight-bold mb-3">Eroserat Tour</h3>
                                         <p class="text-white text-capitalize mb-4">Lorem ipsum</p>
 
-                                        <button type="button" onclick="location.href='jascript:void(0)';"
-                                                class="btn btn-xs btn-sale btn-primary text-uppercase">
-                                            View more
-                                        </button>
+
                                     </div>
                                 </a>
                             </div>
@@ -143,17 +124,14 @@ require 'views/navigation.php';
                     <div class="col-12 element-item europe">
                         <div class="media media-hoverable justify-content-center mb-2 mb-md-0">
                             <div class="media-content">
-                                <img class="media-img" src="../assets/img/packages/masonry-05.jpg" alt="Generic placeholder image">
+                                <img class="media-img" src="<?php echo constant('URL'); ?>public/images/pruebas/gal/fotos_6.jpg" alt="Generic placeholder image">
 
-                                <a href="../assets/img/packages/masonry-05.jpg" data-fancybox="gallery" class="media-img-overlay">
+                                <a href="<?php echo constant('URL'); ?>public/images/pruebas/gal/fotos_6.jpg" data-fancybox="gallery" class="media-img-overlay">
                                     <div class="overlay-content">
                                         <h3 class="text-uppercase font-weight-bold mb-3">Quisque Tour</h3>
                                         <p class="text-white text-capitalize mb-4">Lorem ipsum</p>
 
-                                        <button type="button" onclick="location.href='jascript:void(0)';"
-                                                class="btn btn-xs btn-sale btn-primary text-uppercase">
-                                            View more
-                                        </button>
+
                                     </div>
                                 </a>
                             </div>
@@ -167,17 +145,14 @@ require 'views/navigation.php';
                     <div class="col-12 element-item america africa">
                         <div class="media media-hoverable justify-content-center mb-2 mb-md-4 mb-lg-6">
                             <div class="media-content">
-                                <img class="media-img" src="../assets/img/packages/masonry-03.jpg" alt="Generic placeholder image">
+                                <img class="media-img" src="<?php echo constant('URL'); ?>public/images/pruebas/gal/fotos_7.jpg" alt="Generic placeholder image">
 
-                                <a href="../assets/img/packages/masonry-03.jpg" data-fancybox="gallery" class="media-img-overlay">
+                                <a href="<?php echo constant('URL'); ?>public/images/pruebas/gal/fotos_7.jpg" data-fancybox="gallery" class="media-img-overlay">
                                     <div class="overlay-content">
                                         <h3 class="text-uppercase font-weight-bold mb-3">Maldives Tour</h3>
                                         <p class="text-white text-capitalize mb-4">Lorem ipsum</p>
 
-                                        <button type="button" onclick="location.href='jascript:void(0)';"
-                                                class="btn btn-xs btn-sale btn-primary text-uppercase">
-                                            View more
-                                        </button>
+
                                     </div>
                                 </a>
                             </div>
@@ -187,17 +162,14 @@ require 'views/navigation.php';
                     <div class="col-12 element-item  europe">
                         <div class="media media-hoverable justify-content-center mb-2 mb-md-4 mb-lg-6">
                             <div class="media-content">
-                                <img class="media-img" src="../assets/img/packages/masonry-07.jpg" alt="Generic placeholder image">
+                                <img class="media-img" src="<?php echo constant('URL'); ?>public/images/pruebas/gal/fotos_8.jpg" alt="Generic placeholder image">
 
-                                <a href="../assets/img/packages/masonry-07.jpg" data-fancybox="gallery" class="media-img-overlay">
+                                <a href="<?php echo constant('URL'); ?>public/images/pruebas/gal/fotos_8.jpg" data-fancybox="gallery" class="media-img-overlay">
                                     <div class="overlay-content">
                                         <h3 class="text-uppercase font-weight-bold mb-3">Vestibas Tour</h3>
                                         <p class="text-white text-capitalize mb-4">Lorem ipsum</p>
 
-                                        <button type="button" onclick="location.href='jascript:void(0)';"
-                                                class="btn btn-xs btn-sale btn-primary text-uppercase">
-                                            View more
-                                        </button>
+
                                     </div>
                                 </a>
                             </div>
@@ -207,17 +179,14 @@ require 'views/navigation.php';
                     <div class="col-12 element-item asia">
                         <div class="media media-hoverable justify-content-center">
                             <div class="media-content">
-                                <img class="media-img" src="../assets/img/packages/masonry-08.jpg" alt="Generic placeholder image">
+                                <img class="media-img" src="<?php echo constant('URL'); ?>public/images/pruebas/gal/fotos_9.jpg" alt="Generic placeholder image">
 
-                                <a href="../assets/img/packages/masonry-08.jpg" data-fancybox="gallery" class="media-img-overlay">
+                                <a href="<?php echo constant('URL'); ?>public/images/pruebas/gal/fotos_9.jpg" data-fancybox="gallery" class="media-img-overlay">
                                     <div class="overlay-content">
                                         <h3 class="text-uppercase font-weight-bold mb-5">Maldives Tour</h3>
                                         <p class="text-white text-capitalize mb-5">Lorem ipsum</p>
 
-                                        <button type="button" onclick="location.href='jascript:void(0)';"
-                                                class="btn btn-xs btn-sale btn-primary text-uppercase">
-                                            View more
-                                        </button>
+
                                     </div>
                                 </a>
                             </div>

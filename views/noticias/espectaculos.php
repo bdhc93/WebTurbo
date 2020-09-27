@@ -10,7 +10,7 @@ require 'views/navigation.php';
 <div class="main-wrapper home-main"></div>
 
 <section class="page-title">
-    <div class="page-title-img bg-img bg-overlay-darken" style="background-image: url(<?php echo constant('URL'); ?>public/img/pages/page-title-bg15.jpg);">
+    <div class="page-title-img bg-img bg-overlay-darken" style="background-image: url(<?php echo constant('URL'); ?>public/images/pruebas/noti/not_espec_ban.jpg);">
         <div class="container">
             <div class="row align-items-center justify-content-center" style="height: 200px;">
                 <div class="col-lg-6">
@@ -55,7 +55,7 @@ require 'views/navigation.php';
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="card card-hover">
                             <a href="javascript:void(0)" class="position-relative">
-                                <img class="card-img-top" src="<?php echo constant('URL'); ?>public/img/cars/car-img-01.jpg" alt="Card image cap">
+                                <img class="card-img-top" src="<?php echo constant('URL'); ?>public/images/pruebas/noti/not_espec_0001.jpg" alt="Card image cap">
                                 <div class="card-img-overlay card-hover-overlay rounded-top d-flex flex-column">
                                     <small>
                                         <ul class="list-unstyled d-flex text-white font-weight-bold mb-0">
@@ -86,7 +86,7 @@ require 'views/navigation.php';
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="card card-hover">
                             <a href="javascript:void(0)" class="position-relative">
-                                <img class="card-img-top" src="<?php echo constant('URL'); ?>public/img/cars/car-img-01.jpg" alt="Card image cap">
+                                <img class="card-img-top" src="<?php echo constant('URL'); ?>public/images/pruebas/noti/not_espec_0002.jpg" alt="Card image cap">
                                 <div class="card-img-overlay card-hover-overlay rounded-top d-flex flex-column">
                                     <small>
                                         <ul class="list-unstyled d-flex text-white font-weight-bold mb-0">
@@ -117,7 +117,7 @@ require 'views/navigation.php';
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="card card-hover">
                             <a href="javascript:void(0)" class="position-relative">
-                                <img class="card-img-top" src="<?php echo constant('URL'); ?>public/img/cars/car-img-01.jpg" alt="Card image cap">
+                                <img class="card-img-top" src="<?php echo constant('URL'); ?>public/images/pruebas/noti/not_espec_0003.jpg" alt="Card image cap">
                                 <div class="card-img-overlay card-hover-overlay rounded-top d-flex flex-column">
                                     <small>
                                         <ul class="list-unstyled d-flex text-white font-weight-bold mb-0">
@@ -148,7 +148,7 @@ require 'views/navigation.php';
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="card card-hover">
                             <a href="javascript:void(0)" class="position-relative">
-                                <img class="card-img-top" src="<?php echo constant('URL'); ?>public/img/cars/car-img-01.jpg" alt="Card image cap">
+                                <img class="card-img-top" src="<?php echo constant('URL'); ?>public/images/pruebas/noti/not_espec_0004.jpg" alt="Card image cap">
                                 <div class="card-img-overlay card-hover-overlay rounded-top d-flex flex-column">
                                     <small>
                                         <ul class="list-unstyled d-flex text-white font-weight-bold mb-0">
@@ -179,7 +179,7 @@ require 'views/navigation.php';
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="card card-hover">
                             <a href="javascript:void(0)" class="position-relative">
-                                <img class="card-img-top" src="<?php echo constant('URL'); ?>public/img/cars/car-img-01.jpg" alt="Card image cap">
+                                <img class="card-img-top" src="<?php echo constant('URL'); ?>public/images/pruebas/noti/not_espec_0005.jpg" alt="Card image cap">
                                 <div class="card-img-overlay card-hover-overlay rounded-top d-flex flex-column">
                                     <small>
                                         <ul class="list-unstyled d-flex text-white font-weight-bold mb-0">
@@ -210,7 +210,7 @@ require 'views/navigation.php';
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="card card-hover">
                             <a href="javascript:void(0)" class="position-relative">
-                                <img class="card-img-top" src="<?php echo constant('URL'); ?>public/img/cars/car-img-01.jpg" alt="Card image cap">
+                                <img class="card-img-top" src="<?php echo constant('URL'); ?>public/images/pruebas/noti/not_espec_0006.jpg" alt="Card image cap">
                                 <div class="card-img-overlay card-hover-overlay rounded-top d-flex flex-column">
                                     <small>
                                         <ul class="list-unstyled d-flex text-white font-weight-bold mb-0">
@@ -241,7 +241,7 @@ require 'views/navigation.php';
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="card card-hover">
                             <a href="javascript:void(0)" class="position-relative">
-                                <img class="card-img-top" src="<?php echo constant('URL'); ?>public/img/cars/car-img-01.jpg" alt="Card image cap">
+                                <img class="card-img-top" src="<?php echo constant('URL'); ?>public/images/pruebas/noti/not_espec_0007.jpg" alt="Card image cap">
                                 <div class="card-img-overlay card-hover-overlay rounded-top d-flex flex-column">
                                     <small>
                                         <ul class="list-unstyled d-flex text-white font-weight-bold mb-0">
@@ -272,7 +272,7 @@ require 'views/navigation.php';
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="card card-hover">
                             <a href="javascript:void(0)" class="position-relative">
-                                <img class="card-img-top" src="<?php echo constant('URL'); ?>public/img/cars/car-img-01.jpg" alt="Card image cap">
+                                <img class="card-img-top" src="<?php echo constant('URL'); ?>public/images/pruebas/noti/not_espec_0008.jpg" alt="Card image cap">
                                 <div class="card-img-overlay card-hover-overlay rounded-top d-flex flex-column">
                                     <small>
                                         <ul class="list-unstyled d-flex text-white font-weight-bold mb-0">
@@ -303,7 +303,7 @@ require 'views/navigation.php';
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="card card-hover">
                             <a href="javascript:void(0)" class="position-relative">
-                                <img class="card-img-top" src="<?php echo constant('URL'); ?>public/img/cars/car-img-01.jpg" alt="Card image cap">
+                                <img class="card-img-top" src="<?php echo constant('URL'); ?>public/images/pruebas/noti/not_espec_0009.jpg" alt="Card image cap">
                                 <div class="card-img-overlay card-hover-overlay rounded-top d-flex flex-column">
                                     <small>
                                         <ul class="list-unstyled d-flex text-white font-weight-bold mb-0">
