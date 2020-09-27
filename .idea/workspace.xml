@@ -19,23 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76dff57e-3e27-466c-b2eb-4e742af92c0f" name="Default Changelist" comment="styles 2">
-      <change afterPath="$PROJECT_DIR$/public/images/pruebas/img_nos_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/pruebas/img_nos_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/pruebas/img_nos_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/pruebas/img_nos_anun_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/pruebas/img_nos_ban_1.jpg" afterDir="false" />
+    <list default="true" id="76dff57e-3e27-466c-b2eb-4e742af92c0f" name="Default Changelist" comment="Navigatión">
       <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/nosotros/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/nosotros/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/noticias/espectaculos.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/noticias/espectaculos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/noticias/futbol_lista.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/noticias/futbol_lista.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/noticias/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/noticias/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/noticias/politica.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/noticias/politica.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/programacion/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/programacion/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/programacion/programacion_am.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/programacion/programacion_am.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/programacion/programacion_pirata.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/programacion/programacion_pirata.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/programacion/programacion_tv.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/programacion/programacion_tv.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/navigation.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,13 +61,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../php/php.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="web.server" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\WebTurbo" />
       <recent name="C:\xampp\htdocs\WebTurbo\public" />
     </key>
   </component>
