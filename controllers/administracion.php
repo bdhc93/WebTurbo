@@ -74,4 +74,8 @@ class Administracion extends Controller {
     function roles(){
         $this->view->render('administracion/roles');
     }
+
+    function upload(){
+        $this->view->render('administracion/upload');
+    }
 }
