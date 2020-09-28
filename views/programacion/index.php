@@ -77,9 +77,10 @@ require 'views/navigation.php';
                                 </h4>
 
 
-                                <p class="mb-md-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                <p class="mb-md-0">Lorem ipsum dolor sit adgsfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffmet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
                                     aliqua.</p>
-
+                                <br>
+                                <br>
                                 <div class="date-view">
                                     <span><i class="fa fa-calendar" aria-hidden="true"></i> 27 jan, 2019</span>
                                     <span><i class="fa fa-clock-o" aria-hidden="true"></i> 5 days</span>
