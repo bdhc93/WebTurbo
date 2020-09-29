@@ -10,7 +10,7 @@ require 'views/navigation.php';
 <section class="page-title">
     <div class="page-title-img bg-img bg-overlay-darken" style="background-image: url(<?php echo constant('URL'); ?>public/images/pruebas/nos_mis/img_nos_ban_1.jpg);">
         <div class="container">
-            <div class="row align-items-center justify-content-center" style="height: 200px;">
+            <div class="row align-items-center justify-content-center" style="height: 200px ;">
                 <div class="col-lg-6">
                     <div class="page-title-content">
                         <div class="">

@@ -550,219 +550,180 @@ require 'views/navigation.php';
 
                     <div class="col-md-6">
                         <div class="media-body">
+
                             <p class="mb-xl-5">Contamos con gran cobertura en la región norte del país, gracias a nuestras potentes estaciones retransmisoras en las principales ciudades</p>
                             <h3 class="text-uppercase text-white font-weight-bold mb-xl-5">Estamos ubicados <br>en:
                             </h3>
-                            <div class="row">
-                                <div class="col-md-6 col-lg-4">
-                                    <ul class="list-unstyled mb-xl-5">
-                                        <li class="media mb-xl-2">
-                                            <div class="mr-2">
-                                                <i class="fa fa-minus"></i>
-                                            </div>
-                                            <div class="media-body">
-                                                Cutervo 103.1 FM
-                                            </div>
-                                        </li>
-                                        <li class="media mb-xl-2">
-                                            <div class="mr-2">
-                                                <i class="fa fa-minus"></i>
-                                            </div>
-                                            <div class="media-body">
-                                                Cutervo 103.1 FM
-                                            </div>
-                                        </li>
-
-                                        <li class="media mb-xl-2">
-                                            <div class="mr-2">
-                                                <i class="fa fa-minus"></i>
-                                            </div>
-                                            <div class="media-body">
-                                                Namora 91.5 FM
-                                            </div>
-                                        </li>
-
-                                        <li class="media mb-xl-2">
-                                            <div class="mr-2">
-                                                <i class="fa fa-minus"></i>
-                                            </div>
-                                            <div class="media-body">
-                                               Oxamarca 94.5 FM
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <div class="col-md-6 col-lg-4">
-                                    <ul class="list-unstyled mb-xl-5">
-                                        <li class="media align-items-center mb-xl-2">
-                                            <div class="mr-2">
-                                                <i class="fa fa-minus"></i>
-                                            </div>
-                                            <div class="media-body">
-                                                Europe
-                                            </div>
-                                        </li>
-
-                                        <li class="">
-                                            <a href="destination-single-city.html"
-                                               class="media d-inline-flex align-items-center">
-                                                <i class="fa fa-square mr-2"></i>
-                                                <div class="media-body">
-                                                    Maecenas
+                            <div class="mb-5">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <ul class="list-unstyled mb-0">
+                                            <li class="media">
+                                                <div class="text-gray-color mr-2">
+                                                    <i class="fa fa-dot-circle-o"  style="color: gray" aria-hidden="true"></i>
                                                 </div>
-                                            </a>
-                                        </li>
-
-                                        <li class="">
-                                            <a href="destination-single-city.html"
-                                               class="media d-inline-flex align-items-center">
-                                                <i class="fa fa-square mr-2"></i>
                                                 <div class="media-body">
-                                                    Cras Sagittis
+                                                    <p>Cajabamba 105.7 FM</p>
                                                 </div>
-                                            </a>
-                                        </li>
+                                            </li>
 
-                                        <li class="">
-                                            <a href="destination-single-city.html"
-                                               class="media d-inline-flex align-items-center">
-                                                <i class="fa fa-square mr-2"></i>
+                                            <li class="media">
+                                                <div class="text-gray-color mr-2">
+                                                    <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+                                                </div>
                                                 <div class="media-body">
-                                                    Vestibulum
+                                                    <p>Cutervo 103.1 FM</p>
                                                 </div>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
+                                            </li>
 
-                                <div class="col-md-6 col-lg-4">
-                                    <ul class="list-unstyled mb-xl-5">
-                                        <li class="media align-items-center mb-xl-2">
-                                            <div class="mr-2">
-                                                <i class="fa fa-minus"></i>
-                                            </div>
-                                            <div class="media-body">
-                                                America
-                                            </div>
-                                        </li>
-
-                                        <li class="">
-                                            <a href="destination-single-city.html"
-                                               class="media d-inline-flex align-items-center">
-                                                <i class="fa fa-square mr-2"></i>
+                                            <li class="media">
+                                                <div class="text-gray-color mr-2">
+                                                    <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+                                                </div>
                                                 <div class="media-body">
-                                                    Morbi Sed
+                                                    <p>Namora 91.5 FM</p>
                                                 </div>
-                                            </a>
-                                        </li>
-
-                                        <li class="">
-                                            <a href="destination-single-city.html"
-                                               class="media d-inline-flex align-items-center">
-                                                <i class="fa fa-square mr-2"></i>
+                                            </li>
+                                            <li class="media">
+                                                <div class="text-gray-color mr-2">
+                                                    <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+                                                </div>
                                                 <div class="media-body">
-                                                    Pellentesque
+                                                    <p>Oxamarca 94.5 FM</p>
                                                 </div>
-                                            </a>
-                                        </li>
-
-                                        <li class="">
-                                            <a href="destination-single-city.html"
-                                               class="media d-inline-flex align-items-center">
-                                                <i class="fa fa-square mr-2"></i>
+                                            </li>
+                                            <li class="media">
+                                                <div class="text-gray-color mr-2">
+                                                    <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+                                                </div>
                                                 <div class="media-body">
-                                                    Proin
+                                                    <p>San Miguel 102.7 FM</p>
                                                 </div>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <div class="col-md-4">
-                                    <ul class="list-unstyled mb-xl-5">
-                                        <li class="media align-items-center mb-xl-2">
-                                            <div class="mr-2">
-                                                <i class="fa fa-minus"></i>
-                                            </div>
-                                            <div class="media-body">
-                                                Africa
-                                            </div>
-                                        </li>
-
-                                        <li class="">
-                                            <a href="destination-single-city.html"
-                                               class="media d-inline-flex align-items-center">
-                                                <i class="fa fa-square mr-2"></i>
+                                            </li>
+                                            <li class="media">
+                                                <div class="text-gray-color mr-2">
+                                                    <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+                                                </div>
                                                 <div class="media-body">
-                                                    Duis Eu
+                                                    <p>Chota 91.5 FM</p>
                                                 </div>
-                                            </a>
-                                        </li>
+                                            </li>
 
-                                        <li class="">
-                                            <a href="destination-single-city.html"
-                                               class="media d-inline-flex align-items-center">
-                                                <i class="fa fa-square mr-2"></i>
+                                            <li class="media">
+                                                <div class="text-gray-color mr-2">
+                                                    <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+                                                </div>
                                                 <div class="media-body">
-                                                    Morbi Nisl
+                                                    <p>Colasay 96.9 FM</p>
                                                 </div>
-                                            </a>
-                                        </li>
+                                            </li>
 
-                                        <li class="">
-                                            <a href="destination-single-city.html"
-                                               class="media d-inline-flex align-items-center">
-                                                <i class="fa fa-square mr-2"></i>
+                                            <li class="media">
+                                                <div class="text-gray-color mr-2">
+                                                    <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+                                                </div>
                                                 <div class="media-body">
-                                                    Curabitur
+                                                    <p>Huamachuco 90.5 FM</p>
                                                 </div>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
+                                            </li>
 
-                                <div class="col-md-6 col-lg-4">
-                                    <ul class="list-unstyled mb-xl-5">
-                                        <li class="media align-items-center mb-xl-2">
-                                            <div class="mr-2">
-                                                <i class="fa fa-minus"></i>
-                                            </div>
-                                            <div class="media-body">
-                                                Australia
-                                            </div>
-                                        </li>
-
-                                        <li class="">
-                                            <a href="destination-single-city.html"
-                                               class="media d-inline-flex align-items-center">
-                                                <i class="fa fa-square mr-2"></i>
+                                            <li class="media">
+                                                <div class="text-gray-color mr-2">
+                                                    <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+                                                </div>
                                                 <div class="media-body">
-                                                    Vivamus
+                                                    <p>San Pablo 100.1 FM</p>
                                                 </div>
-                                            </a>
-                                        </li>
-
-                                        <li class="">
-                                            <a href="destination-single-city.html"
-                                               class="media d-inline-flex align-items-center">
-                                                <i class="fa fa-square mr-2"></i>
+                                            </li>
+                                            <li class="media">
+                                                <div class="text-gray-color mr-2">
+                                                    <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+                                                </div>
                                                 <div class="media-body">
-                                                    Nibh Odio
+                                                    <p>Hualgayoc 101.9 FM</p>
                                                 </div>
-                                            </a>
-                                        </li>
+                                            </li>
+                                        </ul>
+                                    </div>
 
-                                        <li class="">
-                                            <a href="destination-single-city.html"
-                                               class="media d-inline-flex align-items-center">
-                                                <i class="fa fa-square mr-2"></i>
-                                                <div class="media-body">
-                                                    Dictum
+                                    <div class="col-lg-6">
+                                        <ul class="list-unstyled mb-0">
+                                            <li class="media">
+                                                <div class="text-gray-color mr-2">
+                                                    <i class="fa fa-dot-circle-o" style="color: gray" aria-hidden="true"></i>
                                                 </div>
-                                            </a>
-                                        </li>
-                                    </ul>
+                                                <div class="media-body">
+                                                    <p>Jaén 101.7 FM</p>
+                                                </div>
+                                            </li>
+
+                                            <li class="media">
+                                                <div class="text-gray-color mr-2">
+                                                    <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="media-body">
+                                                    <p>Santiago de Chuco 103.7 FM</p>
+                                                </div>
+                                            </li>
+                                            <li class="media">
+                                                <div class="text-gray-color mr-2">
+                                                    <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="media-body">
+                                                    <p>Cospan 91.1 FM</p>
+                                                </div>
+                                            </li>
+                                            <li class="media">
+                                                <div class="text-gray-color mr-2">
+                                                    <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="media-body">
+                                                    <p>Chilete 100.1 FM</p>
+                                                </div>
+                                            </li>
+                                            <li class="media">
+                                                <div class="text-gray-color mr-2">
+                                                    <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="media-body">
+                                                    <p>Sorochuco 94.3 FM</p>
+                                                </div>
+                                            </li>
+                                            <li class="media">
+                                                <div class="text-gray-color mr-2">
+                                                    <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="media-body">
+                                                    <p>San Marcos 105.3 FM</p>
+                                                </div>
+                                            </li>
+                                            <li class="media">
+                                                <div class="text-gray-color mr-2">
+                                                    <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="media-body">
+                                                    <p>Bambamarca 101.9 FM</p>
+                                                </div>
+                                            </li>
+                                            <li class="media">
+                                                <div class="text-gray-color mr-2">
+                                                    <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="media-body">
+                                                    <p>Celendín 105.3 FM</p>
+                                                </div>
+                                            </li>
+
+                                            <li class="media">
+                                                <div class="text-gray-color mr-2">
+                                                    <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="media-body">
+                                                    <p>Matara 91.5 FM</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -785,33 +746,34 @@ require 'views/navigation.php';
                 <div class="col-6 col-md-3 mb-5 mb-md-0">
                     <div class="icon icon-lg rounded-circle mx-auto bg-primary mb-3">
                         <i class="fa fa-map-marker text-white" aria-hidden="true"></i>
+
                     </div>
-                    <h1 class="counter-value mb-2" data-count="179">0</h1>
-                    <h6 class="">Destinations</h6>
+                    <h1 class="counter-value mb-2" data-count="39833">0</h1>
+                    <h6 class="">Casos Confirmados</h6>
                 </div>
 
                 <div class="col-6 col-md-3 mb-5 mb-md-0">
                     <div class="icon icon-lg rounded-circle mx-auto bg-primary mb-3">
                         <i class="fa fa-gift text-white" aria-hidden="true"></i>
                     </div>
-                    <h1 class="counter-value mb-2" data-count="48">0</h1>
-                    <h6 class="">Tour pack</h6>
+                    <h1 class="counter-value mb-2" data-count="95602">0</h1>
+                    <h6 class="">Casos Descartados</h6>
                 </div>
 
                 <div class="col-6 col-md-3">
                     <div class="icon icon-lg rounded-circle mx-auto bg-primary mb-3">
                         <i class="fa fa-smile-o text-white" aria-hidden="true"></i>
                     </div>
-                    <h1 class="counter-value mb-2" data-count="4562">0</h1>
-                    <h6 class="">Happy clients</h6>
+                    <h1 class="counter-value mb-2" data-count="27092">0</h1>
+                    <h6 class="">Pacientes Recuperados</h6>
                 </div>
 
                 <div class="col-6 col-md-3">
                     <div class="icon icon-lg rounded-circle mx-auto bg-primary mb-3">
                         <i class="fa fa-life-ring text-white" aria-hidden="true"></i>
                     </div>
-                    <h1 class="counter-value mb-2" data-count="24">0</h1>
-                    <h6 class="">Hours support</h6>
+                    <h1 class="counter-value mb-2" data-count="980">0</h1>
+                    <h6 class="">Pacientes fallecidos</h6>
                 </div>
             </div>
         </div>
