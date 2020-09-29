@@ -20,6 +20,7 @@ require 'views/adm_header.php';
             </div>
             <hr class="sidebar-divider">
 
+
         </div>
         <?php
         require 'views/adm_footer.php';

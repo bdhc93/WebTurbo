@@ -5,6 +5,8 @@ class Administracion extends Controller {
     function __construct()
     {
         parent::__construct();
+        $this->view->ranking = [];
+        $this->view->mensaje="";
     }
 
     function render(){
@@ -60,6 +62,10 @@ class Administracion extends Controller {
     }
 
     function ranking_fm(){
+        $rankings = $this->model->get();
+
+        $this->view->ranking = $rankings;
+
         $this->view->render('administracion/ranking_fm');
     }
 
@@ -78,4 +84,5 @@ class Administracion extends Controller {
     function upload(){
         $this->view->render('administracion/upload');
     }
+
 }

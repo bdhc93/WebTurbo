@@ -20,6 +20,28 @@ require 'views/adm_header.php';
             </div>
             <hr class="sidebar-divider">
 
+            <div class="center"><?php echo $this->mensaje; ?></div>
+
+            <form action="<?php echo constant('URL');?>ranking/registrarRankingFM" method="post">
+
+                <p>
+                    <label for="empresa">Empresa</label><br>
+                    <input type="text" name="empresa" id="">
+                </p>
+
+                <p>
+                    <label for="titulo">Titulo</label><br>
+                    <input type="text" name="titulo" id="">
+                </p>
+
+                <p>
+                    <input type="submit" value="Registrar Nuevo">
+                </p>
+
+            </form>
+
+            <?php var_dump($this->ranking); ?>
+
         </div>
         <?php
         require 'views/adm_footer.php';

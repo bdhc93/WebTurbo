@@ -170,9 +170,8 @@ $url = explode('/', $url);
             </div>
         </div>
     </li>
-
-    <li class="nav-item  <?php if (!empty($url[1])) {
-        if ($url[1] == 'ranking_fm' || $url[1] == 'ranking_tv') {
+    <li class="nav-item  <?php if (!empty($url[0])) {
+        if ($url[0] == 'rankingadm' || $url[1] == 'ranking_tv') {
             echo 'active';
         }
     } ?>">
@@ -181,17 +180,17 @@ $url = explode('/', $url);
             <i class="fas fa-fw fa-music"></i>
             <span>Ranking</span>
         </a>
-        <div id="collapseRanking" class="collapse <?php if (!empty($url[1])) {
-            if ($url[1] == 'ranking_fm' || $url[1] == 'ranking_tv') {
+        <div id="collapseRanking" class="collapse <?php if (!empty($url[0])) {
+            if ($url[0] == 'rankingadm' || $url[1] == 'ranking_tv') {
                 echo 'show';
             }
         } ?>" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
-                <a class="collapse-item <?php if (!empty($url[1])) {
-                    if ($url[1] == 'ranking_fm') {
+                <a class="collapse-item <?php if (!empty($url[0])) {
+                    if ($url[0] == 'rankingadm') {
                         echo 'active';
                     }
-                } ?>" href="<?php echo constant('URL'); ?>administracion/ranking_fm">Turbo Mix FM</a>
+                } ?>" href="<?php echo constant('URL'); ?>rankingadm">Turbo Mix FM</a>
                 <a class="collapse-item <?php if (!empty($url[1])) {
                     if ($url[1] == 'ranking_tv') {
                         echo 'active';
