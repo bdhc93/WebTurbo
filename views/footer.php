@@ -134,13 +134,13 @@
 
                         <li class="mr-3 mr-lg-2 mr-xl-3">
                             <a class="icon-default icon-border rounded-circle hover-bg-primary" href="javascript:void(0)">
-                                <i class="fa fa-twitter text-white" aria-hidden="true"></i>
+                                <i class="fa fa-instagram text-white" aria-hidden="true"></i>
                             </a>
                         </li>
 
                         <li class="mr-3 mr-lg-2 mr-xl-3">
-                            <a class="icon-default icon-border rounded-circle hover-bg-primary" href="javascript:void(0)">
-                                <i class="fa fa-google-plus text-white" aria-hidden="true"></i>
+                            <a class="icon-default icon-border rounded-circle hover-bg-primary" href="https://www.youtube.com/user/GrupoTurboMix" target="_blank">
+                                <i class="fa fa-youtube-play text-white" aria-hidden="true"></i>
                             </a>
                         </li>
 

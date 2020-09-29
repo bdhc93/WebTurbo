@@ -485,7 +485,7 @@ require 'views/navigation.php';
             <div class="text-center section-title">
                 <h2 class="text-uppercase font-weight-bold position-relative">
         <span class="bg-smoke">
-          Our top deals
+          NUESTRO EQUIPO
         </span>
                 </h2>
                 <p class="text-capitalize text-center">Quisque lacus augue, blandit non est a, dictum malesuada
@@ -501,57 +501,9 @@ require 'views/navigation.php';
                                  alt="Card image cap">
 
                             <div class="card-img-overlay card-hover-overlay rounded-top d-flex flex-column">
-                                <div class="badge badge-primary badge-rounded-circle">
-                <span class="d-block">
-                  50%<br>off
-                </span>
-                                </div>
 
-                                <ul class="list-unstyled d-flex mt-auto text-warning">
-                                    <li>
-                                        <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                    </li>
-                                </ul>
-
-                                <ul class="list-unstyled d-flex text-white font-weight-bold mb-0">
-                                    <li class="border-right border-white pr-2">7 days</li>
-                                    <li class="border-right border-white px-2">15 hrs</li>
-                                    <li class="pl-2">15 min</li>
-                                </ul>
                             </div>
                         </a>
-
-                        <div class="card-body">
-                            <h5>
-                                <a href="single-package-left-sidebar.html" class="card-title text-uppercase">Suspendisse
-                                    Blandit</a>
-                            </h5>
-                            <p class="mb-5">Integer purus ex, dictum nec elementum eu, tristique vel lectus. Donec
-                                rutrum lectus et pharetra egestas.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div>
-                                    <p class="mb-0 text-capitalize">Start from</p>
-                                    <h3 class="text-primary">$299</h3>
-                                </div>
-
-                                <div>
-                                    <a href="booking-step-1.html"
-                                       class="btn btn-sm btn-outline-secondary text-uppercase">Book Now</a>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
 
@@ -563,57 +515,9 @@ require 'views/navigation.php';
                                  alt="Card image cap">
 
                             <div class="card-img-overlay card-hover-overlay rounded-top d-flex flex-column">
-                                <div class="badge badge-primary badge-rounded-circle">
-                <span class="d-block">
-                  Free<br>gift
-                </span>
                                 </div>
-
-                                <ul class="list-unstyled d-flex mt-auto text-warning">
-                                    <li>
-                                        <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                    </li>
-                                </ul>
-
-                                <ul class="list-unstyled d-flex text-white font-weight-bold mb-0">
-                                    <li class="border-right border-white pr-2">7 days</li>
-                                    <li class="border-right border-white px-2">15 hrs</li>
-                                    <li class="pl-2">15 min</li>
-                                </ul>
-                            </div>
                         </a>
 
-                        <div class="card-body">
-                            <h5 class="">
-                                <a href="single-package-left-sidebar.html" class="card-title text-uppercase">Suspendisse
-                                    Eros Erat</a>
-                            </h5>
-                            <p class="mb-5">Proin convallis magna vel libero accumsan sollicitudin. Quisque dapibus
-                                vitae turpis eu magna sagittis.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div>
-                                    <p class="mb-0 text-capitalize">Start from</p>
-                                    <h3 class="text-primary">$499</h3>
-                                </div>
-
-                                <div>
-                                    <a href="jascript:void(0)" data-toggle="modal" data-target="#inquiry"
-                                       class="btn btn-sm btn-outline-secondary text-uppercase">Inquiry</a>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
 
@@ -625,63 +529,13 @@ require 'views/navigation.php';
                                  alt="Card image cap">
 
                             <div class="card-img-overlay card-hover-overlay rounded-top d-flex flex-column">
-                                <div class="badge badge-primary badge-rounded-circle">
-                <span class="d-block">
-                  25%<br>off
-                </span>
-                                </div>
 
-                                <ul class="list-unstyled d-flex mt-auto text-warning">
-                                    <li>
-                                        <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-star mr-1" aria-hidden="true"></i>
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                    </li>
-                                </ul>
-
-                                <ul class="list-unstyled d-flex text-white font-weight-bold mb-0">
-                                    <li class="border-right border-white pr-2">7 days</li>
-                                    <li class="border-right border-white px-2">15 hrs</li>
-                                    <li class="pl-2">15 min</li>
-                                </ul>
                             </div>
                         </a>
-
-                        <div class="card-body">
-                            <h5>
-                                <a href="single-package-left-sidebar.html" class="card-title text-uppercase">Quisque
-                                    Placerat Nunc</a>
-                            </h5>
-                            <p class="mb-5">Vivamus eu mattis nibh. Quisque eget ipsum at odio fringilla consequat vel
-                                id erat. Suspendisse non feugiat mi.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div>
-                                    <p class="mb-0 text-capitalize">Start from</p>
-                                    <h3 class="text-primary">$299</h3>
-                                </div>
-
-                                <div>
-                                    <a href="booking-step-1.html"
-                                       class="btn btn-sm btn-outline-secondary text-uppercase">Book Now</a>
-                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="text-center mt-7">
-                <a href="packages-grid.html" class="btn btn-sm btn-outline-secondary text-uppercase">View all</a>
             </div>
         </div>
     </section>
@@ -733,10 +587,10 @@ require 'views/navigation.php';
             <div class="text-center section-title">
                 <h2 class="text-uppercase font-weight-bold position-relative">
         <span class="bg-white">
-          Our Destinations
+          NUESTRAS ESTACIONES
         </span>
                 </h2>
-                <p class="text-capitalize text-center">Nullam vitae risus commodo arcu tincidunt ultricies</p>
+                <p class="text-center">La Red de Emisoras que une a Nuestra Gente</p>
             </div>
 
             <div class="bg-dark-light media media-large">
@@ -749,52 +603,45 @@ require 'views/navigation.php';
 
                     <div class="col-md-6">
                         <div class="media-body">
-                            <h3 class="text-uppercase text-white font-weight-bold mb-xl-5">Choose <br>Your Destination
+                            <p class="mb-xl-5">Contamos con gran cobertura en la región norte del país, gracias a nuestras potentes estaciones retransmisoras en las principales ciudades</p>
+                            <h3 class="text-uppercase text-white font-weight-bold mb-xl-5">Estamos ubicados <br>en:
                             </h3>
-                            <p class="mb-xl-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut labore et
-                                dolore magna aliqua.</p>
-
                             <div class="row">
                                 <div class="col-md-6 col-lg-4">
                                     <ul class="list-unstyled mb-xl-5">
-                                        <li class="media align-items-center mb-xl-2">
+                                        <li class="media mb-xl-2">
                                             <div class="mr-2">
                                                 <i class="fa fa-minus"></i>
                                             </div>
                                             <div class="media-body">
-                                                Asia
+                                                Cutervo 103.1 FM
+                                            </div>
+                                        </li>
+                                        <li class="media mb-xl-2">
+                                            <div class="mr-2">
+                                                <i class="fa fa-minus"></i>
+                                            </div>
+                                            <div class="media-body">
+                                                Cutervo 103.1 FM
                                             </div>
                                         </li>
 
-                                        <li class="">
-                                            <a href="destination-single-city.html"
-                                               class="media d-inline-flex align-items-center">
-                                                <i class="fa fa-square mr-2"></i>
-                                                <div class="media-body">
-                                                    Aenean
-                                                </div>
-                                            </a>
+                                        <li class="media mb-xl-2">
+                                            <div class="mr-2">
+                                                <i class="fa fa-minus"></i>
+                                            </div>
+                                            <div class="media-body">
+                                                Namora 91.5 FM
+                                            </div>
                                         </li>
 
-                                        <li class="">
-                                            <a href="destination-single-city.html"
-                                               class="media d-inline-flex align-items-center">
-                                                <i class="fa fa-square mr-2"></i>
-                                                <div class="media-body">
-                                                    Etiam
-                                                </div>
-                                            </a>
-                                        </li>
-
-                                        <li class="">
-                                            <a href="destination-single-city.html"
-                                               class="media d-inline-flex align-items-center">
-                                                <i class="fa fa-square mr-2"></i>
-                                                <div class="media-body">
-                                                    Donec
-                                                </div>
-                                            </a>
+                                        <li class="media mb-xl-2">
+                                            <div class="mr-2">
+                                                <i class="fa fa-minus"></i>
+                                            </div>
+                                            <div class="media-body">
+                                               Oxamarca 94.5 FM
+                                            </div>
                                         </li>
                                     </ul>
                                 </div>
@@ -970,10 +817,6 @@ require 'views/navigation.php';
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
-
-                            <div class="text-uppercase">
-                                <a href="destination-cities.html" class="btn btn-sm btn-outline-white">View all</a>
                             </div>
                         </div>
                     </div>
