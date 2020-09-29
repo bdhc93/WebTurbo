@@ -53,7 +53,7 @@ $url = explode('/', $url);
                     <li class=" <?php if ($url[0] == 'main' || empty($url[0])) {
                         echo 'active';
                     } ?> ">
-                        <a class="" href="<?php echo constant('URL'); ?>main">INICIO</a>
+                        <a class="" href="<?php echo constant('URL'); ?>">INICIO</a>
                     </li>
 
                     <li class=" <?php if ($url[0] == 'nosotros') {

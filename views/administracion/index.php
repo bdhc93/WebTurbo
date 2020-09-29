@@ -54,7 +54,6 @@ require 'views/adm_header.php';
 
     <div id="content-wrapper" class="d-flex flex-column">
 
-        <!-- Main Content -->
         <div id="content">
 
             <?php
@@ -69,58 +68,49 @@ require 'views/adm_header.php';
 
                 <hr class="sidebar-divider">
 
-                <div class="row border">
-                    <div class="col-lg-12 border">
-                        <h3>Imágenes Carrusel</h3>
-                    </div>
+                <div class="card">
+                    <div class="card-header bg-dark"><h4 style="color: white">Imágenes Carrusel</h4></div>
+                    <div class="card-body">
 
-                    <div class="col-lg-4">
-
-                        <!-- Default Card Example -->
-                        <div class="card text-center mb-4">
-                            <div class="card-header">
-                                <img src="<?php echo constant('URL'); ?>public/images/main/slider-01.jpg" width="300px" alt="logo-img">
+                        <div class="card-deck">
+                            <div class="card">
+                                <img class="card-img-top" src="<?php echo constant('URL'); ?>public/images/main/slider-01.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Slider 1</h5>
+                                    <form method="post">
+                                        <input type="file" name="slider-01" class="image">
+                                    </form>
+                                </div>
                             </div>
-                            <div class="card-body">
-                                <form method="post">
-
-                                    <input type="file" name="slider-01" class="image">
-
-                                </form>
+                            <div class="card">
+                                <img class="card-img-top" src="<?php echo constant('URL'); ?>public/images/main/slider-02.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Slider 2</h5>
+                                    <form method="post">
+                                        <input type="file" name="slider-02" class="image">
+                                    </form>
+                                </div>
                             </div>
-
-                        </div>
-
-                    </div>
-
-                    <div class="col-lg-4">
-
-                        <!-- Default Card Example -->
-                        <div class="card text-center mb-4">
-                            <div class="card-header">
-                                <img src="<?php echo constant('URL'); ?>public/images/main/slider-02.jpg" width="300px" alt="logo-img">
+                            <div class="card">
+                                <img class="card-img-top" src="<?php echo constant('URL'); ?>public/images/main/slider-03.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Slider 3</h5>
+                                    <form method="post">
+                                        <input type="file" name="slider-03" class="image">
+                                    </form>
+                                </div>
                             </div>
-                            <div class="card-body">
-                                <button class="btn btn-success"> Cambiar</button>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="col-lg-4">
-
-                        <!-- Default Card Example -->
-                        <div class="card text-center mb-4">
-                            <div class="card-header">
-                                <img src="<?php echo constant('URL'); ?>public/images/main/slider-03.jpg" width="300px" alt="logo-img">
-                            </div>
-                            <div class="card-body">
-                                <button class="btn btn-success"> Cambiar</button>
+                            <div class="card">
+                                <img class="card-img-top" src="<?php echo constant('URL'); ?>public/images/main/slider-04.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Slider 4</h5>
+                                    <form method="post">
+                                        <input type="file" name="slider-04" class="image">
+                                    </form>
+                                </div>
                             </div>
                         </div>
-
                     </div>
-
                 </div>
 
             </div>
@@ -132,13 +122,13 @@ require 'views/adm_header.php';
 
     <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
 
-        <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-dialog  modal-dialog-centered modal-lg" role="document">
 
             <div class="modal-content">
 
                 <div class="modal-header">
 
-                    <h5 class="modal-title" id="modalLabel">PHP Crop Image Before Upload using Cropper JS - NiceSnippets.com</h5>
+                    <h5 class="modal-title" id="modalLabel">Seleccione el área a guardar de la imágen.</h5>
 
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 
@@ -156,7 +146,7 @@ require 'views/adm_header.php';
 
                             <div class="col-md-8">
 
-                                <img id="image" src="https://avatars0.githubusercontent.com/u/3456749">
+                                <img id="image">
 
                             </div>
 
@@ -174,9 +164,9 @@ require 'views/adm_header.php';
 
                 <div class="modal-footer">
 
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
 
-                    <button type="button" class="btn btn-primary" id="crop">Crop</button>
+                    <button type="button" class="btn btn-primary" id="crop">Guardar</button>
 
                 </div>
 
@@ -202,11 +192,7 @@ require 'views/adm_scripts.php';
 
     var cropper;
 
-
-
     $("body").on("change", ".image", function(e){
-
-        console.log(e.currentTarget.name);
 
         nameslider = e.currentTarget.name;
 
@@ -254,9 +240,7 @@ require 'views/adm_scripts.php';
 
     });
 
-
     $modal.on('shown.bs.modal', function () {
-        console.log("2");
 
         cropper = new Cropper(image, {
 
@@ -287,8 +271,6 @@ require 'views/adm_scripts.php';
 
         });
 
-
-
         canvas.toBlob(function(blob) {
 
             url = URL.createObjectURL(blob);
@@ -318,25 +300,25 @@ require 'views/adm_scripts.php';
 
                         $modal.modal('hide');
 
-                        alert("success upload image");
+                        setTimeout(function(){// wait for 5 secs(2)
+                            location.reload(); // then reload the page.(3)
+                        }, 2000);
 
                     },
                     error: function (xhr, status, error) {
                         console.log(xhr.responseText);
                         console.log(error);
-                        console.log(status);
-
+                        console.log(status)
+                        alert("Ocurrio un error, vuelva a intentarlo.");
                     }
 
                 });
-
 
             }
 
         });
 
     })
-
 
 </script>
 
