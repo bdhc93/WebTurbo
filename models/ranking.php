@@ -1,6 +1,6 @@
 <?php
 
-class Ranking{
+class MRanking{
 
     public $empresa;
     public $titulo;

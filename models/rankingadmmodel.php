@@ -29,7 +29,7 @@ class RankingAdmModel extends Model{
             $query = $this->db->connect()->query("SELECT*FROM ranking WHERE empresa='FM'");
 
             while ($row = $query->fetch()){
-                $item = new Ranking();
+                $item = new MRanking();
                 $item->titulo = $row['titulo'];
                 $item->artista = $row['artista'];
                 $item->fecha = $row['fecha'];

@@ -24,15 +24,20 @@ require 'views/navigation.php';
     </div>
 </section>
 
-
 <section class="py-9 py-md-10">
     <div class="container ">
         <div class="row">
+
             <div class="col-lg-8 col-xl-9 order-1 order-lg-0">
-                <div class="card rounded-0 card-transparent border-bottom mb-7 pb-7 cumbia">
+
+                <div id="siteloader">
+
+                </div>
+
+                <!--<div class="card rounded-0 card-transparent border-bottom mb-7 pb-7 cumbia">
                     <div class="row align-items-xl-center">
                         <div id="letracollapse" class="bloque_letra_collapse margin-bottom  clearfix">
-                            <iframe id="video_ranking" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="400" height="280" src="https://www.youtube.com/embed/pK060iUFWXg?autoplay=0&amp;loop=1&amp;controls=1&amp;showinfo=0&amp;autohide=1&amp;modestbranding=1&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fradionuevaq.pe&amp;widgetid=1"></iframe>
+                            <iframe id="video_ranking" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="400" height="280" src="https://www.youtube.com/embed/SZ5lQNPanvI?autoplay=0&amp;loop=1&amp;controls=1&amp;showinfo=0&amp;autohide=1&amp;modestbranding=1&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fradionuevaq.pe&amp;widgetid=1"></iframe>
                             <div class="letra">
                                 <div id="letra-scroll" class="scroll letra_scroll mCustomScrollbar _mCS_1 mCS-autoHide mCS_no_scrollbar" data-mcs-theme="dark" style="position: relative; overflow: visible;"><div id="mCSB_1" class="mCustomScrollBox mCS-dark mCSB_vertical mCSB_outside" tabindex="0" style="max-height: none;"><div id="mCSB_1_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position: relative; left: 0px; top: 0px;" dir="ltr">
                                         </div>
@@ -262,7 +267,7 @@ require 'views/navigation.php';
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>-->
             </div>
 
             <div class="col-lg-4 col-xl-3">
@@ -918,7 +923,7 @@ require 'views/navigation.php';
 
     <!-- ====================================
   ———	PAGINATION
-  ===================================== -->
+  =====================================
     <section class="pt-5 pt-md-7">
         <div class="container">
             <nav aria-label="Page navigation">
@@ -962,5 +967,16 @@ require 'views/navigation.php';
 </section>
 
 <?php require 'views/footer.php' ?>
+
+<script>
+    $(function () {
+        var url = "<?php echo constant("URL")."rankingadm/partialfm"; ?>";
+        console.log(url);
+        $("#siteloader").load('http://localhost:8012/WebTurbo/rankingadm/partialfm');
+
+    });
+
+</script>
+
 </body>
 </html>

@@ -43,7 +43,11 @@ class RankingAdm extends Controller {
 
     }
 
-    function ranking_fm(){
-        $this->view->render('administracion/ranking_fm');
+    function partialfm(){
+        $rankings = $this->model->get();
+
+        $this->view->ranking = $rankings;
+
+        $this->view->render('rankingadm/partialfm');
     }
 }

@@ -15,6 +15,7 @@ require 'views/adm_header.php';
                 <div class="row">
                     <div class="col-lg-9 d-sm-flex align-items-center justify-content-between mb-4">
                         <h1 class="h3 mb-0 text-gray-800">Ranking - FM </h1>
+<!--                        <div style="color: darkred">--><?php //echo $this->mensaje; ?><!--</div>-->
                     </div>
                     <div class="col-lg-3 text-right">
                         <button type="button" class="btn btn-primary" data-toggle="modal"
@@ -28,7 +29,7 @@ require 'views/adm_header.php';
             </div>
             <hr class="sidebar-divider">
 
-            <div class="center"><?php echo $this->mensaje; ?></div>
+
 
             <div class="container-fluid">
 
@@ -62,7 +63,7 @@ require 'views/adm_header.php';
                                 <?php
                                 include_once 'models/ranking.php';
                                 foreach ($this->ranking as $row) {
-                                    $ranking = new Ranking();
+                                    $ranking = new MRanking();
                                     $ranking = $row;
 
                                     ?>
@@ -122,19 +123,19 @@ require 'views/adm_header.php';
                     <input type="text" name="empresa" value="FM" id="" hidden>
 
                     <div class="form-group  row"><label class="col-sm-2 col-form-label">Título</label>
-                        <div class="col-sm-10"><input type="text" name="titulo" class="form-control"></div>
+                        <div class="col-sm-10"><input type="text" name="titulo" class="form-control" required></div>
                     </div>
                     <div class="form-group  row"><label class="col-sm-2 col-form-label">Artista</label>
-                        <div class="col-sm-10"><input type="text" name="artista" class="form-control"></div>
+                        <div class="col-sm-10"><input type="text" name="artista" class="form-control" required></div>
                     </div>
                     <div class="form-group  row"><label class="col-sm-2 col-form-label">Fecha</label>
                         <div class="col-sm-10"><input type="date" name="fecha" class="form-control"></div>
                     </div>
                     <div class="form-group  row"><label class="col-sm-2 col-form-label">URL</label>
-                        <div class="col-sm-10"><input type="text" name="url" class="form-control"></div>
+                        <div class="col-sm-10"><input type="text" name="url" class="form-control" required></div>
                     </div>
                     <div class="form-group  row"><label class="col-sm-2 col-form-label">Ubicación</label>
-                        <div class="col-sm-10"><input type="number" name="ubicacion" class="form-control"></div>
+                        <div class="col-sm-10"><input type="number" name="ubicacion" class="form-control" required></div>
                     </div>
 
 
