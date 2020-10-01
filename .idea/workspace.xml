@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76dff57e-3e27-466c-b2eb-4e742af92c0f" name="Default Changelist" comment="ok6">
+    <list default="true" id="76dff57e-3e27-466c-b2eb-4e742af92c0f" name="Default Changelist" comment="ok7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/main/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/main/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/nosotros/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/nosotros/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +89,10 @@
       <workItem from="1601205639229" duration="15367000" />
       <workItem from="1601330179774" duration="4370000" />
       <workItem from="1601390799355" duration="1463000" />
-      <workItem from="1601392279880" duration="4291000" />
+      <workItem from="1601392279880" duration="4500000" />
+      <workItem from="1601413467844" duration="4589000" />
+      <workItem from="1601479282287" duration="2933000" />
+      <workItem from="1601500001449" duration="11301000" />
     </task>
     <task id="LOCAL-00001" summary="styles">
       <created>1601077677854</created>
@@ -127,7 +129,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601392256075</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ok7">
+      <created>1601399712016</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1601399712016</updated>
+    </task>
+    <task id="LOCAL-00007" summary="ok7">
+      <created>1601399735007</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1601399735007</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,7 +168,8 @@
     <MESSAGE value="FaltaCSS" />
     <MESSAGE value="ok5" />
     <MESSAGE value="ok6" />
-    <option name="LAST_COMMIT_MESSAGE" value="ok6" />
+    <MESSAGE value="ok7" />
+    <option name="LAST_COMMIT_MESSAGE" value="ok7" />
   </component>
   <component name="WindowStateProjectService">
     <state x="384" y="37" key="#CLI_Interpreters" timestamp="1601070163593">
@@ -168,6 +185,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="667" y="163" key="#PHP/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601055528640" />
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601507808014">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1601507808014" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1601070160296">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -195,10 +216,10 @@
     </state>
     <state x="328" y="17" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1601076933392" />
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601055772469" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1601392258647">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1601399737967">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1601392258647" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1601399737967" />
     <state x="309" y="109" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601171905804" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1601138216952">
       <screen x="0" y="0" width="1366" height="728" />
@@ -208,16 +229,16 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1601138216952" />
-    <state x="553" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601340669432">
+    <state x="553" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601422796022">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="553" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1601340669432" />
+    <state x="553" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1601422796022" />
     <state x="622" y="344" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1601167744267" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601330182969" />
-    <state x="356" y="0" width="585" height="728" key="find.popup" timestamp="1601392232118">
+    <state x="356" y="0" width="585" height="728" key="find.popup" timestamp="1601511605183">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="356" y="0" width="585" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1601392232118" />
+    <state x="356" y="0" width="585" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1601511605183" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1601240958710">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
