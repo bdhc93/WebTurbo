@@ -187,15 +187,15 @@ $url = explode('/', $url);
         } ?>" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <a class="collapse-item <?php if (!empty($url[0])) {
-                    if ($url[0] == 'rankingadm') {
+                    if ($url[0] == 'rankingadm' && empty($url[1])) {
                         echo 'active';
                     }
                 } ?>" href="<?php echo constant('URL'); ?>rankingadm">Turbo Mix FM</a>
                 <a class="collapse-item <?php if (!empty($url[1])) {
-                    if ($url[1] == 'ranking_tv') {
+                    if ($url[1] == 'rankingtv') {
                         echo 'active';
                     }
-                } ?>" href="<?php echo constant('URL'); ?>administracion/ranking_tv">Turbo Mix TV</a>
+                } ?>" href="<?php echo constant('URL'); ?>rankingadm/rankingtv">Turbo Mix TV</a>
             </div>
         </div>
     </li>

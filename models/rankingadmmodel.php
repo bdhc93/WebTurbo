@@ -21,12 +21,37 @@ class RankingAdmModel extends Model{
         }
     }
 
-    public function get(){
+    public function getFM(){
         $items = [];
 
         try {
 
             $query = $this->db->connect()->query("SELECT*FROM ranking WHERE empresa='FM'");
+
+            while ($row = $query->fetch()){
+                $item = new MRanking();
+                $item->titulo = $row['titulo'];
+                $item->artista = $row['artista'];
+                $item->fecha = $row['fecha'];
+                $item->url = $row['url'];
+                $item->ubicacion = $row['ubicacion'];
+
+                array_push($items, $item);
+            }
+
+            return $items;
+
+        }catch (PDOException $e){
+            return [];
+        }
+    }
+
+    public function getTV(){
+        $items = [];
+
+        try {
+
+            $query = $this->db->connect()->query("SELECT*FROM ranking WHERE empresa='TV'");
 
             while ($row = $query->fetch()){
                 $item = new MRanking();

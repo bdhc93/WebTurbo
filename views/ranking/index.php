@@ -923,7 +923,7 @@ require 'views/navigation.php';
 
     <!-- ====================================
   ———	PAGINATION
-  =====================================
+  =====================================-->
     <section class="pt-5 pt-md-7">
         <div class="container">
             <nav aria-label="Page navigation">

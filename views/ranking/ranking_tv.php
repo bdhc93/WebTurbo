@@ -28,7 +28,250 @@ require 'views/navigation.php';
 <section class="py-9 py-md-10">
     <div class="container ">
         <div class="row">
+
             <div class="col-lg-8 col-xl-9 order-1 order-lg-0">
+
+                <div id="siteloader">
+
+                </div>
+
+                <!--<div class="card rounded-0 card-transparent border-bottom mb-7 pb-7 cumbia">
+                    <div class="row align-items-xl-center">
+                        <div id="letracollapse" class="bloque_letra_collapse margin-bottom  clearfix">
+                            <iframe id="video_ranking" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="400" height="280" src="https://www.youtube.com/embed/SZ5lQNPanvI?autoplay=0&amp;loop=1&amp;controls=1&amp;showinfo=0&amp;autohide=1&amp;modestbranding=1&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fradionuevaq.pe&amp;widgetid=1"></iframe>
+                            <div class="letra">
+                                <div id="letra-scroll" class="scroll letra_scroll mCustomScrollbar _mCS_1 mCS-autoHide mCS_no_scrollbar" data-mcs-theme="dark" style="position: relative; overflow: visible;"><div id="mCSB_1" class="mCustomScrollBox mCS-dark mCSB_vertical mCSB_outside" tabindex="0" style="max-height: none;"><div id="mCSB_1_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position: relative; left: 0px; top: 0px;" dir="ltr">
+                                        </div>
+                                    </div>
+                                    <div id="mCSB_1_scrollbar_vertical" class="mCSB_scrollTools mCSB_1_scrollbar mCS-dark mCSB_scrollTools_vertical" style="display: none;"><div class="mCSB_draggerContainer"><div id="mCSB_1_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 30px; height: 0px; top: 0px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="line-height: 30px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="card-body px-md-0 py-6 pt-md-0">
+                                <h3 class="mb-4">
+                                    <a href="blog-single-right-sidebar.html" class="text-capitalize text-dark hover-text-primary">Lorem ipsum dolor amet</a>
+                                </h3>
+
+                                <div class="meta-post-sm mb-4">
+                                    <ul class="list-unstyled d-flex flex-wrap mb-0">
+                                        <li class="meta-tag mr-4 mb-1">
+                                            <i class="fa fa-user text-gray-color" aria-hidden="true"></i>
+                                            <a class="text-gray-color hover-text-primary" href="blog-single-right-sidebar.html">
+                                                <span class="ml-1 text-capitalize">Adam smith</span>
+                                            </a>
+                                        </li>
+
+                                        <li class="meta-tag text-gray-color mr-4 mb-1">
+                                            <i class="fa fa-calendar" aria-hidden="true"></i>
+                                            <span class="ml-1 text-capitalize">Mar 20, 2019</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                                    et dolore magna
+                                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card rounded-0 card-transparent border-bottom mb-7 pb-7 salsa">
+                    <div class="row align-items-xl-center">
+                        <div id="letracollapse" class="bloque_letra_collapse margin-bottom  clearfix">
+                            <iframe id="video_ranking" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="400" height="280" src="https://www.youtube.com/embed/y8mi0XEMaRI?autoplay=0&amp;loop=1&amp;controls=1&amp;showinfo=0&amp;autohide=1&amp;modestbranding=1&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fradionuevaq.pe&amp;widgetid=1"></iframe>
+                            <div class="letra">
+                                <div id="letra-scroll" class="scroll letra_scroll mCustomScrollbar _mCS_1 mCS-autoHide mCS_no_scrollbar" data-mcs-theme="dark" style="position: relative; overflow: visible;"><div id="mCSB_1" class="mCustomScrollBox mCS-dark mCSB_vertical mCSB_outside" tabindex="0" style="max-height: none;"><div id="mCSB_1_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position: relative; left: 0px; top: 0px;" dir="ltr">
+                                        </div>
+                                    </div>
+                                    <div id="mCSB_1_scrollbar_vertical" class="mCSB_scrollTools mCSB_1_scrollbar mCS-dark mCSB_scrollTools_vertical" style="display: none;"><div class="mCSB_draggerContainer"><div id="mCSB_1_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 30px; height: 0px; top: 0px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="line-height: 30px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="card-body px-md-0 py-6 pt-md-0">
+                                <h3 class="mb-4">
+                                    <a href="blog-single-right-sidebar.html" class="text-capitalize text-dark hover-text-primary">Nulla placerat sem id ante</a>
+                                </h3>
+
+                                <div class="meta-post-sm mb-4">
+                                    <ul class="list-unstyled d-flex flex-wrap mb-0">
+                                        <li class="meta-tag mr-4 mb-1">
+                                            <i class="fa fa-user text-gray-color" aria-hidden="true"></i>
+                                            <a class="text-gray-color hover-text-primary" href="blog-single-right-sidebar.html">
+                                                <span class="ml-1 text-capitalize">Adam smith</span>
+                                            </a>
+                                        </li>
+
+                                        <li class="meta-tag text-gray-color mr-4 mb-1">
+                                            <i class="fa fa-calendar" aria-hidden="true"></i>
+                                            <span class="ml-1 text-capitalize">Mar 20, 2019</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <p class="mb-0">Nulla placerat sem id ante mattis, ut convallis lectus tincidunt. Sed aliquam at tellus eu malesuada. Aliquam posuere
+                                    imperdiet dui eget tempus. Vestibulum ipsum sem consequat ut purus ut.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card rounded-0 card-transparent border-bottom mb-7 pb-7">
+                    <div class="row align-items-xl-center">
+                        <div id="letracollapse" class="bloque_letra_collapse margin-bottom  clearfix">
+                            <iframe id="video_ranking" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="400" height="280" src="https://www.youtube.com/embed/_pYeqMwZnWI?autoplay=0&amp;loop=1&amp;controls=1&amp;showinfo=0&amp;autohide=1&amp;modestbranding=1&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fradionuevaq.pe&amp;widgetid=1"></iframe>
+                            <div class="letra">
+                                <div id="letra-scroll" class="scroll letra_scroll mCustomScrollbar _mCS_1 mCS-autoHide mCS_no_scrollbar" data-mcs-theme="dark" style="position: relative; overflow: visible;"><div id="mCSB_1" class="mCustomScrollBox mCS-dark mCSB_vertical mCSB_outside" tabindex="0" style="max-height: none;"><div id="mCSB_1_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position: relative; left: 0px; top: 0px;" dir="ltr">
+                                        </div>
+                                    </div>
+                                    <div id="mCSB_1_scrollbar_vertical" class="mCSB_scrollTools mCSB_1_scrollbar mCS-dark mCSB_scrollTools_vertical" style="display: none;"><div class="mCSB_draggerContainer"><div id="mCSB_1_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 30px; height: 0px; top: 0px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="line-height: 30px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="card-body px-md-0 py-6 pt-md-0">
+                                <h3 class="mb-4">
+                                    <a href="blog-single-right-sidebar.html" class="text-capitalize text-dark hover-text-primary">Mestibulum volutpat nibh</a>
+                                </h3>
+
+                                <div class="meta-post-sm mb-4">
+                                    <ul class="list-unstyled d-flex flex-wrap mb-0">
+                                        <li class="meta-tag mr-4 mb-1">
+                                            <i class="fa fa-user text-gray-color" aria-hidden="true"></i>
+                                            <a class="text-gray-color hover-text-primary" href="blog-single-right-sidebar.html">
+                                                <span class="ml-1 text-capitalize">Adam smith</span>
+                                            </a>
+                                        </li>
+
+                                        <li class="meta-tag text-gray-color mr-4 mb-1">
+                                            <i class="fa fa-calendar" aria-hidden="true"></i>
+                                            <span class="ml-1 text-capitalize">Mar 20, 2019</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <p class="mb-0">Mestibulum volutpat nibh. Morbi mattis, ipsum non feugiat varius, diam dui faucibus nunc, ac pharetra massa justo vitae
+                                    urna. Nulla facilisi. Aenean arcu est, maximus ac elementum viverra.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card rounded-0 card-transparent border-bottom mb-7 pb-7">
+                    <div class="row align-items-xl-center">
+                        <div class="col-md-6">
+                            <a href="blog-single-right-sidebar.html" class="position-relative">
+                                <iframe id="video_ranking" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="400" height="280" src="https://www.youtube.com/embed/qKp1f7Vn9dM?autoplay=0&amp;loop=1&amp;controls=1&amp;showinfo=0&amp;autohide=1&amp;modestbranding=1&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fradionuevaq.pe&amp;widgetid=1"></iframe>
+                            </a>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="card-body px-md-0 py-6 pt-md-0">
+                                <h3 class="mb-4">
+                                    <a href="blog-single-right-sidebar.html" class="text-capitalize text-dark hover-text-primary">Praesent condi men tum</a>
+                                </h3>
+
+                                <div class="meta-post-sm mb-4">
+                                    <ul class="list-unstyled d-flex flex-wrap mb-0">
+                                        <li class="meta-tag mr-4 mb-1">
+                                            <i class="fa fa-user text-gray-color" aria-hidden="true"></i>
+                                            <a class="text-gray-color hover-text-primary" href="blog-single-right-sidebar.html">
+                                                <span class="ml-1 text-capitalize">Adam smith</span>
+                                            </a>
+                                        </li>
+
+                                        <li class="meta-tag text-gray-color mr-4 mb-1">
+                                            <i class="fa fa-calendar" aria-hidden="true"></i>
+                                            <span class="ml-1 text-capitalize">Mar 20, 2019</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <p class="mb-0">Praesent condi men tum ligula nec cursus congue. Nullam feugiat pretium tortor non efficitur. Donec ut urna fringilla,
+                                    pellen tesque arcu ut, ultricies augue. Nullam auctor mattis eros viverra.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card rounded-0 card-transparent border-bottom mb-7 pb-7">
+                    <div class="row align-items-xl-center">
+                        <div class="col-md-6">
+                            <a href="blog-single-right-sidebar.html" class="position-relative">
+                                <iframe id="video_ranking" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="400" height="280" src="https://www.youtube.com/embed/hwsR-ATu4wM?autoplay=0&amp;loop=1&amp;controls=1&amp;showinfo=0&amp;autohide=1&amp;modestbranding=1&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fradionuevaq.pe&amp;widgetid=1"></iframe>
+                            </a>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="card-body px-md-0 py-6 pt-md-0">
+                                <h3 class="mb-4">
+                                    <a href="blog-single-right-sidebar.html" class="text-capitalize text-dark hover-text-primary">Qorbi portitor justo tellus</a>
+                                </h3>
+
+                                <div class="meta-post-sm mb-4">
+                                    <ul class="list-unstyled d-flex flex-wrap mb-0">
+                                        <li class="meta-tag mr-4 mb-1">
+                                            <i class="fa fa-user text-gray-color" aria-hidden="true"></i>
+                                            <a class="text-gray-color hover-text-primary" href="blog-single-right-sidebar.html">
+                                                <span class="ml-1 text-capitalize">Adam smith</span>
+                                            </a>
+                                        </li>
+
+                                        <li class="meta-tag text-gray-color mr-4 mb-1">
+                                            <i class="fa fa-calendar" aria-hidden="true"></i>
+                                            <span class="ml-1 text-capitalize">Mar 20, 2019</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <p class="mb-0">Qorbi portitor justo tellus sed et tellus elei fend, feugiat nibh posuere, rutrum sapien. Mauris sit amet mollis metus.
+                                    Pellen tesque vitae ante magna. Etiam et lectus lorem. Ut arcu nisi efficitur eta.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card rounded-0 card-transparent border-bottom mb-7 mb-md-0 pb-7">
+                    <div class="row align-items-xl-center">
+                        <div class="col-md-6">
+                            <a href="blog-single-right-sidebar.html" class="position-relative">
+                                <iframe id="video_ranking" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="400" height="280" src="https://www.youtube.com/embed/EJ0KIVJn7Vs?autoplay=0&amp;loop=1&amp;controls=1&amp;showinfo=0&amp;autohide=1&amp;modestbranding=1&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fradionuevaq.pe&amp;widgetid=1"></iframe>
+                            </a>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="card-body px-md-0 py-6 pt-md-0">
+                                <h3 class="mb-4">
+                                    <a href="blog-single-right-sidebar.html" class="text-capitalize text-dark hover-text-primary">Senean non justo maximus</a>
+                                </h3>
+
+                                <div class="meta-post-sm mb-4">
+                                    <ul class="list-unstyled d-flex flex-wrap mb-0">
+                                        <li class="meta-tag mr-4 mb-1">
+                                            <i class="fa fa-user text-gray-color" aria-hidden="true"></i>
+                                            <a class="text-gray-color hover-text-primary" href="blog-single-right-sidebar.html">
+                                                <span class="ml-1 text-capitalize">Adam smith</span>
+                                            </a>
+                                        </li>
+
+                                        <li class="meta-tag text-gray-color mr-4 mb-1">
+                                            <i class="fa fa-calendar" aria-hidden="true"></i>
+                                            <span class="ml-1 text-capitalize">Mar 20, 2019</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <p class="mb-0">Senean non justo maximus, porttitor nisi aliquam, maximus est. Curabitur elementum ipsum ultricies, scelerisque velit
+                                    in, tincidunt nisl. Suspendisse a porta enim. Quisque porta nisl at.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>-->
+            </div>
+
+            <!--<div class="col-lg-8 col-xl-9 order-1 order-lg-0">
                 <div class="card rounded-0 card-transparent border-bottom mb-7 pb-7 cumbia">
                     <div class="row align-items-xl-center">
                         <div id="letracollapse" class="bloque_letra_collapse margin-bottom  clearfix">
@@ -255,7 +498,7 @@ require 'views/navigation.php';
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>-->
 
             <div class="col-lg-4 col-xl-3">
                 <div class="mb-md-6 mb-lg-0">
@@ -959,5 +1202,15 @@ require 'views/navigation.php';
 </section>
 
 <?php require 'views/footer.php' ?>
+
+<script>
+    $(function () {
+        var url = "<?php echo constant("URL")."rankingadm/partialfm"; ?>";
+        console.log(url);
+        $("#siteloader").load('http://localhost:8012/WebTurbo/rankingadm/partialtv');
+
+    });
+
+</script>
 </body>
 </html>
