@@ -19,9 +19,11 @@ require 'views/adm_header.php';
                     </div>
                     <div class="col-lg-3 text-right">
                         <button type="button" class="btn btn-primary" data-toggle="modal"
-                                data-target="#modalNuevoRegistro">
+                                data-target="#modalNuevoRegistro" onclick="ModalNuevo()">
                             Nuevo Registro
                         </button>
+<!--                        <a onclick="ModalNuevo()" class="btn btn-primary" style="color: white">Nuevo Registro</a>-->
+
                     </div>
                 </div>
 
@@ -59,15 +61,13 @@ require 'views/adm_header.php';
                                     <th>Acciones</th>
                                 </tr>
                                 </tfoot>
-                                <tbody>
+                                <tbody id="list">
                                 <?php
                                 include_once 'models/ranking.php';
                                 foreach ($this->ranking as $row) {
                                     $ranking = new MRanking();
                                     $ranking = $row;
-
                                     ?>
-
                                     <tr>
                                         <td>
                                             <?php echo $ranking->ubicacion; ?>
@@ -86,13 +86,17 @@ require 'views/adm_header.php';
                                         </td>
                                         <td>
                                             <div class="form-group  row">
-                                                <a class="btn btn-info" style="color: white">Editar</a>
-                                                <a class="btn btn-danger" style="color: white">Eliminar</a>
+                                                <button type="button" class="btn btn-info" data-toggle="modal"
+                                                        data-target="#modalModificar" onclick="EditarRanking(<?php echo $ranking->id; ?>)">
+                                                    Editar
+                                                </button>
+                                                <button type="button" class="btn btn-danger" onclick="EliminarRanking(<?php echo $ranking->id; ?>)">
+                                                    Eliminar
+                                                </button>
                                             </div>
                                         </td>
                                     </tr>
                                 <?php } ?>
-
                                 </tbody>
                             </table>
                         </div>
@@ -111,7 +115,7 @@ require 'views/adm_header.php';
      aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
-            <form action="<?php echo constant('URL'); ?>rankingadm/registrarRankingFM" method="post">
+            <form id="frmNuevoRanking" action="<?php echo constant('URL'); ?>rankingadm/registrarRankingFM" method="post">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLongTitle">Ingreso de Ranking</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -123,22 +127,36 @@ require 'views/adm_header.php';
                     <input type="text" name="empresa" value="FM" id="" hidden>
 
                     <div class="form-group  row"><label class="col-sm-2 col-form-label">Título</label>
-                        <div class="col-sm-10"><input type="text" name="titulo" class="form-control" required></div>
+                        <div class="col-sm-10"><input type="text" name="titulo" id="txttitulo" class="form-control" required></div>
                     </div>
                     <div class="form-group  row"><label class="col-sm-2 col-form-label">Artista</label>
-                        <div class="col-sm-10"><input type="text" name="artista" class="form-control" required></div>
+                        <div class="col-sm-10"><input type="text" name="artista" id="txtartista" class="form-control" required></div>
                     </div>
                     <div class="form-group  row"><label class="col-sm-2 col-form-label">Fecha</label>
-                        <div class="col-sm-10"><input type="date" name="fecha" class="form-control"></div>
+                        <div class="col-sm-10"><input type="date" name="fecha" id="txtfecha" class="form-control"></div>
                     </div>
                     <div class="form-group  row"><label class="col-sm-2 col-form-label">URL</label>
-                        <div class="col-sm-10"><input type="text" name="url" class="form-control" required></div>
+                        <div class="col-sm-10"><input type="text" name="url" id="txturl" class="form-control" required></div>
                     </div>
                     <div class="form-group  row"><label class="col-sm-2 col-form-label">Ubicación</label>
-                        <div class="col-sm-10"><input type="number" name="ubicacion" class="form-control" required></div>
+                        <div class="col-sm-10"><input type="number" name="ubicacion" id="txtubicacion" class="form-control" required></div>
                     </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                    <button type="submit" class="btn btn-primary" ">Guardar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
 
-
+<div class="modal fade" id="modalModificar" tabindex="-1" role="dialog" aria-labelledby="modalModificar"
+     aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <form id="frmModificarRanking" action="<?php echo constant('URL'); ?>rankingadm/actualizarRanking" method="post">
+                <div id="ModalEditarRanking">
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
@@ -148,10 +166,109 @@ require 'views/adm_header.php';
         </div>
     </div>
 </div>
+<div id="Detalle"></div>
 <?php
 require 'views/adm_scripts.php';
 ?>
 <script>
+
+    $(function() {
+        $('#frmNuevoRanking').on('submit', function (event) {
+            var post_url = $(this).attr("action");
+            var request_method = $(this).attr("method");
+            var formData = new FormData($(this)[0]);
+            event.preventDefault();
+
+            $.ajax({
+                url: post_url,
+                type: request_method,
+                data: formData,
+                processData: false,  // tell jQuery not to process the data
+                contentType: false,   // tell jQuery not to set contentType
+                success: function (response) {
+                    $('#list').html(response);
+                    $('#modalNuevoRegistro').modal('toggle');
+                },
+                error: function (response) {
+                    alert(response.Message);
+                }
+            });
+        });
+
+        $('#frmModificarRanking').on('submit', function (event) {
+            var post_url = $(this).attr("action");
+            var request_method = $(this).attr("method");
+            var formData = new FormData($(this)[0]);
+            event.preventDefault();
+            $.ajax({
+                url: post_url,
+                type: request_method,
+                data: formData,
+                processData: false,  // tell jQuery not to process the data
+                contentType: false,   // tell jQuery not to set contentType
+                success: function (response) {
+                    $('#list').html(response);
+                    $('#modalModificar').modal('toggle');
+                },
+                error: function (response) {
+                    alert(response.Message);
+                }
+            });
+        });
+    });
+
+    function EliminarRanking(id){
+        swal({
+                title: "Estas seguro?",
+                text: "No se podrá recuperar la información",
+                type: "warning",
+                showCancelButton: true,
+                confirmButtonColor: "#DD6B55",
+                confirmButtonText: "Si, Eliminarlo!",
+                cancelButtonText: "No, Cancelar!",
+                closeOnConfirm: false,
+                closeOnCancel: true
+            },
+            function () {
+
+                $.get("<?php echo constant('URL') . 'rankingadm/eliminarRanking/' ;?>"+id).done(function (data) {
+                    $('#list').html(data);
+
+                    if (msg == '3') {
+                        sweetAlert
+                        ({
+                                title: "Eliminado!",
+                                text: "Se ha eliminado correctamente!",
+                                type: "success"
+                            });
+                    } else {
+                        sweetAlert
+                        ({
+                            title: "Error!",
+                            text: msg,
+                            type: "error"
+                        });
+                    }
+
+                })
+
+            });
+    }
+
+    function EditarRanking(id){
+        var url = "<?php echo constant("URL").'rankingadm/partialeditar/'; ?>"+id;
+        $("#ModalEditarRanking").load(url);
+    }
+
+    function ModalNuevo() {
+        $("#txttitulo").val("");
+        $("#txtartista").val("");
+        $("#txtfecha").val("");
+        $("#txturl").val("");
+        $("#txtubicacion").val("");
+        $('#modalNuevoRegistro').modal('show');
+    }
+
     $(document).ready(function () {
 
         $('#example').DataTable({
@@ -170,9 +287,6 @@ require 'views/adm_scripts.php';
                 }
             }
         });
-    });
-    $(function () {
-        new WOW().init();
     });
 </script>
 </body>

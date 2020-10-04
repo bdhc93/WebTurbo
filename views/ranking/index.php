@@ -971,8 +971,7 @@ require 'views/navigation.php';
 <script>
     $(function () {
         var url = "<?php echo constant("URL")."rankingadm/partialfm"; ?>";
-        console.log(url);
-        $("#siteloader").load('http://localhost:8012/WebTurbo/rankingadm/partialfm');
+        $("#siteloader").load(url);
 
     });
 

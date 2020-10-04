@@ -18,6 +18,9 @@
 
     <link href="<?php echo constant('URL'); ?>public/admin/css/sb-admin-2.min.css" rel="stylesheet">
 
+    <link href="<?php echo constant('URL'); ?>public/plugins/toastr/toastr.css" rel="stylesheet">
+    <link href="<?php echo constant('URL'); ?>public/plugins/sweetalert/sweetalert.css" rel="stylesheet">
+
     <link href="<?php echo constant('URL'); ?>public/admin/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
 
     <link rel="shortcut icon" type="image/png" href="<?php echo constant('URL'); ?>public/images/Logo3DCuadrado.ico"/>
