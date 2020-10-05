@@ -24,7 +24,6 @@ require 'views/navigation.php';
         </div>
     </div>
 </section>
-
 <section class="py-9 pt-md-10">
     <div class="container">
         <div class="row">
@@ -33,63 +32,46 @@ require 'views/navigation.php';
 
                 <div class="media mb-4">
                     <a href="" class="icon-contact-default bg-primary text-white mr-5">
-                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <i class="<?php echo $this->contactos->icono_1; ?>" aria-hidden="true"></i>
                     </a>
 
                     <div class="media-body">
-                        <h4 class="text-uppercase font-weight-medium">Dirección</h4>
-                        <p class="mb-0">Jirón Miguel Iglesias N° 483-489</p>
+                        <h4 class="text-uppercase font-weight-medium"><?php echo $this->contactos->titulo_1; ?></h4>
+                        <p class="mb-0"><?php echo $this->contactos->descripcion_1; ?></p>
+                        <p class="mb-0"><?php echo $this->contactos->descripcion_1_2; ?></p>
                     </div>
                 </div>
-
                 <div class="media mb-4">
                     <a href="" class="icon-contact-default bg-primary text-white mr-5">
-                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <i class="<?php echo $this->contactos->icono_2; ?>" aria-hidden="true"></i>
                     </a>
 
                     <div class="media-body">
-                        <h4 class="text-uppercase font-weight-medium">Números de Publicidad</h4>
-                        <div class="">
-                            <a href="tel:+51976387244" class="text-gray-color hover-text-primary">+51 976 387 244</a>
-                        </div>
-
-                        <div class="">
-                            <a href="tel:+51976575551" class="text-gray-color hover-text-primary">+51 976 575 551</a>
-                        </div>
+                        <h4 class="text-uppercase font-weight-medium"><?php echo $this->contactos->titulo_2; ?></h4>
+                        <p class="mb-0"><?php echo $this->contactos->descripcion_2; ?></p>
+                        <p class="mb-0"><?php echo $this->contactos->descripcion_2_2; ?></p>
                     </div>
                 </div>
-
                 <div class="media mb-4">
                     <a href="" class="icon-contact-default bg-primary text-white mr-5">
-                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <i class="<?php echo $this->contactos->icono_3; ?>" aria-hidden="true"></i>
                     </a>
 
                     <div class="media-body">
-                        <h4 class="text-uppercase font-weight-medium">Números de Oficina</h4>
-                        <div class="">
-                            <a href="tel:+51976387244" class="text-gray-color hover-text-primary">+51 076 366 985</a>
-                        </div>
-
-                        <div class="">
-                            <a href="tel:+51976575551" class="text-gray-color hover-text-primary">+51 076 367 759</a>
-                        </div>
+                        <h4 class="text-uppercase font-weight-medium"><?php echo $this->contactos->titulo_3; ?></h4>
+                        <p class="mb-0"><?php echo $this->contactos->descripcion_3; ?></p>
+                        <p class="mb-0"><?php echo $this->contactos->descripcion_3_2; ?></p>
                     </div>
                 </div>
-
                 <div class="media mb-6 mb-md-0">
                     <a href="" class="icon-contact-default bg-primary text-white mr-5">
-                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <i class="<?php echo $this->contactos->icono_4; ?>" aria-hidden="true"></i>
                     </a>
 
                     <div class="media-body">
-                        <h4 class="text-uppercase font-weight-medium">Correo</h4>
-                        <div class="">
-                            <a href="mailto:ventas@turbomix.com.pe" class="text-gray-color hover-text-primary">ventas@turbomix.com.pe</a>
-                        </div>
-
-                        <div class="">
-                            <a href="mailto:grupo@turbomix.com.pe" class="text-gray-color hover-text-primary">grupo@turbomix.com.pe</a>
-                        </div>
+                        <h4 class="text-uppercase font-weight-medium"><?php echo $this->contactos->titulo_4; ?></h4>
+                        <p class="mb-0"><?php echo $this->contactos->descripcion_4; ?></p>
+                        <p class="mb-0"><?php echo $this->contactos->descripcion_4_2; ?></p>
                     </div>
                 </div>
             </div>

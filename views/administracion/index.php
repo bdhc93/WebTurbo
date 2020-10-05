@@ -4,45 +4,8 @@ require 'views/adm_header.php';
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.6/cropper.css" integrity="sha256-jKV9n9bkk/CTP8zbtEtnKaKf+ehRovOYeKoyfthwbC8=" crossorigin="anonymous" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.6/cropper.js" integrity="sha256-CgvH7sz3tHhkiVKh05kSUgG97YtzYNnWt6OXcmYzqHY=" crossorigin="anonymous"></script>
+    <link href="<?php echo constant('URL'); ?>public/plugins/cropper/modal.css" rel="stylesheet">
 </head>
-
-<style type="text/css">
-
-    img {
-
-        display: block;
-
-        max-width: 100%;
-
-    }
-
-    .preview {
-
-        overflow: hidden;
-
-        width: 160px;
-
-        height: 160px;
-
-        margin: 10px;
-
-        border: 1px solid red;
-
-    }
-
-    .modal-lg{
-
-        max-width: 1000px !important;
-
-    }
-
-</style>
-
-<?php
-//session_start();
-//
-//$_SESSION["imageslidername"]="img";
-//?>
 
 <body id="page-top">
 <div id="wrapper">

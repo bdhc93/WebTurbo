@@ -124,7 +124,7 @@ require 'views/adm_header.php';
                 </div>
                 <div class="modal-body">
 
-                    <input type="text" name="empresa" value="FM" id="" hidden>
+                    <input type="text" name="empresa" value="FM" hidden>
 
                     <div class="form-group  row"><label class="col-sm-2 col-form-label">Título</label>
                         <div class="col-sm-10"><input type="text" name="titulo" id="txttitulo" class="form-control" required></div>

@@ -1,5 +1,7 @@
 <?php
 
+include_once 'rankingadm.php';
+
 class Ranking extends Controller {
 
     function __construct()

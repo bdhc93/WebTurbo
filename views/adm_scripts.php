@@ -40,10 +40,3 @@
 
 <script src="<?php echo constant('URL'); ?>public/plugins/toastr/toastr.min.js"></script>
 <script src="<?php echo constant('URL'); ?>public/plugins/sweetalert/sweetalert.min.js"></script>
-
-<!--<!-- Page level plugins -->-->
-<!--<script src="--><?php //echo constant('URL'); ?><!--public/admin/vendor/chart.js/Chart.min.js"></script>-->
-<!---->
-<!--<!-- Page level custom scripts -->-->
-<!--<script src="--><?php //echo constant('URL'); ?><!--public/admin/js/demo/chart-area-demo.js"></script>-->
-<!--<script src="--><?php //echo constant('URL'); ?><!--public/admin/js/demo/chart-pie-demo.js"></script>-->

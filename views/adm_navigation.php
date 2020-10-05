@@ -201,11 +201,11 @@ $url = explode('/', $url);
     </li>
 
     <li class="nav-item  <?php if (!empty($url[1])) {
-        if ($url[1] == 'contactanos') {
+        if ($url[0] == 'contactos') {
             echo 'active';
         }
     } ?>">
-        <a class="nav-link" href="<?php echo constant('URL'); ?>administracion/contactanos">
+        <a class="nav-link" href="<?php echo constant('URL'); ?>contactos/admcontactos">
             <i class="fas fa-fw fa-comments"></i>
             <span>Contáctanos</span></a>
     </li>
