@@ -48,7 +48,7 @@ foreach ($this->ranking as $row) {
 
                             <li class="meta-tag text-gray-color mr-4 mb-1">
                                 <i class="fa fa-calendar" aria-hidden="true"></i>
-                                <span class="ml-1 text-capitalize">Publicación: <?php echo $ranking->fecha; ?></span>
+                                <span class="ml-1 text-capitalize">Publicación: <?php echo $ranking->contador; ?></span>
                             </li>
                         </ul>
                     </div>

@@ -15,7 +15,7 @@ foreach ($this->ranking as $row) {
             <?php echo $ranking->artista; ?>
         </td>
         <td>
-            <?php echo $ranking->fecha; ?>
+            <?php echo $ranking->contador; ?>
         </td>
         <td>
             <?php echo $ranking->url; ?>

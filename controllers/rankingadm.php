@@ -21,13 +21,13 @@ class RankingAdm extends Controller {
         $empresa = $_POST['empresa'];
         $titulo = $_POST['titulo'];
         $artista = $_POST['artista'];
-        $fecha = $_POST['fecha'];
+        $contador = $_POST['contador'];
         $url = $_POST['url'];
         $ubicacion = $_POST['ubicacion'];
 
         $mensaje = "";
 
-        if($this->model->insert(['empresa' => $empresa, 'titulo' => $titulo, 'artista' => $artista, 'fecha' => $fecha, 'url' => $url, 'ubicacion' => $ubicacion])){
+        if($this->model->insert(['empresa' => $empresa, 'titulo' => $titulo, 'artista' => $artista, 'contador' => $contador, 'url' => $url, 'ubicacion' => $ubicacion])){
             $mensaje = 1;
         }else {
             $mensaje = 0;
@@ -120,7 +120,7 @@ class RankingAdm extends Controller {
         $empresa = $_POST['empresa'];
         $titulo = $_POST['titulo'];
         $artista = $_POST['artista'];
-        $fecha = $_POST['fecha'];
+        $contador = $_POST['contador'];
         $url = $_POST['url'];
         $ubicacion = $_POST['ubicacion'];
 
@@ -128,7 +128,7 @@ class RankingAdm extends Controller {
 
         $mensaje = "";
 
-        if($this->model->update(['id' => $Id, 'empresa' => $empresa, 'titulo' => $titulo, 'artista' => $artista, 'fecha' => $fecha, 'url' => $url, 'ubicacion' => $ubicacion])){
+        if($this->model->update(['id' => $Id, 'empresa' => $empresa, 'titulo' => $titulo, 'artista' => $artista, 'contador' => $contador, 'url' => $url, 'ubicacion' => $ubicacion])){
             $mensaje = 2;
         }else {
             $mensaje = 0;

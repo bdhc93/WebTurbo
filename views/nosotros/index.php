@@ -278,188 +278,178 @@ require 'views/navigation.php';
 <!--        </div>-->
 <!--    </div>-->
 <!--</section>-->
-<div style="height: 520px" class="quien">
-    <div>
-        <div class="" >
-            <style type="text/css">
-                {
-                    position: relative;
-                }
-                .sobre {
-                    position:absolute;
-                    top:20px;
-                    left:700px;
-                    border:none;
-                }
-                .sobre2 {
-                    position:absolute;
-                    top:180px;
-                    left:950px;
-                    border:none;
-                }
-                .sobre3 {
-                    position:absolute;
-                    top:50px;
-                    left:100px;
-                    border:none;
-                }
-                span{
-                    background-color: #008000;
-                    padding:3px;
-                    color:#fff;
-                }
-            </style>
-            <div class="row">
-                <div class="col-lg-5 text-center">
-                    <div id="">
-                        <img class="sobre" src="<?php echo constant('URL'); ?>public/images/pruebas/noti/not_depor_0002.jpg" width="400" height="260" /></a>
-                        <img class="sobre2" src="<?php echo constant('URL'); ?>public/images/pruebas/noti/not_depor_0002.jpg" width="330" height="268" /></a>
-                        <p class="sobre3"><font face="PaybAck" SIZE="6"><span>QUIENES SOMOS</span></font> <br> <br> El Grupo Turbo Mix es una cadena de radial fundada en la ciudad de Cajamarca-Perú por el Sr. Wilmer Huaripata Aguilar "Fantasmita Willy" , y está conformado por Radio Turbo Mix FM 92.5, Radio Turbo Mix AM 710, Canal 19 Turbo Mix TV y Radio Pirata FM 97.7. Asimismo tiene sus estaciones en las diferentes ciudades. <BR> Los medios de comunicación masiva que integran el GRUPO TURBO MIX, están desarrollados pensando en las necesidades de los diferentes rubros comerciales del mercado actual. <BR> Poniendo a su disposición publicidad inmediata y efectiva, imponiendo su marca en el mercado, en respuesta a su inversión publicitaria.<BR> 30 años de experiencia, respaldados por los avances tecnológicos de nuestros medios de Radio AM Y FM, Televisión y Productora,sumado al talento creativo del equipo humano, garantizan la efectividad de nuestro trabajo. <BR> GRUPO TURBO MIX...Un medio para cada objetivo. Ponemos voz e imagen a tus ideas </p>
-                        </div>
+<br>
+<br>
+<div class="d-none d-md-block col-md-12 text-right" data-wow-delay="1s" style="position: absolute;z-index: 10;">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="wow fadeInUp" data-wow-delay="1s">
+        <a href="#page-intro">
+            <br>
+            <img src="<?php echo constant('URL'); ?>public/images/pruebas/gal/fotos_1.jpg" style="opacity: 100%;"/>
+        </a>
+    </div>
+</div>
 
+<section class="py-1">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-7 align-items-center text-center border-bottom">
+                <p class="sobre3"><font face="PaybAck" SIZE="6"><span>QUIENES SOMOS</span></font> <br> <br> El Grupo Turbo Mix es una cadena de radial fundada en la ciudad de Cajamarca-Perú por el Sr. Wilmer Huaripata Aguilar "Fantasmita Willy" , y está conformado por Radio Turbo Mix FM 92.5, Radio Turbo Mix AM 710, Canal 19 Turbo Mix TV y Radio Pirata FM 97.7. Asimismo tiene sus estaciones en las diferentes ciudades. <BR> Los medios de comunicación masiva que integran el GRUPO TURBO MIX, están desarrollados pensando en las necesidades de los diferentes rubros comerciales del mercado actual. <BR> Poniendo a su disposición publicidad inmediata y efectiva, imponiendo su marca en el mercado, en respuesta a su inversión publicitaria.<BR> 30 años de experiencia, respaldados por los avances tecnológicos de nuestros medios de Radio AM Y FM, Televisión y Productora,sumado al talento creativo del equipo humano, garantizan la efectividad de nuestro trabajo. <BR> GRUPO TURBO MIX...Un medio para cada objetivo. Ponemos voz e imagen a tus ideas </p>
+
+            </div>
+
+            <div class="col-md-5 text-center wow fadeInLeft" data-wow-delay="1s" >
+                <div class="media-img position-relative">
+                    <img class="img-fluid position-relative" src="<?php echo constant('URL'); ?>public/images/pruebas/gal/fotos_1.jpg" alt="gallery-img">
                 </div>
             </div>
         </div>
     </div>
+</section>
+
+<div class="d-none d-md-block col-md-3 text-right" data-wow-delay="1s" style="position: absolute;z-index: 10;">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="wow fadeInUp" data-wow-delay="0.5s">
+        <a href="#page-intro">
+            <br>
+            <img src="<?php echo constant('URL'); ?>public/images/pruebas/gal/fotos_1.jpg" style="opacity: 100%;"/>
+        </a>
+    </div>
 </div>
 
-<div style="height: 520px" class="somos">
-    <div>
-        <div class="mis_vis">
-            <style type="text/css">
-                {
-                    position: relative;
-                }
-                .sobre4 {
-                    position:absolute;
-                    top:20px;
-                    left:300px;
-                    border:none;
-                }
-                .sobre5 {
-                    position:absolute;
-                    top:180px;
-                    left:100px;
-                    border:none;
-                }
-                .sobre6 {
-                    position:absolute;
-                    top:110px;
-                    left:750px;
-                    border:none;
-                }
-                span{
-                    background-color: #008000;
-                    padding:3px;
-                    color:#fff;
-                }
-            </style>
-            <div class="row">
-                <div class="col-lg-11 text-center">
-                    <div id="">
-                        <img class="sobre4" src="<?php echo constant('URL'); ?>public/images/pruebas/noti/not_depor_0002.jpg" width="400" height="260" /></a>
-                        <img class="sobre5" src="<?php echo constant('URL'); ?>public/images/pruebas/noti/not_depor_0002.jpg" width="330" height="268" /></a>
-                        <p class="sobre6"><font face="PaybAck" SIZE="6"><span>MISION & VISION </span></font> <br> <br> Ofrecer el servicio de radio y televisión a la población, con alta calidad, veracidad, oportunidad, profesionalismo y difusión de mensajes responsables, con la participación de la comunidad cajamarquina y la libre expresión, apta para todas las edades. <br> <br> Ser un medio de comunicación regional de nivel competitivo dentro del mercado peruano adoptando y aportando nuevas ideas para que nuestra programación sea eficaz, permitiéndonos consolidar nuestra cadena radial en todo el norte del Perú. </p>
-                    </div>
+<section class="py-1">
+    <div class="container">
+        <div class="row">
 
+            <div class="d-none d-md-block col-md-5 align-items-center text-center" data-wow-delay="1s">
+
+                <div class="media-img position-relative wow fadeInRight" data-wow-delay="1s">
+                    <img class="img-fluid position-relative" src="<?php echo constant('URL'); ?>public/images/pruebas/gal/fotos_1.jpg" alt="gallery-img">
+                </div>
+
+            </div>
+
+            <div class="col-md-7 text-center mt-4 mb-4 border-bottom">
+
+                <br>
+
+                <p class="sobre3"><font face="PaybAck" SIZE="6"><span>MISION & VISION</span></font> <br> <br> Ofrecer el servicio de radio y televisión a la población, con alta calidad, veracidad, oportunidad, profesionalismo y difusión de mensajes responsables, con la participación de la comunidad cajamarquina y la libre expresión, apta para todas las edades. <br> <br> Ser un medio de comunicación regional de nivel competitivo dentro del mercado peruano adoptando y aportando nuevas ideas para que nuestra programación sea eficaz, permitiéndonos consolidar nuestra cadena radial en todo el norte del Perú. </p>
+
+            </div>
+
+            <div class="d-block d-md-none col-md-5 align-items-center text-center" data-wow-delay="1s" >
+                <div class="media-img position-relative">
+                    <img class="img-fluid position-relative" src="<?php echo constant('URL'); ?>public/images/pruebas/gal/fotos_1.jpg" alt="gallery-img">
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<div class="d-none d-md-block col-md-12 text-right" data-wow-delay="1s" style="position: absolute;z-index: 10;">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="wow fadeInUp" data-wow-delay="1s">
+        <a href="#page-intro">
+            <br>
+            <img src="<?php echo constant('URL'); ?>public/images/pruebas/gal/fotos_1.jpg" style="opacity: 100%;"/>
+        </a>
+    </div>
+</div>
+
+<section class="py-1">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-7 mt-8 mb-8 align-items-center text-center border-bottom">
+                <br>
+
+                <p class="sobre3"><font face="PaybAck" SIZE="6"><span>COMUNICACION Y TECNOLOGIA</span></font> <br> <br>Los equipos trasmisores de la radio y del canal gozan de tecnología de punta, lo que le permite que sus diferentes centros de producción y post producción puedan generar los diversos programas en vivo para la satisfacción de los radioescuchas y televidentes, asimismo, cuenta con un personal profesional altamente capacitado en las distintas áreas donde se crean las transmisiones que se ofrece a nuestra teleaudiencia. Por ello, ofrecemos una programación de calidad e interés general, muy participativo, humanizante y promotora de los valores, a la vanguardia de la tecnología, con una excelente producción y estilo único. </p>
+
+            </div>
+
+            <div class="col-md-5 text-center">
+                <div class="media-img position-relative wow fadeInLeft" data-wow-delay="1s">
+                    <img class="img-fluid position-relative" src="<?php echo constant('URL'); ?>public/images/pruebas/gal/fotos_1.jpg" alt="gallery-img">
                 </div>
             </div>
         </div>
     </div>
-</div>
+</section>
 
-<div style="height: 520px"class="tecno">
-    <div>
-        <div class="com_tec">
-            <style type="text/css">
-                {
-                    position: relative;
-                }
-                .sobre7 {
-                    position:absolute;
-                    top:20px;
-                    left:700px;
-                    border:none;
-                }
-                .sobre8 {
-                    position:absolute;
-                    top:180px;
-                    left:950px;
-                    border:none;
-                }
-                .sobre9 {
-                    position:absolute;
-                    top:50px;
-                    left:100px;
-                    border:none;
-                }
-                span{
-                    background-color: #008000;
-                    padding:3px;
-                    color:#fff;
-                }
-            </style>
-            <div class="row">
-                <div class="col-lg-5 text-center">
-                    <div id="">
-                        <img class="sobre7" src="<?php echo constant('URL'); ?>public/images/pruebas/noti/not_depor_0002.jpg" width="400" height="260" /></a>
-                        <img class="sobre8" src="<?php echo constant('URL'); ?>public/images/pruebas/noti/not_depor_0002.jpg" width="330" height="268" /></a>
-                        <p class="sobre9"><font face="PaybAck" SIZE="6"><span>COMUNICACION Y TECNOLOGIA</span></font> <br> <br>Los equipos trasmisores de la radio y del canal gozan de tecnología de punta, lo que le permite que sus diferentes centros de producción y post producción puedan generar los diversos programas en vivo para la satisfacción de los radioescuchas y televidentes, asimismo, cuenta con un personal profesional altamente capacitado en las distintas áreas donde se crean las transmisiones que se ofrece a nuestra teleaudiencia. Por ello, ofrecemos una programación de calidad e interés general, muy participativo, humanizante y promotora de los valores, a la vanguardia de la tecnología, con una excelente producción y estilo único. </p>
-                    </div>
 
-                </div>
-            </div>
-        </div>
+<div class="d-none d-md-block col-md-3 text-right" data-wow-delay="10s" style="position: absolute;z-index: 10;">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="wow fadeInUp" data-wow-delay="1s">
+        <a href="#page-intro">
+            <br>
+            <img src="<?php echo constant('URL'); ?>public/images/pruebas/gal/fotos_1.jpg" style="opacity: 100%;"/>
+        </a>
     </div>
 </div>
 
-<div style="height: 520px" class="can19">
-    <div>
-        <div class="cnl_19">
-            <style type="text/css">
-                {
-                    position: relative;
-                }
-                .sobre10 {
-                    position:absolute;
-                    top:20px;
-                    left:300px;
-                    border:none;
-                }
-                .sobre11 {
-                    position:absolute;
-                    top:180px;
-                    left:100px;
-                    border:none;
-                }
-                .sobre12 {
-                    position:absolute;
-                    top:110px;
-                    left:750px;
-                    border:none;
-                }
-                span{
-                    background-color: #008000;
-                    padding:3px;
-                    color:#fff;
-                }
-            </style>
-            <div class="row">
-                <div class="col-lg-11  text-center">
-                    <div id="">
-                        <div class="wow bounceInUp">
-                            <img class="sobre10" src="<?php echo constant('URL'); ?>public/images/pruebas/noti/not_depor_0002.jpg" width="400" height="260" /></a>
-                        </div>
-                        <img class="sobre11" src="<?php echo constant('URL'); ?>public/images/pruebas/noti/not_depor_0002.jpg" width="330" height="268" /></a>
-                        <p class="sobre12"><font face="PaybAck" SIZE="6"><span> CANAL 19 TURBO MIX TV </span></font> <br> <br> Establece un nuevo estándar para la industria televisiva al traer al mejor talento frente y detrás de las cámaras. Además continúa cumpliendo con la visión de su fundador "la televisión debe permitir que los nuevos talentos tengan un espacio real en donde iniciar su carrera". Razones que han servido para que en el año 2008 nuestra empresa sea conmemorada y reconocida por la empresa Peruana de Opinión Pública (POP), galardonando a Canal 19 Tirbo Mix Tv con la cinta Roja y Blanca de la Excelencia y Liderazgo. </p>
-                    </div>
+<section class="py-1">
+    <div class="container">
+        <div class="row">
 
+            <div class="d-none d-md-block col-md-5 align-items-center text-center" data-wow-delay="1s" >
+                <div class="media-img position-relative wow fadeInRight" data-wow-delay="1s">
+                    <img class="img-fluid position-relative" src="<?php echo constant('URL'); ?>public/images/pruebas/gal/fotos_1.jpg" alt="gallery-img">
                 </div>
+
             </div>
+
+            <div class="col-md-7 text-center border-bottom mt-7 mb-10 ">
+
+                <p class="sobre3"><font face="PaybAck" SIZE="6"><span>CANAL 19 TURBO MIX TV</span></font> <br> <br> Establece un nuevo estándar para la industria televisiva al traer al mejor talento frente y detrás de las cámaras. Además continúa cumpliendo con la visión de su fundador "la televisión debe permitir que los nuevos talentos tengan un espacio real en donde iniciar su carrera". Razones que han servido para que en el año 2008 nuestra empresa sea conmemorada y reconocida por la empresa Peruana de Opinión Pública (POP), galardonando a Canal 19 Turbo Mix Tv con la cinta Roja y Blanca de la Excelencia y Liderazgo. </p>
+
+            </div>
+
+            <div class="d-block d-md-none col-md-5 align-items-center text-center" data-wow-delay="1s" >
+                <div class="media-img position-relative">
+                    <img class="img-fluid position-relative" src="<?php echo constant('URL'); ?>public/images/pruebas/gal/fotos_1.jpg" alt="gallery-img">
+                </div>
+
+            </div>
+
         </div>
     </div>
-</div>
+</section>
 
 <?php require 'views/footer.php' ?>
+
+<script>
+    $(function () {
+        new WOW().init();
+    });
+
+</script>
+
 </body>
 </html>

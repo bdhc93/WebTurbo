@@ -46,7 +46,7 @@ require 'views/adm_header.php';
                                     <th >Ubicación</th>
                                     <th>Canción</th>
                                     <th>Artista</th>
-                                    <th>Fecha</th>
+                                    <th>Contador</th>
                                     <th>URL</th>
                                     <th>Acciones</th>
                                 </tr>
@@ -56,7 +56,7 @@ require 'views/adm_header.php';
                                     <th>Ubicación</th>
                                     <th>Canción</th>
                                     <th>Artista</th>
-                                    <th>Fecha</th>
+                                    <th>Contador</th>
                                     <th>URL</th>
                                     <th>Acciones</th>
                                 </tr>
@@ -79,7 +79,7 @@ require 'views/adm_header.php';
                                             <?php echo $ranking->artista; ?>
                                         </td>
                                         <td>
-                                            <?php echo $ranking->fecha; ?>
+                                            <?php echo $ranking->contador; ?>
                                         </td>
                                         <td>
                                             <?php echo $ranking->url; ?>
@@ -132,8 +132,8 @@ require 'views/adm_header.php';
                     <div class="form-group  row"><label class="col-sm-2 col-form-label">Artista</label>
                         <div class="col-sm-10"><input type="text" name="artista" id="txtartista" class="form-control" required></div>
                     </div>
-                    <div class="form-group  row"><label class="col-sm-2 col-form-label">Fecha</label>
-                        <div class="col-sm-10"><input type="date" name="fecha" id="txtfecha" class="form-control"></div>
+                    <div class="form-group  row"><label class="col-sm-2 col-form-label">Contador</label>
+                        <div class="col-sm-10"><input type="text" name="contador" id="txtcontador" class="form-control" required></div>
                     </div>
                     <div class="form-group  row"><label class="col-sm-2 col-form-label">URL</label>
                         <div class="col-sm-10"><input type="text" name="url" id="txturl" class="form-control" required></div>
@@ -263,7 +263,7 @@ require 'views/adm_scripts.php';
     function ModalNuevo() {
         $("#txttitulo").val("");
         $("#txtartista").val("");
-        $("#txtfecha").val("");
+        $("#txtcontador").val("");
         $("#txturl").val("");
         $("#txtubicacion").val("");
         $('#modalNuevoRegistro').modal('show');

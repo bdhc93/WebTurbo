@@ -15,8 +15,8 @@
     <div class="form-group  row"><label class="col-sm-2 col-form-label">Artista</label>
         <div class="col-sm-10"><input type="text" name="artista" value="<?php echo $this->ranking->artista; ?>" class="form-control" required></div>
     </div>
-    <div class="form-group  row"><label class="col-sm-2 col-form-label">Fecha</label>
-        <div class="col-sm-10"><input type="date" name="fecha" value="<?php echo $this->ranking->fecha; ?>" class="form-control"></div>
+    <div class="form-group  row"><label class="col-sm-2 col-form-label">contador</label>
+        <div class="col-sm-10"><input type="date" name="contado" value="<?php echo $this->ranking->contador; ?>" class="form-control"></div>
     </div>
     <div class="form-group  row"><label class="col-sm-2 col-form-label">URL</label>
         <div class="col-sm-10"><input type="text" name="url" value="<?php echo $this->ranking->url; ?>" class="form-control" required></div>

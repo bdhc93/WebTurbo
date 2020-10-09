@@ -73,17 +73,18 @@ require 'views/navigation.php';
                         <div class="row">
                             <div class="col-md-7 col-xl-8">
                                 <h4>
-                                    <a class="media-title" href="single-hotel-right-sidebar.html">Park hyat hotel</a>
+                                    <a class="media-title" href="single-hotel-right-sidebar.html">FELIZ AMANECER</a>
                                 </h4>
 
 
-                                <p class="mb-md-0">Lorem ipsum dolor sit adgsfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffmet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                    aliqua.</p>
+                                <p class="mb-md-0">Con nuestro locutor: ROGER RONCAL RONCAL <br> Un programa dedicado a la difusión de nuestra música folklorica, promoviendo la cultura peruana</p>
+                                <br>
+                                <br>
                                 <br>
                                 <br>
                                 <div class="date-view">
-                                    <span><i class="fa fa-calendar" aria-hidden="true"></i> 27 jan, 2019</span>
-                                    <span><i class="fa fa-clock-o" aria-hidden="true"></i> 5 days</span>
+                                    <span><i class="fa fa-calendar" aria-hidden="true"></i> Lun-Sab de 4am-6:30am.</span>
+                                    <span><i class="fa fa-calendar" aria-hidden="true"></i> Dom de 4am-7am</span>
                                 </div>
                             </div>
                         </div>
@@ -100,17 +101,16 @@ require 'views/navigation.php';
                         <div class="row">
                             <div class="col-md-7 col-xl-8">
                                 <h4>
-                                    <a class="media-title" href="single-hotel-right-sidebar.html">Park hyat hotel</a>
+                                    <a class="media-title" href="single-hotel-right-sidebar.html">dra.lupita</a>
                                 </h4>
 
 
-                                <p class="mb-md-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                    aliqua.</p>
-
+                                <p class="mb-md-0">Con la conducción de la Dra. LUPITA <br>Programa esotérico, basado en lectura de cartas y predicción del futuro, consejos para mejorar tu día a día</p>
+                                <br>
+                                <br>
                                 <div class="date-view">
-                                    <span><i class="fa fa-calendar" aria-hidden="true"></i> 27 jan, 2019</span>
-                                    <span><i class="fa fa-clock-o" aria-hidden="true"></i> 5 days</span>
-                                </div>
+                                    <span><i class="fa fa-calendar" aria-hidden="true"></i> Lun-Sab de 6:30am-7am</span>
+                                   </div>
                             </div>
                         </div>
                     </div>
@@ -126,16 +126,16 @@ require 'views/navigation.php';
                         <div class="row">
                             <div class="col-md-7 col-xl-8">
                                 <h4>
-                                    <a class="media-title" href="single-hotel-right-sidebar.html">Park hyat hotel</a>
+                                    <a class="media-title" href="single-hotel-right-sidebar.html">habla cajamarca</a>
                                 </h4>
 
 
-                                <p class="mb-md-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                    aliqua.</p>
+                                <p class="mb-md-0">Con la conducción de Cristian Rojas y Luis Paredes <br> Programa informativo y de opinión pública, brindando información veraz y actualizada de política, salud y deportes</p>
+                                <br>
+                                <br>
 
                                 <div class="date-view">
-                                    <span><i class="fa fa-calendar" aria-hidden="true"></i> 27 jan, 2019</span>
-                                    <span><i class="fa fa-clock-o" aria-hidden="true"></i> 5 days</span>
+                                    <span><i class="fa fa-calendar" aria-hidden="true"></i> Lun-Vier de 7am-8am</span>
                                 </div>
                             </div>
                         </div>
@@ -152,16 +152,18 @@ require 'views/navigation.php';
                         <div class="row">
                             <div class="col-md-7 col-xl-8">
                                 <h4>
-                                    <a class="media-title" href="single-hotel-right-sidebar.html">Park hyat hotel</a>
+                                    <a class="media-title" href="single-hotel-right-sidebar.html">24 KILATES</a>
                                 </h4>
 
 
-                                <p class="mb-md-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                    aliqua.</p>
+                                <p class="mb-md-0">Con nuestro locutor: MANUEL CORONADO PALACIOS <br> Programa de música variada, con el conductor más  </p>
+                                <br>
+                                <br>
+                                <br>
 
                                 <div class="date-view">
-                                    <span><i class="fa fa-calendar" aria-hidden="true"></i> 27 jan, 2019</span>
-                                    <span><i class="fa fa-clock-o" aria-hidden="true"></i> 5 days</span>
+                                    <span><i class="fa fa-calendar" aria-hidden="true"></i> Lun-Vier de 8am-10am</span>
+
                                 </div>
                             </div>
                         </div>

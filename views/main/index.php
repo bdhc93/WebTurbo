@@ -435,8 +435,7 @@ require 'views/navigation.php';
           NUESTRO EQUIPO
         </span>
                 </h2>
-                <p class="text-capitalize text-center">Quisque lacus augue, blandit non est a, dictum malesuada
-                    odio.</p>
+                <p class="text-capitalize text-center">Los medios de comunicación deben permitir que los nuevos talentos tengan un espacio real en donde iniciar su carrera</p>
             </div>
 
             <div class="row justify-content-center">
@@ -499,28 +498,11 @@ require 'views/navigation.php';
             <div class="row align-items-center justify-content-center text-center">
                 <div class="col-12">
                     <div class="content mb-7">
-                        <h4 class="text-uppercase text-white mb-2">Winter Promotion</h4>
-                        <h2 class="text-uppercase text-white font-weight-bold">Greek Island Vacation Tour</h2>
+                        <h4 class="text-uppercase text-white mb-2">Nuestro Fundador</h4>
+                        <h2 class="text-uppercase text-white font-weight-bold">WILMER HUARIPATA AGUILAR</h2>
                     </div>
-                    <ul class="list-unstyled icon-rating d-flex justify-content-center text-warning mb-1">
-                        <li class="mr-1">
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                        </li>
-                        <li class="mr-1">
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                        </li>
-                        <li class="mr-1">
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                        </li>
-                        <li class="mr-1">
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                        </li>
-                        <li>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                        </li>
-                    </ul>
-                    <h4 class="text-white mb-4">$599 per person - 5 nights</h4>
-                    <a href="single-package-right-sidebar.html" class="btn btn-primary text-uppercase">View Details</a>
+                    <h4 class="text-white mb-4">"Fantasmita Wily"</h4>
+
                 </div>
             </div>
         </div>
@@ -787,17 +769,17 @@ require 'views/navigation.php';
             <div class="text-center section-title">
                 <h2 class="text-uppercase font-weight-bold position-relative">
         <span class="bg-white">
-          Our Packages
+          CONOCIÉNDONOS MÁS
         </span>
                 </h2>
-                <p class="text-capitalize text-center">Ut facilisis facilisis metus quis semper</p>
+                <p class="text-capitalize text-center">Un poco de nuestra historia</p>
             </div>
 
             <div id="filters" class="button-group">
-                <button class="button is-checked" data-filter="*">All Places</button>
-                <button class="button" data-filter=".asia">Asia</button>
-                <button class="button" data-filter=".america">America</button>
-                <button class="button" data-filter=".africa">Africa</button>
+                <button class="button is-checked" data-filter="*">nosotros</button>
+                <button class="button" data-filter=".asia">reconocimientos</button>
+                <button class="button" data-filter=".america">artistas</button>
+                <button class="button" data-filter=".africa">turbo movil</button>
             </div>
 
             <div class="row grid">
