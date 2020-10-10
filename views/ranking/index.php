@@ -528,7 +528,10 @@ require 'views/navigation.php';
             </div>
 
             <div class="col-lg-4 col-xl-3">
-                <div class="mb-md-6 mb-lg-0">
+                <div id="extraloader">
+
+                </div>
+                <!--<div class="mb-md-6 mb-lg-0">
                     <div class="row">
                         <div class="col-md-4 col-lg-12">
                             <div class="d-none d-md-block">
@@ -551,7 +554,7 @@ require 'views/navigation.php';
 
                                             <div class="media meta-post-sm border-bottom border-off-white pb-3 mb-3">
                                                 <div class="img-overlay rounded mr-2">
-                                                    <img src="<?php echo constant('URL'); ?>public/img/blog/tab-01.jpg" alt="Generic placeholder image">
+                                                    <img src="<?php /*echo constant('URL'); */?>public/img/blog/tab-01.jpg" alt="Generic placeholder image">
                                                     <a href="https://www.youtube.com/watch?v=pK060iUFWXg" target="_blank" class="hover-img-overlay-dark">
                                                         <i class="fa fa-youtube-play text-white" aria-hidden="true"></i>
                                                     </a>
@@ -573,7 +576,7 @@ require 'views/navigation.php';
 
                                             <div class="media meta-post-sm border-bottom border-off-white pb-3 mb-3">
                                                 <div class="img-overlay rounded mr-2">
-                                                    <img src="<?php echo constant('URL'); ?>public/img/blog/tab-01.jpg" alt="Generic placeholder image">
+                                                    <img src="<?php /*echo constant('URL'); */?>public/img/blog/tab-01.jpg" alt="Generic placeholder image">
                                                     <a href="https://www.youtube.com/watch?v=pK060iUFWXg" target="_blank" class="hover-img-overlay-dark">
                                                         <i class="fa fa-youtube-play text-white" aria-hidden="true"></i>
                                                     </a>
@@ -595,7 +598,7 @@ require 'views/navigation.php';
 
                                             <div class="media meta-post-sm border-bottom border-off-white pb-3 mb-3">
                                                 <div class="img-overlay rounded mr-2">
-                                                    <img src="<?php echo constant('URL'); ?>public/img/blog/tab-01.jpg" alt="Generic placeholder image">
+                                                    <img src="<?php /*echo constant('URL'); */?>public/img/blog/tab-01.jpg" alt="Generic placeholder image">
                                                     <a href="https://www.youtube.com/watch?v=pK060iUFWXg" target="_blank" class="hover-img-overlay-dark">
                                                         <i class="fa fa-youtube-play text-white" aria-hidden="true"></i>
                                                     </a>
@@ -617,7 +620,7 @@ require 'views/navigation.php';
 
                                             <div class="media meta-post-sm">
                                                 <div class="img-overlay rounded mr-2">
-                                                    <img src="<?php echo constant('URL'); ?>public/img/blog/tab-01.jpg" alt="Generic placeholder image">
+                                                    <img src="<?php /*echo constant('URL'); */?>public/img/blog/tab-01.jpg" alt="Generic placeholder image">
                                                     <a href="https://www.youtube.com/watch?v=pK060iUFWXg" target="_blank" class="hover-img-overlay-dark">
                                                         <i class="fa fa-youtube-play text-white" aria-hidden="true"></i>
                                                     </a>
@@ -643,7 +646,7 @@ require 'views/navigation.php';
 
                                             <div class="media meta-post-sm border-bottom border-off-white pb-3 mb-3">
                                                 <div class="img-overlay rounded mr-2">
-                                                    <img src="<?php echo constant('URL'); ?>public/img/blog/tab-01.jpg" alt="Generic placeholder image">
+                                                    <img src="<?php /*echo constant('URL'); */?>public/img/blog/tab-01.jpg" alt="Generic placeholder image">
                                                     <a href="https://www.youtube.com/watch?v=pK060iUFWXg" target="_blank" class="hover-img-overlay-dark">
                                                         <i class="fa fa-youtube-play text-white" aria-hidden="true"></i>
                                                     </a>
@@ -665,7 +668,7 @@ require 'views/navigation.php';
 
                                             <div class="media meta-post-sm border-bottom border-off-white pb-3 mb-3">
                                                 <div class="img-overlay rounded mr-2">
-                                                    <img src="<?php echo constant('URL'); ?>public/img/blog/tab-01.jpg" alt="Generic placeholder image">
+                                                    <img src="<?php /*echo constant('URL'); */?>public/img/blog/tab-01.jpg" alt="Generic placeholder image">
                                                     <a href="https://www.youtube.com/watch?v=pK060iUFWXg" target="_blank" class="hover-img-overlay-dark">
                                                         <i class="fa fa-youtube-play text-white" aria-hidden="true"></i>
                                                     </a>
@@ -687,7 +690,7 @@ require 'views/navigation.php';
 
                                             <div class="media meta-post-sm border-bottom border-off-white pb-3 mb-3">
                                                 <div class="img-overlay rounded mr-2">
-                                                    <img src="<?php echo constant('URL'); ?>public/img/blog/tab-01.jpg" alt="Generic placeholder image">
+                                                    <img src="<?php /*echo constant('URL'); */?>public/img/blog/tab-01.jpg" alt="Generic placeholder image">
                                                     <a href="https://www.youtube.com/watch?v=pK060iUFWXg" target="_blank" class="hover-img-overlay-dark">
                                                         <i class="fa fa-youtube-play text-white" aria-hidden="true"></i>
                                                     </a>
@@ -709,7 +712,7 @@ require 'views/navigation.php';
 
                                             <div class="media meta-post-sm">
                                                 <div class="img-overlay rounded mr-2">
-                                                    <img src="<?php echo constant('URL'); ?>public/img/blog/tab-01.jpg" alt="Generic placeholder image">
+                                                    <img src="<?php /*echo constant('URL'); */?>public/img/blog/tab-01.jpg" alt="Generic placeholder image">
                                                     <a href="https://www.youtube.com/watch?v=pK060iUFWXg" target="_blank" class="hover-img-overlay-dark">
                                                         <i class="fa fa-youtube-play text-white" aria-hidden="true"></i>
                                                     </a>
@@ -735,7 +738,7 @@ require 'views/navigation.php';
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
 
@@ -991,7 +994,9 @@ require 'views/navigation.php';
 <script>
     $(function () {
         var url = "<?php echo constant("URL")."rankingadm/partialfm"; ?>";
+        var url2 = "<?php echo constant("URL")."rankingext/partialextras"; ?>";
         $("#siteloader").load(url);
+        $("#extraloader").load(url2);
 
     });
 

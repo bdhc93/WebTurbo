@@ -181,7 +181,7 @@ $url = explode('/', $url);
             <span>Ranking</span>
         </a>
         <div id="collapseRanking" class="collapse <?php if (!empty($url[0])) {
-            if ($url[0] == 'rankingadm' || $url[1] == 'ranking_tv') {
+            if ($url[0] == 'rankingadm' || $url[1] == 'ranking_tv' || $url[1] == 'rankingext') {
                 echo 'show';
             }
         } ?>" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
@@ -196,6 +196,11 @@ $url = explode('/', $url);
                         echo 'active';
                     }
                 } ?>" href="<?php echo constant('URL'); ?>rankingadm/rankingtv">Turbo Mix TV</a>
+                <a class="collapse-item <?php if (!empty($url[1])) {
+                    if ($url[1] == 'extras'  || $url[1] == 'rankingext') {
+                        echo 'active';
+                    }
+                } ?>" href="<?php echo constant('URL'); ?>rankingext">Extras</a>
             </div>
         </div>
     </li>

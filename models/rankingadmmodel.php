@@ -10,7 +10,7 @@ class RankingAdmModel extends Model{
     }
 
     public function insert($datos){
-        echo $_POST['contador'];
+//        echo $_POST['contador'];
         try {
             $query = $this->db->connect()->prepare('INSERT INTO RANKING (EMPRESA, TITULO, ARTISTA, CONTADOR, URL, UBICACION) VALUES (:empresa, :titulo, :artista, :contador, :url, :ubicacion)');
             $query->execute(['empresa' => $datos['empresa'], 'titulo' => $datos['titulo'], 'artista' => $datos['artista'], 'contador' => $datos['contador'], 'url' => $datos['url'], 'ubicacion' => $datos['ubicacion']]);
