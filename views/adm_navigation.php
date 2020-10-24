@@ -48,7 +48,7 @@ $url = explode('/', $url);
                     if ($url[1] == 'mision_vision') {
                         echo 'active';
                     }
-                } ?>" href="<?php echo constant('URL'); ?>administracion/mision_vision">Misión
+                } ?>" href="<?php echo constant('URL'); ?>nosotros/admmisionvision">Misión
                     y Visión</a>
                 <a class="collapse-item <?php if (!empty($url[1])) {
                     if ($url[1] == 'responsabilidad_social') {

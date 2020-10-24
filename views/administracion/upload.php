@@ -1,7 +1,7 @@
 
 <?php
 
-$folderPath = 'public/images/main/';
+$folderPath = 'public/images/'.$_GET['folder'].'/';
 
 $image_parts = explode(";base64,", $_POST['image']);
 

@@ -262,8 +262,6 @@ require 'views/adm_scripts.php';
 
                     success: function(data){
 
-                        console.log(data);
-
                         $modal.modal('hide');
 
                         setTimeout(function(){// wait for 5 secs(2)
